@@ -3,18 +3,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>Andrew&#39;s Musings</title>
   <subtitle>This is a longer description about your blog.</subtitle>
-  <link href="https://andrewenfield.com/blog-eleventy/feed/feed.xml" rel="self" />
-  <link href="https://andrewenfield.com/blog-eleventy/" />
+  <link href="https://andrewenfield.com/feed/feed.xml" rel="self" />
+  <link href="https://andrewenfield.com/" />
   <updated>2025-06-12T00:00:00Z</updated>
-  <id>https://andrewenfield.com/blog-eleventy/</id>
+  <id>https://andrewenfield.com/</id>
   <author>
     <name>Andrew Enfield</name>
   </author>
   <entry>
     <title>Hello world</title>
-    <link href="https://andrewenfield.com/blog-eleventy/blog/2025/06/12/hello-world/" />
+    <link href="https://andrewenfield.com/blog/2025/06/12/hello-world/" />
     <updated>2025-06-12T00:00:00Z</updated>
-    <id>https://andrewenfield.com/blog-eleventy/blog/2025/06/12/hello-world/</id>
+    <id>https://andrewenfield.com/blog/2025/06/12/hello-world/</id>
     <content type="html">&lt;p&gt;This here&#39;s a first blog post, for this blog.&lt;/p&gt;
 &lt;p&gt;I&#39;m using the &lt;a href=&quot;https://11ty.dev&quot;&gt;Eleventy&lt;/a&gt; static site generator. I like it more than the ASP.NET-based &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/aa480016.aspx&quot;&gt;DasBlog&lt;/a&gt; engine I used for the first blog with this name, back in the early 2000s.&lt;/p&gt;
 </content>
