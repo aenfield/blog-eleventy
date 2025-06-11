@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	
+	<url>
+		<loc>https://andrewenfield.com/eleventy-base-blog/about/</loc>
+		<lastmod>2025-06-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://andrewenfield.com/eleventy-base-blog/blog/</loc>
+		<lastmod>2025-06-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://andrewenfield.com/eleventy-base-blog/</loc>
+		<lastmod>2025-06-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://andrewenfield.com/eleventy-base-blog/tags/</loc>
+		<lastmod>2025-06-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://andrewenfield.com/eleventy-base-blog/feed/feed.xml</loc>
+		<lastmod>2025-06-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://andrewenfield.com/eleventy-base-blog/blog/2025/06/12/hello-world/</loc>
+		<lastmod>2025-06-12</lastmod>
+	</url>
+</urlset>
