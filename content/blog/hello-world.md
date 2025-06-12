@@ -1,6 +1,6 @@
 ---
 title: Hello world
-date: 2025-06-12
+date: 2025-06-11
 ---
 
 This here's a first blog post, for this blog.
