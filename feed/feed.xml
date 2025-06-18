@@ -15,8 +15,8 @@
     <link href="https://andrewenfield.com/blog/2025/06/11/hello-world/" />
     <updated>2025-06-11T00:00:00Z</updated>
     <id>https://andrewenfield.com/blog/2025/06/11/hello-world/</id>
-    <content type="html">&lt;p&gt;This here&#39;s a first blog post, for this blog.&lt;/p&gt;
-&lt;p&gt;I&#39;m using the &lt;a href=&quot;https://11ty.dev&quot;&gt;Eleventy&lt;/a&gt; static site generator. Things have changed - for example, widespread hosting and commonly-used CI/CD make actually publishing something a lot easier, thankfully - but there are still similarities to the ASP.NET-based &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/aa480016.aspx&quot;&gt;DasBlog&lt;/a&gt; engine I used for the first blog with this name, back in the early 2000s.&lt;/p&gt;
+    <content type="html">&lt;p&gt;This is a first blog post.&lt;/p&gt;
+&lt;p&gt;I&#39;m using the &lt;a href=&quot;https://11ty.dev&quot;&gt;Eleventy&lt;/a&gt; static site generator, and write and publish using files with Markdown, Git branches, and GitHub Actions. Compared to the ASP.NET-based &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/aa480016.aspx&quot;&gt;DasBlog&lt;/a&gt; engine I used with the first blog with this name, way back in the early 2000s, this approach is cleaner, takes advantage of version control and CI/CD, and doesn&#39;t require a server that runs code. All pretty cool!&lt;/p&gt;
 </content>
   </entry>
 </feed>
