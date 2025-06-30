@@ -1,0 +1,766 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Using LLMs to collect MLB broadcast data (or, which MLB broadcasts show pitch types)</title>
+		<meta name="description" content="A place for me to publish things.">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Andrew&#39;s Musings">
+		
+		
+		
+		<style>/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden:not(:focus):not(:active) {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img{
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+video,
+iframe {
+	width: 100%;
+	height: auto;
+}
+iframe {
+	aspect-ratio: 16/9;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+
+#skip-link {
+	text-decoration: none;
+	background: var(--background-color);
+	color: var(--text-color);
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--color-gray-90);
+	border-radius: 2px;
+}
+
+/* Prevent visually-hidden skip link fom pushing content around when focused */
+#skip-link.visually-hidden:focus {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	/* Ensure it is positioned on top of everything else when it is shown */
+	z-index: 999;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	flex-grow: 1;
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	gap: .5em 1em;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	counter-reset: start-from var(--postlist-index);
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}</style>
+		
+	</head>
+	<body>
+		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Andrew&#39;s Musings</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="main">
+			<heading-anchors>
+				
+
+
+<h1 id="using-llms-to-collect-mlb-broadcast-data-or-which-mlb-broadcasts-show-pitch-types">Using LLMs to collect MLB broadcast data (or, which MLB broadcasts show pitch types)</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2025-06-29">29 June 2025</time></li>
+</ul>
+
+<p><strong>TLDR:</strong> I used an LLM to turn a bit of lazy channel-surfing into structured data showing which MLB broadcasts make it easiest to learn pitch types. Sometimes the most valuable thing a data scientist can do isn’t building fancy models, but just collecting the right data in the first place.</p>
+<p>I've been a baseball fan since kindergarten, and I've watched a lot of games, but I'm still not great at recognizing pitch types. Is the pitch a four-seam fastball or a sinker/two-seam fastball? Is it a slider or a cutter? If a broadcast shows the pitch type with every pitch, then I can watch games, pay attention to what each pitch looks like and what type the broadcast says it is, and train the pattern-recognition part of my brain.</p>
+<p><a href="https://www.mlb.com/live-stream-games/">MLB.TV</a> makes it easy to watch any game and any broadcast... but which broadcasts show information to make it easiest to learn pitches? Unfortunately, as of June 2025, not every team provides pitch type data. Further, with one welcome exception, the broadcasts that do show the pitch type display the type in the corner or bottom of the screen, and so learning requires flicking one's eyes back and forth between the plate/pitch and the pitch type. Ideally, the broadcast would show the pitch type directly with the pitch. <strong>Thank you, the Chicago White Sox, for being the only broadcast that does this.</strong></p>
+<picture><source type="image/avif" srcset="/blog/2025/06/29/using-llms-to-collect-mlb-broadcast-data-or-which-mlb-broadcasts-show-pitch-types/6LrUTeS4cA-522.avif 522w"><source type="image/webp" srcset="/blog/2025/06/29/using-llms-to-collect-mlb-broadcast-data-or-which-mlb-broadcasts-show-pitch-types/6LrUTeS4cA-522.webp 522w"><img loading="lazy" decoding="async" src="/blog/2025/06/29/using-llms-to-collect-mlb-broadcast-data-or-which-mlb-broadcasts-show-pitch-types/6LrUTeS4cA-522.jpeg" alt="Screen capture of baseball game showing overlay above home plate" width="522" height="329"></picture>
+<p>(The pitch type data comes from MLB's <a href="https://en.wikipedia.org/wiki/Statcast">Statcast system</a>, which is itself pretty amazing, what with fancy cameras and AI.)</p>
+<p>So, which games and broadcasts should I watch? For each of the 30 MLB team broadcasts, I wanted to know whether the broadcast included pitch type data and, if so, how the pitch type was displayed. I could have gotten out my laptop, created a text or Excel file, and then methodically viewed each broadcast and typed in the data. But, actually, I probably wouldn't have bothered, since working on a laptop while watching baseball takes away from the game.</p>
+<p>Where do LLMs come in? Among many benefits, LLMs make it easy to collect data. Instead of giving up, I pulled out my phone, started a new chat in the ChatGPT app, and used text-to-speech to say I was going to collect data. Then I flipped through the different games and verbally described what I saw. I didn't follow any particular format or structure - I just talked to the app. When I'd done this for most of the broadcasts, ChatGPT confirmed for me the teams I hadn't yet covered. When I'd watched every broadcast, I asked for a Markdown table with all of the data. ChatGPT happily complied - the full list is below - and, attempting to be helpful to the last, also volunteered to give me a .csv file I could use in further work.</p>
+<p>(Oh yeah, I'd noticed that a lot of teams had broadcasts that looked similar, and that at least some of these had FanDuel branding, so I asked ChatGPT to add a column with the name of the network. A few seconds later, I had an updated table, without any effort on my part.)</p>
+<p>Amazing.</p>
+<p>Speaking generally about data science best practices, while fancy algorithms get attention, sometimes the grunt work of gathering the right data is what matters most. It's exciting that LLMs can make this part of the job easier.</p>
+<p>And LLMs also quickly generate structured data, which is often easier for people to understand and for computers to use. Think about paragraphs of text compared to something like a table... the table is often easier to parse, makes it easier to compare values, etc. Most traditional ML algorithms need rows of data, with the same fields for each observation; it's easy to generate charts and visuals from tabular data; and so on.</p>
+<p>For background info, and what was to me the inspiration for the above, I thank Simon Willison. He's written about how LLMs make generating structured data easy, his <a href="https://simonwillison.net/2025/Feb/28/llm-schemas/">LLM command line tool has built-in functionality for generating structured data</a>, and he's delivered conference talks with cool examples, like <a href="https://github.com/simonw/nicar-2025-scraping/?tab=readme-ov-file#3-structured-data-extraction-using-llm">extracting FEMA disaster declarations from a PDF</a>.</p>
+<p>I also enjoyed a great book about pitch types - and about Felix Hernandez's beautiful 2012 perfect game: Terry McDermott's <a href="https://www.amazon.com/Off-Speed-Baseball-Pitching-Deception-ebook/dp/B00NDTQQ58/">Off Speed: Baseball, Pitching, and the Art of Deception</a>.</p>
+<h1 id="pitch-type-information-in-mlb-broadcasts">Pitch type information in MLB broadcasts</h1>
+<ul>
+<li>'Overlay info': What's shown overlaid in the center of the screen, near home plate and the pitch</li>
+<li>'Corner info' and 'Bottom info': What's shown in the corner of the screen or along the bottom of the screen</li>
+<li>Data gathered mid-June 2025. I spot-checked some but didn't exhaustively validate each row.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Team</th>
+<th>Overlay info</th>
+<th>Corner info</th>
+<th>Bottom info</th>
+<th>Network</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arizona Diamondbacks</td>
+<td>Pitch speed</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>MLB Local Media / DBACKS.TV</td>
+</tr>
+<tr>
+<td>Atlanta Braves</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>FanDuel Sports Network</td>
+</tr>
+<tr>
+<td>Baltimore Orioles</td>
+<td>Pitch speed</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>—</td>
+<td>MASN</td>
+</tr>
+<tr>
+<td>Boston Red Sox</td>
+<td>Pitch speed</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>—</td>
+<td>NESN</td>
+</tr>
+<tr>
+<td>Chicago Cubs</td>
+<td>Pitch speed</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>Marquee Sports Network</td>
+</tr>
+<tr>
+<td>Chicago White Sox</td>
+<td><strong>Pitch speed &amp; pitch type</strong></td>
+<td>—</td>
+<td>—</td>
+<td>NBC Sports Chicago</td>
+</tr>
+<tr>
+<td>Cincinnati Reds</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>FanDuel Sports Network Ohio</td>
+</tr>
+<tr>
+<td>Cleveland Guardians</td>
+<td>Pitch speed</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>MLB Local Media</td>
+</tr>
+<tr>
+<td>Colorado Rockies</td>
+<td>Pitch speed</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>MLB Local Media</td>
+</tr>
+<tr>
+<td>Detroit Tigers</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>FanDuel Sports Network</td>
+</tr>
+<tr>
+<td>Houston Astros</td>
+<td>Pitch speed</td>
+<td>Pitch type</td>
+<td>—</td>
+<td>Space City Home Network</td>
+</tr>
+<tr>
+<td>Kansas City Royals</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>FanDuel Sports Network</td>
+</tr>
+<tr>
+<td>Los Angeles Angels</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>FanDuel Sports Network</td>
+</tr>
+<tr>
+<td>Los Angeles Dodgers</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>—</td>
+<td>Spectrum SportsNet LA</td>
+</tr>
+<tr>
+<td>Miami Marlins</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>FanDuel Sports Network</td>
+</tr>
+<tr>
+<td>Milwaukee Brewers</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>FanDuel Sports Network Wisconsin</td>
+</tr>
+<tr>
+<td>Minnesota Twins</td>
+<td>Pitch speed</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>MLB Local Media</td>
+</tr>
+<tr>
+<td>New York Mets</td>
+<td>—</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>SportsNet New York (SNY)</td>
+</tr>
+<tr>
+<td>New York Yankees</td>
+<td>Pitch speed</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>YES Network</td>
+</tr>
+<tr>
+<td>Oakland Athletics</td>
+<td>Pitch speed</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>—</td>
+<td>NBC Sports California</td>
+</tr>
+<tr>
+<td>Philadelphia Phillies</td>
+<td>Pitch speed</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>—</td>
+<td>NBC Sports Philadelphia</td>
+</tr>
+<tr>
+<td>Pittsburgh Pirates</td>
+<td>Pitch speed</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>SportsNet Pittsburgh</td>
+</tr>
+<tr>
+<td>San Diego Padres</td>
+<td>Pitch speed</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>MLB Local Media</td>
+</tr>
+<tr>
+<td>San Francisco Giants</td>
+<td>Pitch speed</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>—</td>
+<td>NBC Sports Bay Area</td>
+</tr>
+<tr>
+<td>Seattle Mariners</td>
+<td>Pitch speed</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>Root Sports Northwest</td>
+</tr>
+<tr>
+<td>St. Louis Cardinals</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>FanDuel Sports Network</td>
+</tr>
+<tr>
+<td>Tampa Bay Rays</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>FanDuel Sports Network</td>
+</tr>
+<tr>
+<td>Texas Rangers</td>
+<td>Pitch speed</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>—</td>
+<td>Rangers Sports Network</td>
+</tr>
+<tr>
+<td>Toronto Blue Jays</td>
+<td>Pitch speed</td>
+<td>—</td>
+<td>—</td>
+<td>Sportsnet</td>
+</tr>
+<tr>
+<td>Washington Nationals</td>
+<td>Pitch speed</td>
+<td>Pitch speed &amp; pitch type</td>
+<td>—</td>
+<td>MASN</td>
+</tr>
+</tbody>
+</table>
+<p>Lastly, I could have taken screen shots of each broadcast and asked an LLM to extract the information on its own. Not each broadcast screen shot definitively says what team and broadcast it is, so I'd have to add that information myself. Another experiment for another day. :-).</p>
+
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/2025/06/18/jieiarunishinihon-on-a-credit-card-statement-is-jr-west/">&quot;Jieiarunishinihon&quot; on a credit card statement is JR West</a></li>
+</ul>
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p>
+				Built with <a href="https://www.11ty.dev/">Eleventy</a>
+			</p>
+		</footer>
+
+		<!-- This page `/blog/2025/06/29/using-llms-to-collect-mlb-broadcast-data-or-which-mlb-broadcasts-show-pitch-types/` was built on 2025-06-30T00:11:28.600Z -->
+		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
+	</body>
+</html>
