@@ -26,6 +26,7 @@
 
 		{#- Add the contents of a file to the bundle #}
 		<style>{% include "css/index.css" %}</style>
+		<style>{% include "css/tables.css" %}</style>
 
 		{#- Or you can add from node_modules #}
 		{# <style>{% include "node_modules/something.css" %}</style> #}
@@ -70,5 +71,15 @@
 
 		<!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->
 		<script type="module" src="{% getBundleFileUrl "js" %}"></script>
+
+		<!-- Use slim tablesort library to add client-side sorting for tables - I can look up how to turn off for certain tables later if I need that --> 
+		<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+		<script src="https://unpkg.com/tablesort@5.3.0/dist/sorts/tablesort.number.min.js"></script>
+		{% js %}
+		document.addEventListener('DOMContentLoaded', function() {
+			const tables = document.querySelectorAll('table');
+			tables.forEach(table => new Tablesort(table));
+		});
+		{% endjs %}
 	</body>
 </html>

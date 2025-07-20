@@ -122,6 +122,11 @@ export default async function(eleventyConfig) {
 	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
+	// enable ability to create wider tables from markdown - wrapping with {% wideTable %} and {% endwideTable %} in the .md
+	eleventyConfig.addPairedShortcode("wideTable", function(content) {
+		return `<div class="wide-table">${content}</div>`;
+	});
 };
 
 export const config = {

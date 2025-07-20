@@ -1,0 +1,108 @@
+/* style for better look, parseability, etc. */
+
+/* Core table structure and spacing */
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-variant-numeric: tabular-nums; 
+}
+
+/* for wider tables, set up with shortcode (see eleventy.config.js for 'widetable' */
+/* this breaks the table out of the normal left/right margin */
+/* .wide-table {
+    width: 60vw;
+    position: relative;
+    left: 50%;
+    margin-left: -30vw;
+    margin-right: -30vw;
+} */
+
+/* and the next two tighten up padding, etc. */
+.wide-table table {
+    margin: 0 auto;
+    max-width: none;
+    border-collapse: collapse; 
+    font-size: 0.8em; 
+    /* line-height: 1.2; */
+}
+.wide-table th, .wide-table td {
+    padding: 0.5rem;    
+}
+
+/* Improve readability with proper alignment and spacing */
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Header styling for clear hierarchy */
+th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #dee2e6;
+}
+
+/* Improve scannability with zebra stripes */
+tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* Hover effect for better UX */
+/* tbody tr:hover {
+  background-color: #e9ecef;
+} */
+
+/* Number alignment for better readability - doesn't work because curr use of tablesort.number.min.js doesn't add styles */
+/* td[data-sort-method="number"],
+th[data-sort-method="number"] {
+  text-align: right;
+} */
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  th, td {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* add triangle pointers in headers, code from https://tristen.ca/tablesort/tablesort.css */ 
+th[role=columnheader]:not(.no-sort) {
+	cursor: pointer;
+}
+
+th[role=columnheader]:not(.no-sort):after {
+	content: '';
+	float: right;
+	margin-top: 7px;
+	border-width: 0 4px 4px;
+	border-style: solid;
+	border-color: #404040 transparent;
+	visibility: hidden;
+	opacity: 0;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+th[aria-sort=ascending]:not(.no-sort):after {
+	border-bottom: none;
+	border-width: 4px 4px 0;
+}
+
+th[aria-sort]:not(.no-sort):after {
+	visibility: visible;
+	opacity: 0.4;
+}
+
+th[role=columnheader]:not(.no-sort):focus:after,
+th[role=columnheader]:not(.no-sort):hover:after {
+	visibility: visible;
+	opacity: 1;
+}
