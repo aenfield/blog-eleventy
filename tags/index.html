@@ -9,6 +9,7 @@
 		
 		
 		
+		
 		<style>/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
@@ -69,7 +70,7 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	max-width: 45em;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -306,6 +307,114 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+/* style for better look, parseability, etc. */
+
+/* Core table structure and spacing */
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-variant-numeric: tabular-nums; 
+}
+
+/* for wider tables, set up with shortcode (see eleventy.config.js for 'widetable' */
+/* this breaks the table out of the normal left/right margin */
+/* .wide-table {
+    width: 60vw;
+    position: relative;
+    left: 50%;
+    margin-left: -30vw;
+    margin-right: -30vw;
+} */
+
+/* and the next two tighten up padding, etc. */
+.wide-table table {
+    margin: 0 auto;
+    max-width: none;
+    border-collapse: collapse; 
+    font-size: 0.8em; 
+    /* line-height: 1.2; */
+}
+.wide-table th, .wide-table td {
+    padding: 0.5rem;    
+}
+
+/* Improve readability with proper alignment and spacing */
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Header styling for clear hierarchy */
+th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #dee2e6;
+}
+
+/* Improve scannability with zebra stripes */
+tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* Hover effect for better UX */
+/* tbody tr:hover {
+  background-color: #e9ecef;
+} */
+
+/* Number alignment for better readability - doesn't work because curr use of tablesort.number.min.js doesn't add styles */
+/* td[data-sort-method="number"],
+th[data-sort-method="number"] {
+  text-align: right;
+} */
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  th, td {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* add triangle pointers in headers, code from https://tristen.ca/tablesort/tablesort.css */ 
+th[role=columnheader]:not(.no-sort) {
+	cursor: pointer;
+}
+
+th[role=columnheader]:not(.no-sort):after {
+	content: '';
+	float: right;
+	margin-top: 7px;
+	border-width: 0 4px 4px;
+	border-style: solid;
+	border-color: #404040 transparent;
+	visibility: hidden;
+	opacity: 0;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+th[aria-sort=ascending]:not(.no-sort):after {
+	border-bottom: none;
+	border-width: 4px 4px 0;
+}
+
+th[aria-sort]:not(.no-sort):after {
+	visibility: visible;
+	opacity: 0.4;
+}
+
+th[role=columnheader]:not(.no-sort):focus:after,
+th[role=columnheader]:not(.no-sort):hover:after {
+	visibility: visible;
+	opacity: 1;
 }</style>
 		
 	</head>
@@ -332,6 +441,9 @@ header {
 
 <ul>
 
+	
+	<li><a href="/tags/mlbw/" class="post-tag">mlbw</a></li>
+
 </ul>
 
 
@@ -344,7 +456,12 @@ header {
 			</p>
 		</footer>
 
-		<!-- This page `/tags/` was built on 2025-06-30T00:11:28.599Z -->
-		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
+		<!-- This page `/tags/` was built on 2025-07-20T19:33:00.782Z -->
+		<script type="module" src="/dist/5HyEuK1_7A.js"></script>
+
+		<!-- Use slim tablesort library to add client-side sorting for tables - I can look up how to turn off for certain tables later if I need that --> 
+		<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+		<script src="https://unpkg.com/tablesort@5.3.0/dist/sorts/tablesort.number.min.js"></script>
+		
 	</body>
 </html>

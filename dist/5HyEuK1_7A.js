@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function() {
+			const tables = document.querySelectorAll('table');
+			tables.forEach(table => new Tablesort(table));
+		});
 // Thank you to https://github.com/daviddarnes/heading-anchors
 // Thank you to https://amberwilson.co.uk/blog/are-your-anchor-links-accessible/
 

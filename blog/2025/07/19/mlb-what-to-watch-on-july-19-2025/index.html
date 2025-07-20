@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Using LLMs to collect MLB broadcast data (or, which MLB broadcasts show pitch types)</title>
+		<title>MLB: What to watch on July 19, 2025</title>
 		<meta name="description" content="A place for me to publish things.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Andrew&#39;s Musings">
 		
@@ -607,257 +607,213 @@ pre[class*="language-diff-"] {
 				
 
 
-<h1 id="using-llms-to-collect-mlb-broadcast-data-or-which-mlb-broadcasts-show-pitch-types">Using LLMs to collect MLB broadcast data (or, which MLB broadcasts show pitch types)</h1>
+<h1 id="mlb-what-to-watch-on-july-19-2025">MLB: What to watch on July 19, 2025</h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2025-06-29">29 June 2025</time></li>
+	<li><time datetime="2025-07-19">19 July 2025</time></li>
+	<li><a href="/tags/mlbw/" class="post-tag">mlbw</a></li>
 </ul>
 
-<p><strong>TLDR:</strong> I used an LLM to turn a bit of lazy channel-surfing into structured data showing which MLB broadcasts make it easiest to learn pitch types. Sometimes the most valuable thing a data scientist can do isn’t building fancy models, but just collecting the right data in the first place.</p>
-<p>I've been a baseball fan since kindergarten, and I've watched a lot of games, but I'm still not great at recognizing pitch types. Is the pitch a four-seam fastball or a sinker/two-seam fastball? Is it a slider or a cutter? If a broadcast shows the pitch type with every pitch, then I can watch games, pay attention to what each pitch looks like and what type the broadcast says it is, and train the pattern-recognition part of my brain.</p>
-<p><a href="https://www.mlb.com/live-stream-games/">MLB.TV</a> makes it easy to watch any game and any broadcast... but which broadcasts show information to make it easiest to learn pitches? Unfortunately, as of June 2025, not every team provides pitch type data. Further, with one welcome exception, the broadcasts that do show the pitch type display the type in the corner or bottom of the screen, and so learning requires flicking one's eyes back and forth between the plate/pitch and the pitch type. Ideally, the broadcast would show the pitch type directly with the pitch. <strong>Thank you, the Chicago White Sox, for being the only broadcast that does this.</strong></p>
-<picture><source type="image/avif" srcset="/blog/2025/06/29/using-llms-to-collect-mlb-broadcast-data-or-which-mlb-broadcasts-show-pitch-types/6LrUTeS4cA-522.avif 522w"><source type="image/webp" srcset="/blog/2025/06/29/using-llms-to-collect-mlb-broadcast-data-or-which-mlb-broadcasts-show-pitch-types/6LrUTeS4cA-522.webp 522w"><img loading="lazy" decoding="async" src="/blog/2025/06/29/using-llms-to-collect-mlb-broadcast-data-or-which-mlb-broadcasts-show-pitch-types/6LrUTeS4cA-522.jpeg" alt="Screen capture of baseball game showing overlay above home plate" width="522" height="329"></picture>
-<p>(The pitch type data comes from MLB's <a href="https://en.wikipedia.org/wiki/Statcast">Statcast system</a>, which is itself pretty amazing, what with fancy cameras and AI.)</p>
-<p>So, which games and broadcasts should I watch? For each of the 30 MLB team broadcasts, I wanted to know whether the broadcast included pitch type data and, if so, how the pitch type was displayed. I could have gotten out my laptop, created a text or Excel file, and then methodically viewed each broadcast and typed in the data. But, actually, I probably wouldn't have bothered, since working on a laptop while watching baseball takes away from the game.</p>
-<p>Where do LLMs come in? Among many benefits, LLMs make it easy to collect data. Instead of giving up, I pulled out my phone, started a new chat in the ChatGPT app, and used text-to-speech to say I was going to collect data. Then I flipped through the different games and verbally described what I saw. I didn't follow any particular format or structure - I just talked to the app. When I'd done this for most of the broadcasts, ChatGPT confirmed for me the teams I hadn't yet covered. When I'd watched every broadcast, I asked for a Markdown table with all of the data. ChatGPT happily complied - the full list is below - and, attempting to be helpful to the last, also volunteered to give me a .csv file I could use in further work.</p>
-<p>(Oh yeah, I'd noticed that a lot of teams had broadcasts that looked similar, and that at least some of these had FanDuel branding, so I asked ChatGPT to add a column with the name of the network. A few seconds later, I had an updated table, without any effort on my part.)</p>
-<p>Amazing.</p>
-<p>Speaking generally about data science best practices, while fancy algorithms get attention, sometimes the grunt work of gathering the right data is what matters most. It's exciting that LLMs can make this part of the job easier.</p>
-<p>And LLMs also quickly generate structured data, which is often easier for people to understand and for computers to use. Think about paragraphs of text compared to something like a table... the table is often easier to parse, makes it easier to compare values, etc. Most traditional ML algorithms need rows of data, with the same fields for each observation; it's easy to generate charts and visuals from tabular data; and so on.</p>
-<p>For background info, and what was to me the inspiration for the above, I thank Simon Willison. He's written about how LLMs make generating structured data easy, his <a href="https://simonwillison.net/2025/Feb/28/llm-schemas/">LLM command line tool has built-in functionality for generating structured data</a>, and he's delivered conference talks with cool examples, like <a href="https://github.com/simonw/nicar-2025-scraping/?tab=readme-ov-file#3-structured-data-extraction-using-llm">extracting FEMA disaster declarations from a PDF</a>.</p>
-<p>I also enjoyed a great book about pitch types - and about Felix Hernandez's beautiful 2012 perfect game: Terry McDermott's <a href="https://www.amazon.com/Off-Speed-Baseball-Pitching-Deception-ebook/dp/B00NDTQQ58/">Off Speed: Baseball, Pitching, and the Art of Deception</a>.</p>
-<h1 id="pitch-type-information-in-mlb-broadcasts">Pitch type information in MLB broadcasts</h1>
-<ul>
-<li>'Overlay info': What's shown overlaid in the center of the screen, near home plate and the pitch</li>
-<li>'Corner info' and 'Bottom info': What's shown in the corner of the screen or along the bottom of the screen</li>
-<li>Data gathered mid-June 2025. I spot-checked some but didn't exhaustively validate each row.</li>
-</ul>
 <table>
 <thead>
 <tr>
-<th>Team</th>
-<th>Overlay info</th>
-<th>Corner info</th>
-<th>Bottom info</th>
-<th>Network</th>
+<th>Score</th>
+<th>Time</th>
+<th>Visitors</th>
+<th>Score</th>
+<th>Home</th>
+<th>Score</th>
+<th>Starter (V)</th>
+<th>Score</th>
+<th>Starter (H)</th>
+<th>Score</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Arizona Diamondbacks</td>
-<td>Pitch speed</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>MLB Local Media / DBACKS.TV</td>
+<td>13.5</td>
+<td>7:15p</td>
+<td><a href="https://www.fangraphs.com/teams/red-sox/stats">Boston Red Sox</a></td>
+<td>6.8</td>
+<td><a href="https://www.fangraphs.com/teams/cubs/stats">Chicago Cubs</a></td>
+<td>9.5</td>
+<td><a href="https://www.fangraphs.com/search?q=Bello">Brayan Bello</a></td>
+<td>3.9</td>
+<td><a href="https://www.fangraphs.com/search?q=Imanaga">Shota Imanaga</a></td>
+<td>6.7</td>
 </tr>
 <tr>
-<td>Atlanta Braves</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>FanDuel Sports Network</td>
+<td>13.4</td>
+<td>7:05p</td>
+<td><a href="https://www.fangraphs.com/teams/tigers/stats">Detroit Tigers</a></td>
+<td>8.8</td>
+<td><a href="https://www.fangraphs.com/teams/rangers/stats">Texas Rangers</a></td>
+<td>5.9</td>
+<td><a href="https://www.fangraphs.com/search?q=Montero">Keider Montero</a></td>
+<td>6.6</td>
+<td><a href="https://www.fangraphs.com/search?q=Rocker">Kumar Rocker</a></td>
+<td>5.5</td>
 </tr>
 <tr>
-<td>Baltimore Orioles</td>
-<td>Pitch speed</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>—</td>
-<td>MASN</td>
+<td>10.8</td>
+<td>9:10p</td>
+<td><a href="https://www.fangraphs.com/teams/brewers/stats">Milwaukee Brewers</a></td>
+<td>7.3</td>
+<td><a href="https://www.fangraphs.com/teams/dodgers/stats">Los Angeles Dodgers</a></td>
+<td>6.9</td>
+<td><a href="https://www.fangraphs.com/search?q=Peralta">Freddy Peralta</a></td>
+<td>3.7</td>
+<td><a href="https://www.fangraphs.com/search?q=Sheehan">Emmet Sheehan</a></td>
+<td>TBD</td>
 </tr>
 <tr>
-<td>Boston Red Sox</td>
-<td>Pitch speed</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>—</td>
-<td>NESN</td>
+<td>10.0</td>
+<td>9:40p</td>
+<td><a href="https://www.fangraphs.com/teams/astros/stats">Houston Astros</a></td>
+<td>4.5</td>
+<td><a href="https://www.fangraphs.com/teams/mariners/stats">Seattle Mariners</a></td>
+<td>5.9</td>
+<td><a href="https://www.fangraphs.com/search?q=Jr.">Lance McCullers Jr.</a></td>
+<td>3.6</td>
+<td><a href="https://www.fangraphs.com/search?q=Evans">Logan Evans</a></td>
+<td>5.9</td>
 </tr>
 <tr>
-<td>Chicago Cubs</td>
-<td>Pitch speed</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>Marquee Sports Network</td>
+<td>10.0</td>
+<td>4:10p</td>
+<td><a href="https://www.fangraphs.com/teams/reds/stats">Cincinnati Reds</a></td>
+<td>4.0</td>
+<td><a href="https://www.fangraphs.com/teams/mets/stats">New York Mets</a></td>
+<td>8.2</td>
+<td><a href="https://www.fangraphs.com/search?q=Martinez">Nick Martinez</a></td>
+<td>4.9</td>
+<td><a href="https://www.fangraphs.com/search?q=Holmes">Clay Holmes</a></td>
+<td>3.0</td>
 </tr>
 <tr>
-<td>Chicago White Sox</td>
-<td><strong>Pitch speed &amp; pitch type</strong></td>
-<td>—</td>
-<td>—</td>
-<td>NBC Sports Chicago</td>
+<td>9.3</td>
+<td>6:45p</td>
+<td><a href="https://www.fangraphs.com/teams/padres/stats">San Diego Padres</a></td>
+<td>2.1</td>
+<td><a href="https://www.fangraphs.com/teams/nationals/stats">Washington Nationals</a></td>
+<td>1.9</td>
+<td><a href="https://www.fangraphs.com/search?q=Darvish">Yu Darvish</a></td>
+<td>TBD</td>
+<td><a href="https://www.fangraphs.com/search?q=Parker">Mitchell Parker</a></td>
+<td>7.3</td>
 </tr>
 <tr>
-<td>Cincinnati Reds</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>FanDuel Sports Network Ohio</td>
+<td>9.1</td>
+<td>4:10p</td>
+<td><a href="https://www.fangraphs.com/teams/royals/stats">Kansas City Royals</a></td>
+<td>3.0</td>
+<td><a href="https://www.fangraphs.com/teams/marlins/stats">Miami Marlins</a></td>
+<td>6.2</td>
+<td><a href="https://www.fangraphs.com/search?q=Wacha">Michael Wacha</a></td>
+<td>5.2</td>
+<td><a href="https://www.fangraphs.com/search?q=Quantrill">Cal Quantrill</a></td>
+<td>3.7</td>
 </tr>
 <tr>
-<td>Cleveland Guardians</td>
-<td>Pitch speed</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>MLB Local Media</td>
+<td>8.8</td>
+<td>7:15p</td>
+<td><a href="https://www.fangraphs.com/teams/yankees/stats">New York Yankees</a></td>
+<td>8.6</td>
+<td><a href="https://www.fangraphs.com/teams/braves/stats">Atlanta Braves</a></td>
+<td>5.7</td>
+<td><a href="https://www.fangraphs.com/search?q=Warren">Will Warren</a></td>
+<td>1.7</td>
+<td><a href="https://www.fangraphs.com/search?q=Wentz">Joey Wentz</a></td>
+<td>TBD</td>
 </tr>
 <tr>
-<td>Colorado Rockies</td>
-<td>Pitch speed</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>MLB Local Media</td>
+<td>8.7</td>
+<td>6:05p</td>
+<td><a href="https://www.fangraphs.com/teams/angels/stats">Los Angeles Angels</a></td>
+<td>2.8</td>
+<td><a href="https://www.fangraphs.com/teams/phillies/stats">Philadelphia Phillies</a></td>
+<td>5.9</td>
+<td><a href="https://www.fangraphs.com/search?q=Kikuchi">Yusei Kikuchi</a></td>
+<td>4.1</td>
+<td><a href="https://www.fangraphs.com/search?q=Walker">Taijuan Walker</a></td>
+<td>4.7</td>
 </tr>
 <tr>
-<td>Detroit Tigers</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>FanDuel Sports Network</td>
+<td>8.7</td>
+<td>8:10p</td>
+<td><a href="https://www.fangraphs.com/teams/twins/stats">Minnesota Twins</a></td>
+<td>3.3</td>
+<td><a href="https://www.fangraphs.com/teams/rockies/stats">Colorado Rockies</a></td>
+<td>2.4</td>
+<td><a href="https://www.fangraphs.com/search?q=Matthews">Zebby Matthews</a></td>
+<td>TBD</td>
+<td><a href="https://www.fangraphs.com/search?q=Senzatela">Antonio Senzatela</a></td>
+<td>5.8</td>
 </tr>
 <tr>
-<td>Houston Astros</td>
-<td>Pitch speed</td>
-<td>Pitch type</td>
-<td>—</td>
-<td>Space City Home Network</td>
+<td>8.6</td>
+<td>7:05p</td>
+<td><a href="https://www.fangraphs.com/teams/orioles/stats">Baltimore Orioles</a></td>
+<td>2.2</td>
+<td><a href="https://www.fangraphs.com/teams/rays/stats">Tampa Bay Rays</a></td>
+<td>6.4</td>
+<td><a href="https://www.fangraphs.com/search?q=Kremer">Dean Kremer</a></td>
+<td>3.9</td>
+<td><a href="https://www.fangraphs.com/search?q=Littell">Zack Littell</a></td>
+<td>4.7</td>
 </tr>
 <tr>
-<td>Kansas City Royals</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>FanDuel Sports Network</td>
+<td>8.5</td>
+<td>7:10p</td>
+<td><a href="https://www.fangraphs.com/teams/athletics/stats">Athletics</a></td>
+<td>0.0</td>
+<td><a href="https://www.fangraphs.com/teams/guardians/stats">Cleveland Guardians</a></td>
+<td>5.2</td>
+<td><a href="https://www.fangraphs.com/search?q=Severino">Luis Severino</a></td>
+<td>5.8</td>
+<td><a href="https://www.fangraphs.com/search?q=Allen">Logan Allen</a></td>
+<td>6.1</td>
 </tr>
 <tr>
-<td>Los Angeles Angels</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>FanDuel Sports Network</td>
+<td>8.4</td>
+<td>7:15p</td>
+<td><a href="https://www.fangraphs.com/teams/cardinals/stats">St. Louis Cardinals</a></td>
+<td>5.0</td>
+<td><a href="https://www.fangraphs.com/teams/diamondbacks/stats">Arizona Diamondbacks</a></td>
+<td>7.3</td>
+<td><a href="https://www.fangraphs.com/search?q=Gray">Sonny Gray</a></td>
+<td>0.4</td>
+<td><a href="https://www.fangraphs.com/search?q=Nelson">Ryne Nelson</a></td>
+<td>3.9</td>
 </tr>
 <tr>
-<td>Los Angeles Dodgers</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>—</td>
-<td>Spectrum SportsNet LA</td>
+<td>6.5</td>
+<td>6:40p</td>
+<td><a href="https://www.fangraphs.com/teams/white-sox/stats">Chicago White Sox</a></td>
+<td>0.0</td>
+<td><a href="https://www.fangraphs.com/teams/pirates/stats">Pittsburgh Pirates</a></td>
+<td>3.0</td>
+<td><a href="https://www.fangraphs.com/search?q=Houser">Adrian Houser</a></td>
+<td>3.6</td>
+<td><a href="https://www.fangraphs.com/search?q=Burrows">Mike Burrows</a></td>
+<td>6.3</td>
 </tr>
 <tr>
-<td>Miami Marlins</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>FanDuel Sports Network</td>
-</tr>
-<tr>
-<td>Milwaukee Brewers</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>FanDuel Sports Network Wisconsin</td>
-</tr>
-<tr>
-<td>Minnesota Twins</td>
-<td>Pitch speed</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>MLB Local Media</td>
-</tr>
-<tr>
-<td>New York Mets</td>
-<td>—</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>SportsNet New York (SNY)</td>
-</tr>
-<tr>
-<td>New York Yankees</td>
-<td>Pitch speed</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>YES Network</td>
-</tr>
-<tr>
-<td>Oakland Athletics</td>
-<td>Pitch speed</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>—</td>
-<td>NBC Sports California</td>
-</tr>
-<tr>
-<td>Philadelphia Phillies</td>
-<td>Pitch speed</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>—</td>
-<td>NBC Sports Philadelphia</td>
-</tr>
-<tr>
-<td>Pittsburgh Pirates</td>
-<td>Pitch speed</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>SportsNet Pittsburgh</td>
-</tr>
-<tr>
-<td>San Diego Padres</td>
-<td>Pitch speed</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>MLB Local Media</td>
-</tr>
-<tr>
-<td>San Francisco Giants</td>
-<td>Pitch speed</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>—</td>
-<td>NBC Sports Bay Area</td>
-</tr>
-<tr>
-<td>Seattle Mariners</td>
-<td>Pitch speed</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>Root Sports Northwest</td>
-</tr>
-<tr>
-<td>St. Louis Cardinals</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>FanDuel Sports Network</td>
-</tr>
-<tr>
-<td>Tampa Bay Rays</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>FanDuel Sports Network</td>
-</tr>
-<tr>
-<td>Texas Rangers</td>
-<td>Pitch speed</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>—</td>
-<td>Rangers Sports Network</td>
-</tr>
-<tr>
-<td>Toronto Blue Jays</td>
-<td>Pitch speed</td>
-<td>—</td>
-<td>—</td>
-<td>Sportsnet</td>
-</tr>
-<tr>
-<td>Washington Nationals</td>
-<td>Pitch speed</td>
-<td>Pitch speed &amp; pitch type</td>
-<td>—</td>
-<td>MASN</td>
+<td>6.3</td>
+<td>3:07p</td>
+<td><a href="https://www.fangraphs.com/teams/giants/stats">San Francisco Giants</a></td>
+<td>1.9</td>
+<td><a href="https://www.fangraphs.com/teams/blue-jays/stats">Toronto Blue Jays</a></td>
+<td>6.7</td>
+<td><a href="https://www.fangraphs.com/search?q=Webb">Logan Webb</a></td>
+<td>1.2</td>
+<td><a href="https://www.fangraphs.com/search?q=Lauer">Eric Lauer</a></td>
+<td>2.8</td>
 </tr>
 </tbody>
 </table>
-<p>Lastly, I could have taken screen shots of each broadcast and asked an LLM to extract the information on its own. Not each broadcast screen shot definitively says what team and broadcast it is, so I'd have to add that information myself. Another experiment for another day. :-).</p>
 
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/2025/06/18/jieiarunishinihon-on-a-credit-card-statement-is-jr-west/">&quot;Jieiarunishinihon&quot; on a credit card statement is JR West</a></li><li class="links-nextprev-next">Next →<br><a href="/blog/2025/07/19/mlb-what-to-watch-on-july-19-2025/">MLB: What to watch on July 19, 2025</a></li>
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/2025/06/29/using-llms-to-collect-mlb-broadcast-data-or-which-mlb-broadcasts-show-pitch-types/">Using LLMs to collect MLB broadcast data (or, which MLB broadcasts show pitch types)</a></li>
 </ul>
 
 			</heading-anchors>
@@ -869,7 +825,7 @@ pre[class*="language-diff-"] {
 			</p>
 		</footer>
 
-		<!-- This page `/blog/2025/06/29/using-llms-to-collect-mlb-broadcast-data-or-which-mlb-broadcasts-show-pitch-types/` was built on 2025-07-20T19:33:00.784Z -->
+		<!-- This page `/blog/2025/07/19/mlb-what-to-watch-on-july-19-2025/` was built on 2025-07-20T19:33:00.784Z -->
 		<script type="module" src="/dist/5HyEuK1_7A.js"></script>
 
 		<!-- Use slim tablesort library to add client-side sorting for tables - I can look up how to turn off for certain tables later if I need that --> 
