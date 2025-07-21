@@ -15,7 +15,8 @@
     <link href="https://andrewenfield.com/blog/2025/07/21/mlb-what-to-watch-on-july-21-2025/" />
     <updated>2025-07-21T00:00:00Z</updated>
     <id>https://andrewenfield.com/blog/2025/07/21/mlb-what-to-watch-on-july-21-2025/</id>
-    <content type="html">&lt;p&gt;Watch these games today:&lt;/p&gt;
+    <content type="html">&lt;p&gt;Here are today&#39;s MLB games, ordered by watchability, based on how the interesting the teams and starting pitchers look. Higher is better.&lt;/p&gt;
+&lt;p&gt;This is inspired by &lt;a href=&quot;https://blogs.fangraphs.com/introducing-team-nerd/&quot;&gt;Carson Cistulli&#39;s NERD scores&lt;/a&gt; at FanGraphs. (I&#39;ll write a bit about the details soon, and then link to it from this intro.)&lt;/p&gt;
 &lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -216,7 +217,10 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
-&lt;p&gt;And here&#39;s a footer, which someone can modify later.&lt;/p&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pitcher &#39;no data&#39;&lt;/strong&gt;: Pitchers only have a pNERD score once they&#39;ve started at least one game and have at least 20 innings pitched. I might also show &#39;no data&#39; when I&#39;m not correctly linking the schedule information with a pitcher&#39;s stats, like if the names don&#39;t match (I have an open issue to improve this).&lt;/li&gt;
+&lt;/ul&gt;
 </content>
   </entry>
   <entry>
