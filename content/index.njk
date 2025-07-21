@@ -6,17 +6,36 @@ const eleventyNavigation = {
 
 const numberOfLatestPostsToShow = 3;
 ---
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<!--<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>-->
+{% set allPosts = collections.posts %}
+{% set nonMlbwPosts = [] %}
+{% set mlbwPosts = [] %}
 
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
+{% for post in allPosts %}
+  {% if post.data.tags and "mlbw" in post.data.tags %}
+    {% set mlbwPosts = mlbwPosts.concat([post]) %}
+  {% else %}
+    {% set nonMlbwPosts = nonMlbwPosts.concat([post]) %}
+  {% endif %}
+{% endfor %}
+
+<h2>Latest Posts</h2>
+{% set postslist = nonMlbwPosts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = nonMlbwPosts | length %}
 {% include "postslist.njk" %}
 
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the archive</a>.</p>
+{% set moreNonMlbwPosts = (nonMlbwPosts | length) - numberOfLatestPostsToShow %}
+{% if moreNonMlbwPosts > 0 %}
+<p>{{ moreNonMlbwPosts }} more post{% if moreNonMlbwPosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the archive</a>.</p>
+{% endif %}
+
+<h2>Latest MLB Watchability Posts</h2>
+{% set postslist = mlbwPosts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = mlbwPosts | length %}
+{% include "postslist.njk" %}
+
+{% set moreMlbwPosts = (mlbwPosts | length) - numberOfLatestPostsToShow %}
+{% if moreMlbwPosts > 0 %}
+<p>{{ moreMlbwPosts }} more MLB Watchability post{% if moreMlbwPosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the archive</a>.</p>
 {% endif %}
 
 {# List every content page in the project #}
