@@ -48,8 +48,21 @@ th {
 }
 
 /* Improve scannability with zebra stripes */
+/* light mode zebra stripes */
 tbody tr:nth-child(even) {
   background-color: #f8f9fa;
+}
+
+/* and dark mode zebra stripes */
+@media (prefers-color-scheme: dark) {
+    tbody tr:nth-child(even) {
+        background-color: #2a3441; /* Slightly lighter than #15202b background */
+    }
+
+    th {
+        background-color: #1e2936; /* Darker than zebra stripes */
+        color: #dad8d8; /* Use the same text color as body */
+    }
 }
 
 /* Hover effect for better UX */
