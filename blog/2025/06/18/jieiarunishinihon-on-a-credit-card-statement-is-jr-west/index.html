@@ -358,8 +358,21 @@ th {
 }
 
 /* Improve scannability with zebra stripes */
+/* light mode zebra stripes */
 tbody tr:nth-child(even) {
   background-color: #f8f9fa;
+}
+
+/* and dark mode zebra stripes */
+@media (prefers-color-scheme: dark) {
+    tbody tr:nth-child(even) {
+        background-color: #2a3441; /* Slightly lighter than #15202b background */
+    }
+
+    th {
+        background-color: #1e2936; /* Darker than zebra stripes */
+        color: #dad8d8; /* Use the same text color as body */
+    }
 }
 
 /* Hover effect for better UX */
@@ -630,7 +643,7 @@ pre[class*="language-diff-"] {
 			</p>
 		</footer>
 
-		<!-- This page `/blog/2025/06/18/jieiarunishinihon-on-a-credit-card-statement-is-jr-west/` was built on 2025-07-21T01:51:56.926Z -->
+		<!-- This page `/blog/2025/06/18/jieiarunishinihon-on-a-credit-card-statement-is-jr-west/` was built on 2025-07-21T04:53:28.329Z -->
 		<script type="module" src="/dist/5HyEuK1_7A.js"></script>
 
 		<!-- Use slim tablesort library to add client-side sorting for tables - I can look up how to turn off for certain tables later if I need that --> 
