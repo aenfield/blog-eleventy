@@ -24,7 +24,7 @@ This is inspired by [Carson Cistulli's NERD scores](https://blogs.fangraphs.com/
 | 8.5 | 7:35p | [Chicago White Sox](https://www.fangraphs.com/teams/white-sox/stats) | 2.5 | [Tampa Bay Rays](https://www.fangraphs.com/teams/rays/stats) | 6.2 | [Jonathan Cannon](https://www.fangraphs.com/search?q=Cannon) | 2.5 | [Taj Bradley](https://www.fangraphs.com/search?q=Bradley) | 5.8 |
 | 8.2 | 6:40p | [Baltimore Orioles](https://www.fangraphs.com/teams/orioles/stats) | 2.4 | [Cleveland Guardians](https://www.fangraphs.com/teams/guardians/stats) | 5.3 | [Zach Eflin](https://www.fangraphs.com/search?q=Eflin) | 3.7 | [Slade Cecconi](https://www.fangraphs.com/search?q=Cecconi) | 5.0 |
 | 8.2 | 4:10p | [Minnesota Twins](https://www.fangraphs.com/teams/twins/stats) | 3.4 | [Los Angeles Dodgers](https://www.fangraphs.com/teams/dodgers/stats) | 6.6 | [Chris Paddack](https://www.fangraphs.com/search?q=Paddack) | 2.0 | [Tyler Glasnow](https://www.fangraphs.com/search?q=Glasnow) | 4.4 |
-| 8.1 | 3:10p | [St. Louis Cardinals](https://www.fangraphs.com/teams/cardinals/stats) | 5.0 | [Colorado Rockies](https://www.fangraphs.com/teams/rockies/stats) | 2.2 | [Andre Pallante](https://www.fangraphs.com/search?q=Pallante) | 4.5 | TBD | No data |
+| 8.1 | 3:10p | [St. Louis Cardinals](https://www.fangraphs.com/teams/cardinals/stats) | 5.0 | [Colorado Rockies](https://www.fangraphs.com/teams/rockies/stats) | 2.2 | [Andre Pallante](https://www.fangraphs.com/search?q=Pallante) | 4.5 | [Tanner Gordon](https://www.fangraphs.com/search?q=Gordon) | No data |
 | 8.1 | 12:05p | [Cincinnati Reds](https://www.fangraphs.com/teams/reds/stats) | 3.7 | [Washington Nationals](https://www.fangraphs.com/teams/nationals/stats) | 2.3 | [Nick Lodolo](https://www.fangraphs.com/search?q=Lodolo) | 5.1 | [Michael Soroka](https://www.fangraphs.com/search?q=Soroka) | 5.1 |
 | 6.1 | 12:35p | [Detroit Tigers](https://www.fangraphs.com/teams/tigers/stats) | 8.7 | [Pittsburgh Pirates](https://www.fangraphs.com/teams/pirates/stats) | 3.0 | [Troy Melton](https://www.fangraphs.com/search?q=Melton) | No data | [Bailey Falter](https://www.fangraphs.com/search?q=Falter) | 0.2 |
 | 5.7 | 1:10p | [Los Angeles Angels](https://www.fangraphs.com/teams/angels/stats) | 3.0 | [New York Mets](https://www.fangraphs.com/teams/mets/stats) | 8.3 | [Brock Burke](https://www.fangraphs.com/search?q=Burke) | No data | [Sean Manaea](https://www.fangraphs.com/search?q=Manaea) | No data |
@@ -116,6 +116,17 @@ Notes:
 | **Raw Stat** | 97 | 10.0% | 65.2% | 93.6 mph | 30 | 19.1s | -12 | 0.0% | — | — |
 | **Z-Score** | -0.23 | -0.20 | 0.49 | -0.06 | 0.35 | 0.47 | — | — | — | — |
 | **pNERD** | 0.47 | -0.10 | 0.25 | 0.00 | 0.00 | -0.24 | 0.00 | 0.00 | 3.80 | 4.18 |
+{% endwideTable %}
+
+### Home starter: Jesús Luzardo
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | TOTAL |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw Stat** | 80 | 13.2% | 64.0% | 96.4 mph | 27 | 16.9s | 22 | 0.0% | — | — |
+| **Z-Score** | -1.25 | 1.34 | -0.02 | 1.22 | -0.43 | -1.30 | — | — | — | — |
+| **pNERD** | 2.50 | 0.67 | -0.01 | 1.22 | 0.43 | 0.65 | 0.05 | 0.00 | 3.80 | 9.31 |
 {% endwideTable %}
 
 ## New York Yankees @ Toronto Blue Jays, 7:07p
@@ -600,6 +611,17 @@ Notes:
 | **Raw Stat** | 96 | 10.9% | 65.2% | 93.8 mph | 27 | 18.9s | -19 | 0.0% | — | — |
 | **Z-Score** | -0.29 | 0.23 | 0.50 | 0.03 | -0.43 | 0.31 | — | — | — | — |
 | **pNERD** | 0.59 | 0.12 | 0.25 | 0.03 | 0.43 | -0.16 | 0.00 | 0.00 | 3.80 | 5.06 |
+{% endwideTable %}
+
+### Home starter: Michael Soroka
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | TOTAL |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw Stat** | 96 | 9.8% | 64.2% | 93.9 mph | 27 | 17.9s | 28 | 0.0% | — | — |
+| **Z-Score** | -0.29 | -0.30 | 0.08 | 0.07 | -0.43 | -0.50 | — | — | — | — |
+| **pNERD** | 0.59 | -0.15 | 0.04 | 0.07 | 0.43 | 0.25 | 0.05 | 0.00 | 3.80 | 5.08 |
 {% endwideTable %}
 
 ## Detroit Tigers @ Pittsburgh Pirates, 12:35p
