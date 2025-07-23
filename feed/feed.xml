@@ -224,6 +224,7 @@
 &lt;h1 id=&quot;detail&quot;&gt;Detail&lt;/h1&gt;
 &lt;h2 id=&quot;milwaukee-brewers-seattle-mariners-9-40p&quot;&gt;Milwaukee Brewers @ Seattle Mariners, 9:40p&lt;/h2&gt;
 &lt;h3 id=&quot;milwaukee-brewers&quot;&gt;Milwaukee Brewers&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -278,7 +279,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;seattle-mariners&quot;&gt;Seattle Mariners&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -333,7 +336,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;visiting-starter-jacob-misiorowski&quot;&gt;Visiting starter: Jacob Misiorowski&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -392,7 +397,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;home-starter-logan-gilbert&quot;&gt;Home starter: Logan Gilbert&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -451,8 +458,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;athletics-texas-rangers-8-05p&quot;&gt;Athletics @ Texas Rangers, 8:05p&lt;/h2&gt;
 &lt;h3 id=&quot;athletics&quot;&gt;Athletics&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -507,7 +516,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;texas-rangers&quot;&gt;Texas Rangers&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -562,7 +573,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;visiting-starter-j-t-ginn&quot;&gt;Visiting starter: J.T. Ginn&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -621,7 +634,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;home-starter-jacob-degrom&quot;&gt;Home starter: Jacob deGrom&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -680,8 +695,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;boston-red-sox-philadelphia-phillies-6-45p&quot;&gt;Boston Red Sox @ Philadelphia Phillies, 6:45p&lt;/h2&gt;
 &lt;h3 id=&quot;boston-red-sox&quot;&gt;Boston Red Sox&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -736,7 +753,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;philadelphia-phillies&quot;&gt;Philadelphia Phillies&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -791,7 +810,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;visiting-starter-richard-fitts&quot;&gt;Visiting starter: Richard Fitts&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -850,8 +871,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;houston-astros-arizona-diamondbacks-9-40p&quot;&gt;Houston Astros @ Arizona Diamondbacks, 9:40p&lt;/h2&gt;
 &lt;h3 id=&quot;houston-astros&quot;&gt;Houston Astros&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -906,7 +929,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;arizona-diamondbacks&quot;&gt;Arizona Diamondbacks&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -961,7 +986,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;visiting-starter-framber-valdez&quot;&gt;Visiting starter: Framber Valdez&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1020,7 +1047,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;home-starter-eduardo-rodriguez&quot;&gt;Home starter: Eduardo Rodriguez&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1079,8 +1108,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;kansas-city-royals-chicago-cubs-8-05p&quot;&gt;Kansas City Royals @ Chicago Cubs, 8:05p&lt;/h2&gt;
 &lt;h3 id=&quot;kansas-city-royals&quot;&gt;Kansas City Royals&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1135,7 +1166,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;chicago-cubs&quot;&gt;Chicago Cubs&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1190,7 +1223,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;home-starter-matthew-boyd&quot;&gt;Home starter: Matthew Boyd&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1249,8 +1284,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;new-york-yankees-toronto-blue-jays-7-07p&quot;&gt;New York Yankees @ Toronto Blue Jays, 7:07p&lt;/h2&gt;
 &lt;h3 id=&quot;new-york-yankees&quot;&gt;New York Yankees&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1305,7 +1342,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;toronto-blue-jays&quot;&gt;Toronto Blue Jays&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1360,7 +1399,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;home-starter-max-scherzer&quot;&gt;Home starter: Max Scherzer&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1419,8 +1460,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;minnesota-twins-los-angeles-dodgers-10-10p&quot;&gt;Minnesota Twins @ Los Angeles Dodgers, 10:10p&lt;/h2&gt;
 &lt;h3 id=&quot;minnesota-twins&quot;&gt;Minnesota Twins&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1475,7 +1518,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;los-angeles-dodgers&quot;&gt;Los Angeles Dodgers&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1530,7 +1575,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;visiting-starter-simeon-woods-richardson&quot;&gt;Visiting starter: Simeon Woods Richardson&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1589,7 +1636,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;home-starter-yoshinobu-yamamoto&quot;&gt;Home starter: Yoshinobu Yamamoto&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1648,8 +1697,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;detroit-tigers-pittsburgh-pirates-6-40p&quot;&gt;Detroit Tigers @ Pittsburgh Pirates, 6:40p&lt;/h2&gt;
 &lt;h3 id=&quot;detroit-tigers&quot;&gt;Detroit Tigers&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1704,7 +1755,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;pittsburgh-pirates&quot;&gt;Pittsburgh Pirates&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1759,7 +1812,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;visiting-starter-casey-mize&quot;&gt;Visiting starter: Casey Mize&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1818,7 +1873,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;home-starter-mitch-keller&quot;&gt;Home starter: Mitch Keller&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1877,8 +1934,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;baltimore-orioles-cleveland-guardians-6-40p&quot;&gt;Baltimore Orioles @ Cleveland Guardians, 6:40p&lt;/h2&gt;
 &lt;h3 id=&quot;baltimore-orioles&quot;&gt;Baltimore Orioles&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1933,7 +1992,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;cleveland-guardians&quot;&gt;Cleveland Guardians&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1988,7 +2049,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;visiting-starter-brandon-young&quot;&gt;Visiting starter: Brandon Young&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2047,7 +2110,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;home-starter-joey-cantillo&quot;&gt;Home starter: Joey Cantillo&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2106,8 +2171,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;cincinnati-reds-washington-nationals-6-45p&quot;&gt;Cincinnati Reds @ Washington Nationals, 6:45p&lt;/h2&gt;
 &lt;h3 id=&quot;cincinnati-reds&quot;&gt;Cincinnati Reds&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2162,7 +2229,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;washington-nationals&quot;&gt;Washington Nationals&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2217,8 +2286,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;san-francisco-giants-atlanta-braves-7-15p&quot;&gt;San Francisco Giants @ Atlanta Braves, 7:15p&lt;/h2&gt;
 &lt;h3 id=&quot;san-francisco-giants&quot;&gt;San Francisco Giants&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2273,7 +2344,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;atlanta-braves&quot;&gt;Atlanta Braves&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2328,7 +2401,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;visiting-starter-landen-roupp&quot;&gt;Visiting starter: Landen Roupp&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2387,8 +2462,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;chicago-white-sox-tampa-bay-rays-7-05p&quot;&gt;Chicago White Sox @ Tampa Bay Rays, 7:05p&lt;/h2&gt;
 &lt;h3 id=&quot;chicago-white-sox&quot;&gt;Chicago White Sox&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2443,7 +2520,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;tampa-bay-rays&quot;&gt;Tampa Bay Rays&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2498,7 +2577,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;visiting-starter-davis-martin&quot;&gt;Visiting starter: Davis Martin&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2557,7 +2638,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;home-starter-drew-rasmussen&quot;&gt;Home starter: Drew Rasmussen&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2616,8 +2699,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;san-diego-padres-miami-marlins-6-40p&quot;&gt;San Diego Padres @ Miami Marlins, 6:40p&lt;/h2&gt;
 &lt;h3 id=&quot;san-diego-padres&quot;&gt;San Diego Padres&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2672,7 +2757,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;miami-marlins&quot;&gt;Miami Marlins&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2727,7 +2814,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;visiting-starter-stephen-kolek&quot;&gt;Visiting starter: Stephen Kolek&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2786,7 +2875,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;home-starter-edward-cabrera&quot;&gt;Home starter: Edward Cabrera&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2845,8 +2936,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;los-angeles-angels-new-york-mets-7-10p&quot;&gt;Los Angeles Angels @ New York Mets, 7:10p&lt;/h2&gt;
 &lt;h3 id=&quot;los-angeles-angels&quot;&gt;Los Angeles Angels&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2901,7 +2994,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;new-york-mets&quot;&gt;New York Mets&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2956,7 +3051,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;visiting-starter-kyle-hendricks&quot;&gt;Visiting starter: Kyle Hendricks&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3015,8 +3112,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;st-louis-cardinals-colorado-rockies-8-40p&quot;&gt;St. Louis Cardinals @ Colorado Rockies, 8:40p&lt;/h2&gt;
 &lt;h3 id=&quot;st-louis-cardinals&quot;&gt;St. Louis Cardinals&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3071,7 +3170,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;colorado-rockies&quot;&gt;Colorado Rockies&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3126,7 +3227,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;visiting-starter-erick-fedde&quot;&gt;Visiting starter: Erick Fedde&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3185,7 +3288,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;home-starter-bradley-blalock&quot;&gt;Home starter: Bradley Blalock&lt;/h3&gt;
+&lt;div class=&quot;wide-table&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3244,6 +3349,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 </content>
   </entry>
   <entry>
