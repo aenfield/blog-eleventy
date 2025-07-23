@@ -13,21 +13,21 @@ This is inspired by [Carson Cistulli's NERD scores](https://blogs.fangraphs.com/
 
 | Score | Time (EDT) | Visitors | Score | Home | Score | Starter (V) | Score | Starter (H) | Score |
 |-------|------------|----------|-------|------|-------|-------------|-------|-------------|-------|
-| 13.1 | 3:40p | [Houston Astros](https://www.fangraphs.com/teams/astros/stats) | 4.9 | [Arizona Diamondbacks](https://www.fangraphs.com/teams/diamondbacks/stats) | 7.9 | [Brandon Walter](https://www.fangraphs.com/search?q=Walter) | 8.9 | [Brandon Pfaadt](https://www.fangraphs.com/search?q=Pfaadt) | 4.4 |
-| 12.9 | 7:05p | [Boston Red Sox](https://www.fangraphs.com/teams/red-sox/stats) | 6.5 | [Philadelphia Phillies](https://www.fangraphs.com/teams/phillies/stats) | 5.8 | [Lucas Giolito](https://www.fangraphs.com/search?q=Giolito) | 4.2 | [Jesús Luzardo](https://www.fangraphs.com/search?q=Luzardo) | 9.3 |
-| 12.4 | 7:07p | [New York Yankees](https://www.fangraphs.com/teams/yankees/stats) | 8.3 | [Toronto Blue Jays](https://www.fangraphs.com/teams/blue-jays/stats) | 6.5 | [Max Fried](https://www.fangraphs.com/search?q=Fried) | 5.3 | [Chris Bassitt](https://www.fangraphs.com/search?q=Bassitt) | 4.7 |
-| 12.3 | 3:40p | [Milwaukee Brewers](https://www.fangraphs.com/teams/brewers/stats) | 7.4 | [Seattle Mariners](https://www.fangraphs.com/teams/mariners/stats) | 5.5 | [Quinn Priester](https://www.fangraphs.com/search?q=Priester) | 6.7 | [Luis Castillo](https://www.fangraphs.com/search?q=Castillo) | 5.1 |
-| 10.5 | 12:10p | [San Diego Padres](https://www.fangraphs.com/teams/padres/stats) | 2.0 | [Miami Marlins](https://www.fangraphs.com/teams/marlins/stats) | 6.2 | [Dylan Cease](https://www.fangraphs.com/search?q=Cease) | 8.6 | [Sandy Alcantara](https://www.fangraphs.com/search?q=Alcantara) | 4.2 |
-| 9.5 | 2:20p | [Kansas City Royals](https://www.fangraphs.com/teams/royals/stats) | 2.8 | [Chicago Cubs](https://www.fangraphs.com/teams/cubs/stats) | 9.6 | [Seth Lugo](https://www.fangraphs.com/search?q=Lugo) | 4.2 | [Colin Rea](https://www.fangraphs.com/search?q=Rea) | 2.4 |
-| 9.2 | 12:15p | [San Francisco Giants](https://www.fangraphs.com/teams/giants/stats) | 1.8 | [Atlanta Braves](https://www.fangraphs.com/teams/braves/stats) | 5.7 | [Justin Verlander](https://www.fangraphs.com/search?q=Verlander) | 2.6 | [Spencer Strider](https://www.fangraphs.com/search?q=Strider) | 8.2 |
-| 9.1 | 8:05p | [Athletics](https://www.fangraphs.com/teams/athletics/stats) | 7.7 | [Texas Rangers](https://www.fangraphs.com/teams/rangers/stats) | 5.8 | [JP Sears](https://www.fangraphs.com/search?q=Sears) | 0.7 | [Patrick Corbin](https://www.fangraphs.com/search?q=Corbin) | 3.9 |
-| 8.5 | 7:35p | [Chicago White Sox](https://www.fangraphs.com/teams/white-sox/stats) | 2.5 | [Tampa Bay Rays](https://www.fangraphs.com/teams/rays/stats) | 6.2 | [Jonathan Cannon](https://www.fangraphs.com/search?q=Cannon) | 2.5 | [Taj Bradley](https://www.fangraphs.com/search?q=Bradley) | 5.8 |
-| 8.2 | 6:40p | [Baltimore Orioles](https://www.fangraphs.com/teams/orioles/stats) | 2.4 | [Cleveland Guardians](https://www.fangraphs.com/teams/guardians/stats) | 5.3 | [Zach Eflin](https://www.fangraphs.com/search?q=Eflin) | 3.7 | [Slade Cecconi](https://www.fangraphs.com/search?q=Cecconi) | 5.0 |
-| 8.2 | 4:10p | [Minnesota Twins](https://www.fangraphs.com/teams/twins/stats) | 3.4 | [Los Angeles Dodgers](https://www.fangraphs.com/teams/dodgers/stats) | 6.6 | [Chris Paddack](https://www.fangraphs.com/search?q=Paddack) | 2.0 | [Tyler Glasnow](https://www.fangraphs.com/search?q=Glasnow) | 4.4 |
-| 8.1 | 3:10p | [St. Louis Cardinals](https://www.fangraphs.com/teams/cardinals/stats) | 5.0 | [Colorado Rockies](https://www.fangraphs.com/teams/rockies/stats) | 2.2 | [Andre Pallante](https://www.fangraphs.com/search?q=Pallante) | 4.5 | [Tanner Gordon](https://www.fangraphs.com/search?q=Gordon) | No data |
-| 8.1 | 12:05p | [Cincinnati Reds](https://www.fangraphs.com/teams/reds/stats) | 3.7 | [Washington Nationals](https://www.fangraphs.com/teams/nationals/stats) | 2.3 | [Nick Lodolo](https://www.fangraphs.com/search?q=Lodolo) | 5.1 | [Michael Soroka](https://www.fangraphs.com/search?q=Soroka) | 5.1 |
-| 6.1 | 12:35p | [Detroit Tigers](https://www.fangraphs.com/teams/tigers/stats) | 8.7 | [Pittsburgh Pirates](https://www.fangraphs.com/teams/pirates/stats) | 3.0 | [Troy Melton](https://www.fangraphs.com/search?q=Melton) | No data | [Bailey Falter](https://www.fangraphs.com/search?q=Falter) | 0.2 |
-| 5.7 | 1:10p | [Los Angeles Angels](https://www.fangraphs.com/teams/angels/stats) | 3.0 | [New York Mets](https://www.fangraphs.com/teams/mets/stats) | 8.3 | [Brock Burke](https://www.fangraphs.com/search?q=Burke) | No data | [Sean Manaea](https://www.fangraphs.com/search?q=Manaea) | No data |
+| [13.1](#houston-astros-arizona-diamondbacks-3-40p) | 3:40p | [Houston Astros](https://www.fangraphs.com/teams/astros/stats) | [4.9](#houston-astros) | [Arizona Diamondbacks](https://www.fangraphs.com/teams/diamondbacks/stats) | [7.9](#arizona-diamondbacks) | [Brandon Walter](https://www.fangraphs.com/search?q=Walter) | [8.9](#visiting-starter-brandon-walter) | [Brandon Pfaadt](https://www.fangraphs.com/search?q=Pfaadt) | [4.4](#home-starter-brandon-pfaadt) |
+| [12.9](#boston-red-sox-philadelphia-phillies-7-05p) | 7:05p | [Boston Red Sox](https://www.fangraphs.com/teams/red-sox/stats) | [6.5](#boston-red-sox) | [Philadelphia Phillies](https://www.fangraphs.com/teams/phillies/stats) | [5.8](#philadelphia-phillies) | [Lucas Giolito](https://www.fangraphs.com/search?q=Giolito) | [4.2](#visiting-starter-lucas-giolito) | [Jesús Luzardo](https://www.fangraphs.com/search?q=Luzardo) | [9.3](#home-starter-jesus-luzardo) |
+| [12.4](#new-york-yankees-toronto-blue-jays-7-07p) | 7:07p | [New York Yankees](https://www.fangraphs.com/teams/yankees/stats) | [8.3](#new-york-yankees) | [Toronto Blue Jays](https://www.fangraphs.com/teams/blue-jays/stats) | [6.5](#toronto-blue-jays) | [Max Fried](https://www.fangraphs.com/search?q=Fried) | [5.3](#visiting-starter-max-fried) | [Chris Bassitt](https://www.fangraphs.com/search?q=Bassitt) | [4.7](#home-starter-chris-bassitt) |
+| [12.3](#milwaukee-brewers-seattle-mariners-3-40p) | 3:40p | [Milwaukee Brewers](https://www.fangraphs.com/teams/brewers/stats) | [7.4](#milwaukee-brewers) | [Seattle Mariners](https://www.fangraphs.com/teams/mariners/stats) | [5.5](#seattle-mariners) | [Quinn Priester](https://www.fangraphs.com/search?q=Priester) | [6.7](#visiting-starter-quinn-priester) | [Luis Castillo](https://www.fangraphs.com/search?q=Castillo) | [5.1](#home-starter-luis-castillo) |
+| [10.5](#san-diego-padres-miami-marlins-12-10p) | 12:10p | [San Diego Padres](https://www.fangraphs.com/teams/padres/stats) | [2.0](#san-diego-padres) | [Miami Marlins](https://www.fangraphs.com/teams/marlins/stats) | [6.2](#miami-marlins) | [Dylan Cease](https://www.fangraphs.com/search?q=Cease) | [8.6](#visiting-starter-dylan-cease) | [Sandy Alcantara](https://www.fangraphs.com/search?q=Alcantara) | [4.2](#home-starter-sandy-alcantara) |
+| [9.5](#kansas-city-royals-chicago-cubs-2-20p) | 2:20p | [Kansas City Royals](https://www.fangraphs.com/teams/royals/stats) | [2.8](#kansas-city-royals) | [Chicago Cubs](https://www.fangraphs.com/teams/cubs/stats) | [9.6](#chicago-cubs) | [Seth Lugo](https://www.fangraphs.com/search?q=Lugo) | [4.2](#visiting-starter-seth-lugo) | [Colin Rea](https://www.fangraphs.com/search?q=Rea) | [2.4](#home-starter-colin-rea) |
+| [9.2](#san-francisco-giants-atlanta-braves-12-15p) | 12:15p | [San Francisco Giants](https://www.fangraphs.com/teams/giants/stats) | [1.8](#san-francisco-giants) | [Atlanta Braves](https://www.fangraphs.com/teams/braves/stats) | [5.7](#atlanta-braves) | [Justin Verlander](https://www.fangraphs.com/search?q=Verlander) | [2.6](#visiting-starter-justin-verlander) | [Spencer Strider](https://www.fangraphs.com/search?q=Strider) | [8.2](#home-starter-spencer-strider) |
+| [9.1](#athletics-texas-rangers-8-05p) | 8:05p | [Athletics](https://www.fangraphs.com/teams/athletics/stats) | [7.7](#athletics) | [Texas Rangers](https://www.fangraphs.com/teams/rangers/stats) | [5.8](#texas-rangers) | [JP Sears](https://www.fangraphs.com/search?q=Sears) | [0.7](#visiting-starter-jp-sears) | [Patrick Corbin](https://www.fangraphs.com/search?q=Corbin) | [3.9](#home-starter-patrick-corbin) |
+| [8.5](#chicago-white-sox-tampa-bay-rays-7-35p) | 7:35p | [Chicago White Sox](https://www.fangraphs.com/teams/white-sox/stats) | [2.5](#chicago-white-sox) | [Tampa Bay Rays](https://www.fangraphs.com/teams/rays/stats) | [6.2](#tampa-bay-rays) | [Jonathan Cannon](https://www.fangraphs.com/search?q=Cannon) | [2.5](#visiting-starter-jonathan-cannon) | [Taj Bradley](https://www.fangraphs.com/search?q=Bradley) | [5.8](#home-starter-taj-bradley) |
+| [8.2](#baltimore-orioles-cleveland-guardians-6-40p) | 6:40p | [Baltimore Orioles](https://www.fangraphs.com/teams/orioles/stats) | [2.4](#baltimore-orioles) | [Cleveland Guardians](https://www.fangraphs.com/teams/guardians/stats) | [5.3](#cleveland-guardians) | [Zach Eflin](https://www.fangraphs.com/search?q=Eflin) | [3.7](#visiting-starter-zach-eflin) | [Slade Cecconi](https://www.fangraphs.com/search?q=Cecconi) | [5.0](#home-starter-slade-cecconi) |
+| [8.2](#minnesota-twins-los-angeles-dodgers-4-10p) | 4:10p | [Minnesota Twins](https://www.fangraphs.com/teams/twins/stats) | [3.4](#minnesota-twins) | [Los Angeles Dodgers](https://www.fangraphs.com/teams/dodgers/stats) | [6.6](#los-angeles-dodgers) | [Chris Paddack](https://www.fangraphs.com/search?q=Paddack) | [2.0](#visiting-starter-chris-paddack) | [Tyler Glasnow](https://www.fangraphs.com/search?q=Glasnow) | [4.4](#home-starter-tyler-glasnow) |
+| [8.1](#st-louis-cardinals-colorado-rockies-3-10p) | 3:10p | [St. Louis Cardinals](https://www.fangraphs.com/teams/cardinals/stats) | [5.0](#st-louis-cardinals) | [Colorado Rockies](https://www.fangraphs.com/teams/rockies/stats) | [2.2](#colorado-rockies) | [Andre Pallante](https://www.fangraphs.com/search?q=Pallante) | [4.5](#visiting-starter-andre-pallante) | [Tanner Gordon](https://www.fangraphs.com/search?q=Gordon) | No data |
+| [8.1](#cincinnati-reds-washington-nationals-12-05p) | 12:05p | [Cincinnati Reds](https://www.fangraphs.com/teams/reds/stats) | [3.7](#cincinnati-reds) | [Washington Nationals](https://www.fangraphs.com/teams/nationals/stats) | [2.3](#washington-nationals) | [Nick Lodolo](https://www.fangraphs.com/search?q=Lodolo) | [5.1](#visiting-starter-nick-lodolo) | [Michael Soroka](https://www.fangraphs.com/search?q=Soroka) | [5.1](#home-starter-michael-soroka) |
+| [6.1](#detroit-tigers-pittsburgh-pirates-12-35p) | 12:35p | [Detroit Tigers](https://www.fangraphs.com/teams/tigers/stats) | [8.7](#detroit-tigers) | [Pittsburgh Pirates](https://www.fangraphs.com/teams/pirates/stats) | [3.0](#pittsburgh-pirates) | [Troy Melton](https://www.fangraphs.com/search?q=Melton) | No data | [Bailey Falter](https://www.fangraphs.com/search?q=Falter) | [0.2](#home-starter-bailey-falter) |
+| [5.7](#los-angeles-angels-new-york-mets-1-10p) | 1:10p | [Los Angeles Angels](https://www.fangraphs.com/teams/angels/stats) | [3.0](#los-angeles-angels) | [New York Mets](https://www.fangraphs.com/teams/mets/stats) | [8.3](#new-york-mets) | [Brock Burke](https://www.fangraphs.com/search?q=Burke) | No data | [Sean Manaea](https://www.fangraphs.com/search?q=Manaea) | No data |
 {% endwideTable %}
 
 Notes:
@@ -83,6 +83,9 @@ Notes:
 | **pNERD** | 0.35 | -0.22 | 0.07 | 0.00 | 0.69 | -0.32 | 0.05 | 0.00 | 3.80 | 4.42 |
 {% endwideTable %}
 
+
+[Go back to top of page](#)
+
 ## Boston Red Sox @ Philadelphia Phillies, 7:05p
 
 ### Boston Red Sox
@@ -128,6 +131,9 @@ Notes:
 | **Z-Score** | -1.25 | 1.34 | -0.02 | 1.22 | -0.43 | -1.30 | — | — | — | — |
 | **pNERD** | 2.50 | 0.67 | -0.01 | 1.22 | 0.43 | 0.65 | 0.05 | 0.00 | 3.80 | 9.31 |
 {% endwideTable %}
+
+
+[Go back to top of page](#)
 
 ## New York Yankees @ Toronto Blue Jays, 7:07p
 
@@ -175,6 +181,9 @@ Notes:
 | **pNERD** | 1.42 | -0.13 | 0.27 | 0.00 | 0.00 | -0.76 | 0.05 | 0.00 | 3.80 | 4.66 |
 {% endwideTable %}
 
+
+[Go back to top of page](#)
+
 ## Milwaukee Brewers @ Seattle Mariners, 3:40p
 
 ### Milwaukee Brewers
@@ -220,6 +229,9 @@ Notes:
 | **Z-Score** | 0.00 | 0.38 | 0.33 | 0.67 | 0.88 | -0.50 | — | — | — | — |
 | **pNERD** | -0.01 | 0.19 | 0.17 | 0.67 | 0.00 | 0.25 | 0.00 | 0.00 | 3.80 | 5.06 |
 {% endwideTable %}
+
+
+[Go back to top of page](#)
 
 ## San Diego Padres @ Miami Marlins, 12:10p
 
@@ -267,6 +279,9 @@ Notes:
 | **pNERD** | -1.20 | -0.46 | 0.01 | 1.63 | 0.00 | 0.37 | 0.05 | 0.00 | 3.80 | 4.19 |
 {% endwideTable %}
 
+
+[Go back to top of page](#)
+
 ## Kansas City Royals @ Chicago Cubs, 2:20p
 
 ### Kansas City Royals
@@ -312,6 +327,9 @@ Notes:
 | **Z-Score** | 0.54 | -0.88 | -0.12 | -0.02 | 1.40 | -0.42 | — | — | — | — |
 | **pNERD** | -1.08 | -0.44 | -0.06 | 0.00 | 0.00 | 0.21 | 0.00 | 0.00 | 3.80 | 2.43 |
 {% endwideTable %}
+
+
+[Go back to top of page](#)
 
 ## San Francisco Giants @ Atlanta Braves, 12:15p
 
@@ -359,6 +377,9 @@ Notes:
 | **pNERD** | 1.78 | 1.32 | -0.47 | 0.85 | 0.69 | 0.13 | 0.05 | 0.00 | 3.80 | 8.16 |
 {% endwideTable %}
 
+
+[Go back to top of page](#)
+
 ## Athletics @ Texas Rangers, 8:05p
 
 ### Athletics
@@ -404,6 +425,9 @@ Notes:
 | **Z-Score** | -0.12 | 0.13 | -0.51 | -1.12 | 1.66 | -0.17 | — | — | — | — |
 | **pNERD** | 0.23 | 0.07 | -0.26 | 0.00 | 0.00 | 0.09 | 0.00 | 0.00 | 3.80 | 3.93 |
 {% endwideTable %}
+
+
+[Go back to top of page](#)
 
 ## Chicago White Sox @ Tampa Bay Rays, 7:35p
 
@@ -451,6 +475,9 @@ Notes:
 | **pNERD** | 0.11 | -0.13 | -0.25 | 1.13 | 1.22 | -0.16 | 0.05 | 0.00 | 3.80 | 5.77 |
 {% endwideTable %}
 
+
+[Go back to top of page](#)
+
 ## Baltimore Orioles @ Cleveland Guardians, 6:40p
 
 ### Baltimore Orioles
@@ -496,6 +523,9 @@ Notes:
 | **Z-Score** | -0.17 | -0.25 | 0.48 | 0.17 | -0.69 | 0.15 | — | — | — | — |
 | **pNERD** | 0.35 | -0.13 | 0.24 | 0.17 | 0.69 | -0.07 | 0.00 | 0.00 | 3.80 | 5.05 |
 {% endwideTable %}
+
+
+[Go back to top of page](#)
 
 ## Minnesota Twins @ Los Angeles Dodgers, 4:10p
 
@@ -543,6 +573,9 @@ Notes:
 | **pNERD** | 0.95 | -0.15 | -1.23 | 0.99 | 0.00 | 0.01 | 0.00 | 0.00 | 3.80 | 4.36 |
 {% endwideTable %}
 
+
+[Go back to top of page](#)
+
 ## St. Louis Cardinals @ Colorado Rockies, 3:10p
 
 ### St. Louis Cardinals
@@ -577,6 +610,9 @@ Notes:
 | **Z-Score** | -0.41 | -0.25 | -1.13 | 0.35 | -0.69 | 0.96 | — | — | — | — |
 | **pNERD** | 0.83 | -0.13 | -0.57 | 0.35 | 0.69 | -0.48 | 0.05 | 0.00 | 3.80 | 4.55 |
 {% endwideTable %}
+
+
+[Go back to top of page](#)
 
 ## Cincinnati Reds @ Washington Nationals, 12:05p
 
@@ -624,6 +660,9 @@ Notes:
 | **pNERD** | 0.59 | -0.15 | 0.04 | 0.07 | 0.43 | 0.25 | 0.05 | 0.00 | 3.80 | 5.08 |
 {% endwideTable %}
 
+
+[Go back to top of page](#)
+
 ## Detroit Tigers @ Pittsburgh Pirates, 12:35p
 
 ### Detroit Tigers
@@ -659,6 +698,9 @@ Notes:
 | **pNERD** | -2.39 | -0.75 | -0.10 | 0.00 | 0.17 | -0.48 | 0.00 | 0.00 | 3.80 | 0.25 |
 {% endwideTable %}
 
+
+[Go back to top of page](#)
+
 ## Los Angeles Angels @ New York Mets, 1:10p
 
 ### Los Angeles Angels
@@ -682,4 +724,7 @@ Notes:
 | **Z-Score** | 0.79 | 1.37 | 0.66 | 0.32 | 2.14 | 1.00 | 1.16 | — | — |
 | **tNERD** | 0.79 | 1.37 | 0.66 | 0.32 | 0.00 | 0.00 | 1.16 | 4.00 | 8.30 |
 {% endwideTable %}
+
+
+[Go back to top of page](#)
 
