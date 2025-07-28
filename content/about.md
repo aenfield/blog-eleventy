@@ -17,7 +17,7 @@ If you're interesting in hiring me, send me a message on LinkedIn, or use [email
   - [Professional Active Server Pages](https://www.amazon.com/Professional-Active-Server-Ges-Instant/dp/1861000723/)
   - [Professional IE4 Programming](https://www.amazon.com/Professional-Ie4-Programming-Andrew-Enfield/dp/1861000707/)
   - [Instant Visual Basic 5 ActiveX Control Creation](https://www.amazon.com/Instant-Visual-Activex-Control-Creation/dp/1861000235/)
-- **Patent applications**. I wrote and filed ~50 patent applications from 2005-2010. A few examples:
+- **Patent applications**. I wrote and filed ~50 patent applications (for others) from 2005-2010. A few examples:
   - ["Data synchronization and sharing relationships"](https://patents.google.com/patent/US8370423B2/)
   - ["Clipboard Augmentation"](https://patents.google.com/patent/US8020112B2/)
 - **Customer-focused documentation**.
