@@ -127,6 +127,12 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPairedShortcode("wideTable", function(content) {
 		return `<div class="wide-table">${content}</div>`;
 	});
+
+	// output tweaked HTML for table columns with times, markdown gen uses 'sortableTime' to trigger this
+	// eleventyConfig.addShortcode("sortableTime", function(sortTime, displayTime) {
+    //   return `<span data-sort="${sortTime}">${displayTime}</span>`;
+    // });
+
 };
 
 export const config = {
