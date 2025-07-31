@@ -29,9 +29,15 @@ Notes:
 
 ### Summary
 
-A concise summary of this compelling matchup, featuring two teams with distinct strengths and strategic approaches. The visiting team brings their road experience and adaptability, while the home team looks to leverage familiar surroundings and fan support. Both squads showcase interesting statistical profiles across pitching, hitting, and defensive metrics. Key storylines include starting pitcher matchups, offensive production potential, and bullpen depth. Recent team performance suggests this could be a competitive contest with multiple momentum shifts. Strategic decisions from both managers will likely play crucial roles in determining the outcome. Individual player performances could significantly impact team standings and future positioning. This game represents quality baseball with engaging narratives for viewers.
+**This game offers solid watchability with a gNERD score of 12.66, the highest of the day, driven primarily by George Kirby's excellent pitching profile and a compelling contrast between two very different hurlers.** While it won't break any historical entertainment records, the matchup between Kirby's pinpoint command and Rocker's power arsenal provides enough intrigue to merit attention.
 
-([Claude](https://www.anthropic.com/claude) generated this text using instructions and the NERD scores.)
+George Kirby brings exceptional command to the mound, holding "the lowest walk rate among qualified starting pitchers since 1950" and sporting a pNERD of 8.18 that ranks among today's best. His 2.50 xFIP component dominates his score, reflecting elite underlying skills that make him consistently watchable. With a career 3.56 ERA and 6.90 K/BB ratio, Kirby represents the precision side of this pitching duel.
+
+Kumar Rocker provides the contrasting power element with his 95.7 mph velocity, though his 5.91 pNERD reflects more modest overall skills. His 5.50 ERA and 1.477 WHIP suggest vulnerability that Seattle's solid offense could exploit. The Rangers' strong baserunning component (1.93) offers some offensive upside, while Seattle counters with better overall hitting metrics.
+
+The team components paint a picture of relatively balanced squads, with Seattle holding slight advantages in batting and luck factors while Texas excels on the basepaths. Neither team's defensive metrics particularly enhance watchability, but the pitching matchup carries enough weight to elevate this game above the day's alternatives. The 12.66 gNERD sits comfortably in the upper tier of today's slate, making it a reasonable choice for viewers seeking quality baseball.
+
+([Claude](https://www.anthropic.com/claude) generated this text using instructions, the NERD scores, and these sources: [1](https://www.bleachernation.com/picks/2025/07/29/seattle-mariners-vs-texas-rangers-series-july-31-aug-3-odds-starting-pitchers-predictions/), [2](https://www.docsports.com/free-picks/baseball/2025/texas-rangers-vs-seattle-mariners-prediction-7-31-2025-mlb-picks-best-bets-odds.html), [3](https://www.mlb.com/player/george-kirby-669923), [4](https://www.espn.com/mlb/player/_/id/42406/george-kirby), [5](https://www.si.com/mlb/mariners/news/seattle-mariners-pitchers-for-possible-make-or-break-series-against-texas-rangers-emerson-hancock-bryce-miller-george-kirby-logan-gilbert-jacob-degrom-kumar-rocker), [6](https://www.fantasypros.com/mlb/schedule/george-kirby.php), [7](https://www.baseball-reference.com/players/k/kirbyge01.shtml), [8](https://en.wikipedia.org/wiki/George_Kirby_(baseball)), [9](https://www.statsinsider.com.au/news/mariners-vs-rangers-prediction-and-mlb-tips-1-august-2025), [10](https://en.wikipedia.org/wiki/Kumar_Rocker).)
 
 ### Texas Rangers
 
@@ -82,6 +88,20 @@ A concise summary of this compelling matchup, featuring two teams with distinct 
 
 ## Tampa Bay Rays @ New York Yankees, 10:05a
 
+### Summary
+
+**This matchup presents a fascinating contrast between a surging young pitcher and a veteran struggling to find his footing, making it one of the more compelling games on today's slate.** Ryan Pepiot's strong pNERD of 6.15 highlights his impressive underlying metrics, while Marcus Stroman's concerning 0.55 pNERD reflects his struggles this season.
+
+Stroman enters with a 6.09 ERA and has been particularly vulnerable at home, posting a 7.11 ERA in five home starts. The 34-year-old's negative xFIP- component of -2.32 suggests he's been genuinely ineffective rather than unlucky. His last outing against Philadelphia saw him surrender four runs on five hits and four walks in just 3.2 innings, continuing a pattern of inconsistency.
+
+Pepiot presents the opposite profile with solid underlying metrics across the board. The 27-year-old carries a 3.42 ERA and 1.15 WHIP through 22 starts, though he's allowed four or five runs in two of his last three outings and has surrendered seven homers recently. His positive velocity and strike-throwing components support his strong pNERD rating.
+
+The Yankees' powerful offense, led by their MLB-leading power numbers, should provide fireworks against a pitcher who's been homer-prone lately. New York leads baseball with 170 home runs and a .451 slugging percentage. Tampa Bay's strong baserunning component (1.40) and the Yankees' excellent barrel rate (2.10) suggest both teams can manufacture runs through different methods.
+
+With a gNERD of 10.06 sitting near today's average of 10.47, this game offers solid entertainment value driven primarily by the pitching mismatch and offensive potential.
+
+([Claude](https://www.anthropic.com/claude) generated this text using instructions, the NERD scores, and these sources: [1](https://www.espn.com/mlb/game/_/gameId/401696544/rays-yankees), [2](https://www.bleachernation.com/picks/2025/07/30/yankees-vs-rays-prediction-expert-picks-odds-stats-best-bets-thursday-july-31-2025/), [3](https://winnersandwhiners.com/games/mlb/7-31-2025/tampa-bay-rays-vs-new-york-yankees-prediction-8297/), [4](https://www.mlb.com/yankees/roster/probable-pitchers), [5](https://www.bleachernation.com/how-to-watch/2025/07/30/yankees-vs-rays-start-time-streaming-live-tv-channel-how-to-watch-9/), [6](https://sports.yahoo.com/article/series-preview-rays-vs-yankees-164501337.html), [7](https://www.espn.com/mlb/player/_/id/32815/marcus-stroman), [8](https://www.foxsports.com/articles/mlb/how-to-watch-yankees-vs-rays-tv-channel-live-stream-july-31), [9](https://www.mlb.com/player/ryan-pepiot-686752), [10](https://www.ticketmaster.com/new-york-yankees-vs-tampa-bay-bronx-new-york-07-31-2025/event/1D00611CAB464E52).)
+
 ### Tampa Bay Rays
 
 {% wideTable %}
@@ -130,6 +150,16 @@ A concise summary of this compelling matchup, featuring two teams with distinct 
 [Go back to top of page](#)
 
 ## Atlanta Braves @ Cincinnati Reds, 4:10p
+
+### Summary
+
+**This matchup between two struggling teams offers compelling individual storylines despite neither being playoff contenders.** Andrew Abbott (8-1) brings an impressive 2.09 ERA and 95 strikeouts in 103 1/3 innings pitched, while Carlos Carrasco makes his first start this season for the Braves after being acquired from the Yankees.
+
+With a gNERD of 8.70, this sits at the lower end of today's slate but remains watchable thanks to the pitching contrast. Abbott's stellar pNERD of 5.28 reflects his breakout season - the young lefthander has been dominant with opponents batting just .216 against him. His strike-throwing ability (43% above average) and youth factor boost his watchability significantly. On the other side, Carrasco's pedestrian 2.36 pNERD tells the story of a 38-year-old veteran struggling with command issues and diminished velocity at 91.1 mph.
+
+Both teams enter on two-game losing streaks, with the Reds at 56-52 and Braves at 45-62. The Braves' desperation is evident - their entire Opening Day rotation sits on the 60-day injured list, forcing them to acquire rotation depth like Carrasco. Atlanta's luck component (1.37) suggests they've underperformed their talent level, while Cincinnati's solid baserunning (0.91) provides some entertainment value. The Reds' home advantage and Abbott's excellence make this a decent watch, though the Braves' offensive struggles limit the fireworks potential.
+
+([Claude](https://www.anthropic.com/claude) generated this text using instructions, the NERD scores, and these sources: [1](https://www.bleachernation.com/picks/2025/07/30/reds-vs-braves-prediction-expert-picks-odds-stats-best-bets-thursday-july-31-2025/), [2](https://www.mlb.com/reds/roster/probable-pitchers), [3](https://1049foxsports.iheart.com/content/2025-07-14-buy-tickets-for-reds-vs-braves-on-july-31/), [4](https://www.sportsgamblingpodcast.com/2025/07/30/mlb-nrfi-and-yrfi-picks-july-31st/), [5](https://www.bleachernation.com/how-to-watch/2025/07/30/reds-vs-braves-free-live-stream-tv-channel-how-to-watch-2/), [6](https://www.foxsports.com/mlb/atlanta-braves-vs-cincinnati-reds-jul-31-2025-game-boxscore-92812?tab=boxscore), [7](https://sullybaseball.wordpress.com/2025/07/26/who-owned-baseball-wob-updated-for-july-25-2025-2/), [8](https://www.mlb.com/news/carlos-carrasco-braves-trade), [9](https://790louisville.iheart.com/content/2025-07-14-buy-tickets-for-reds-vs-braves-on-july-31/), [10](https://www.batterypower.com/2025/7/28/24476091/atlanta-braves-acquire-carlos-carrasco-from-yankees-mlb-trade-deadline-rumors).)
 
 ### Atlanta Braves
 
