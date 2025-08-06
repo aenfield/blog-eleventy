@@ -106,6 +106,21 @@ export default async function(eleventyConfig) {
 	// Configure markdown-it with plugins
 	eleventyConfig.amendLibrary("md", mdLib => mdLib.use(markdownItAttrs));
 
+	// Collections
+	eleventyConfig.addCollection("mlbw", function(collectionApi) {
+		return collectionApi.getFilteredByTag("mlbw").sort(function(a, b) {
+			return b.date - a.date; // Sort by date descending (newest first)
+		});
+	});
+
+	eleventyConfig.addCollection("nonMlbw", function(collectionApi) {
+		return collectionApi.getFilteredByTag("posts").filter(function(post) {
+			return !post.data.tags || !post.data.tags.includes("mlbw");
+		}).sort(function(a, b) {
+			return b.date - a.date; // Sort by date descending (newest first)
+		});
+	});
+
 	// Filters
 	eleventyConfig.addPlugin(pluginFilters);
 

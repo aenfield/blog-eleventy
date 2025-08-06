@@ -1,0 +1,27 @@
+---js
+const eleventyNavigation = {
+	key: "Latest MLBW",
+	order: 1.5
+};
+
+const permalink = "/latest-mlbw/";
+---
+
+{%- set latestMLBW = collections.mlbw[0] -%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to Latest MLB Watchability...</title>
+    <meta http-equiv="refresh" content="0; url={{ latestMLBW.url }}">
+    <script>
+        window.location.href = "{{ latestMLBW.url }}";
+    </script>
+</head>
+<body>
+    <p>Redirecting to the <a href="{{ latestMLBW.url }}">latest MLB watchability post</a>...</p>
+    <p>If you are not redirected automatically, <a href="{{ latestMLBW.url }}">click here</a>.</p>
+</body>
+</html>

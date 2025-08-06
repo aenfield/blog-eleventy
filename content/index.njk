@@ -6,20 +6,11 @@ const eleventyNavigation = {
 
 const numberOfLatestPostsToShow = 3;
 ---
-{% set allPosts = collections.posts %}
-{% set nonMlbwPosts = [] %}
-{% set mlbwPosts = [] %}
-
-{% for post in allPosts %}
-  {% if post.data.tags and "mlbw" in post.data.tags %}
-    {% set mlbwPosts = mlbwPosts.concat([post]) %}
-  {% else %}
-    {% set nonMlbwPosts = nonMlbwPosts.concat([post]) %}
-  {% endif %}
-{% endfor %}
+{% set mlbwPosts = collections.mlbw %}
+{% set nonMlbwPosts = collections.nonMlbw %}
 
 <h2>Latest Posts</h2>
-{% set postslist = nonMlbwPosts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslist = nonMlbwPosts | head(numberOfLatestPostsToShow) | reverse %}
 {% set postslistCounter = nonMlbwPosts | length %}
 {% include "postslist.njk" %}
 
@@ -29,7 +20,7 @@ const numberOfLatestPostsToShow = 3;
 {% endif %}
 
 <h2>Latest MLB Watchability Posts</h2>
-{% set postslist = mlbwPosts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslist = mlbwPosts | head(numberOfLatestPostsToShow) | reverse %}
 {% set postslistCounter = mlbwPosts | length %}
 {% include "postslist.njk" %}
 
