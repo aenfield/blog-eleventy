@@ -6,7 +6,7 @@ tags: mlbw-expl
 
 If you like to watch or listen to baseball, and not just your home team, how do you choose from the as many as 15 games that happen most days? You could always look at a list of pitchers and teams and try to remember off hand who's doing well and is fun to watch, and click around to read previews occasionally, but that takes time.
 
-Or, just take a look at the [latest "What to watch"](https://andrewenfield.com/latest-mlbw/) blog post and start at the top - the games are ranked by "watchability", based on a set of stats outlined below. Carson Cistulli [came up with this idea](https://blogs.fangraphs.com/introducing-team-nerd/) when he was at FanGraphs, and it's a great one.
+Or, just take a look at the [latest "What to watch"](https://andrewenfield.com/latest-mlbw/) blog post and start at the top - the games are ranked by "watchability", based on a set of stats outlined below. Carson Cistulli [came up with this idea](https://blogs.fangraphs.com/introducing-team-nerd/) when he was at FanGraphs, and it's a great one. Thank you, Mr. Cistulli.
 
 <img src="./detail-table-example.png" alt="Snippet of detail table">
 
