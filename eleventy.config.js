@@ -108,7 +108,9 @@ export default async function(eleventyConfig) {
 
 	// Collections
 	eleventyConfig.addCollection("mlbw", function(collectionApi) {
-		return collectionApi.getFilteredByTag("mlbw").sort(function(a, b) {
+		return collectionApi.getAll().filter(function(post) {
+			return post.data.tags && (post.data.tags.includes("mlbw") || post.data.tags.includes("mlbw-expl"));
+		}).sort(function(a, b) {
 			return b.date - a.date; // Sort by date descending (newest first)
 		});
 	});
