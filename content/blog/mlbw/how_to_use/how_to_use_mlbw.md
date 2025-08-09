@@ -10,7 +10,7 @@ Or, just take a look at the [latest "What to watch"](https://andrewenfield.com/l
 
 <img src="./detail-table-example.png" alt="Snippet of detail table">
 
-I think he did things manually. My posts are automatic: every morning [code](https://github.com/aenfield/mlb-watchability) runs that pulls the stats; calculates "NERD" scores for the starting pitchers, the teams, and the game overall; uses [Claude](https://www.anthropic.com/claude) to generate a text summary of each game; and then creates and publishes a new blog post. The commentary is a far cry from his posts - he was funny - but the info is still useful enough to me that I look at the post most days.
+I think he did things manually. My posts are automatic: every morning [code](https://github.com/aenfield/mlb-watchability) runs that pulls the stats; calculates "NERD" scores for the starting pitchers, the teams, and the game overall; uses [Claude](https://www.anthropic.com/claude) or [OpenAI](https://openai.com) (ed: as of 8/9) to generate a text summary of each game; and then creates and publishes a new blog post. The commentary is a far cry from his posts - he was funny - but the info is still useful enough to me that I look at the post most days.
 
 The table starts ordered by best overall score, as shown on the left. You can click each overall score, or scroll down, to get detailed stats and the text summary for each game; click the table headers to re-order the list by time, team score, or pitcher score; and click team and pitcher names to visit FanGraphs for more info.
 
