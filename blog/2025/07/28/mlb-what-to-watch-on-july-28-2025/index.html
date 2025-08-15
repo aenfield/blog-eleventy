@@ -386,11 +386,30 @@ th[data-sort-method="number"] {
   text-align: right;
 } */
 
-/* Responsive behavior */
+/* Responsive behavior - text looks fine on phones, but, unmodified, tables are a pain since they're wide */
 @media (max-width: 768px) {
   th, td {
     padding: 0.5rem 0.75rem;
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
+  }
+  
+  /* Enhanced horizontal scrolling for wide tables */
+  .wide-table {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    /* border: 1px solid #ddd; */
+    /* border-radius: 4px; */
+    margin: 1rem 0;
+  }
+  
+  .wide-table::after {
+    content: "← Scroll to see more →";
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 0.5em;
+    font-style: italic;
   }
 }
 
@@ -4439,7 +4458,7 @@ pre[class*="language-diff-"] {
 			</p>
 		</footer>
 
-		<!-- This page `/blog/2025/07/28/mlb-what-to-watch-on-july-28-2025/` was built on 2025-08-15T13:09:09.524Z -->
+		<!-- This page `/blog/2025/07/28/mlb-what-to-watch-on-july-28-2025/` was built on 2025-08-15T18:57:25.826Z -->
 		<script type="module" src="/dist/5HyEuK1_7A.js"></script>
 
 		<!-- Use slim tablesort library to add client-side sorting for tables - I can look up how to turn off for certain tables later if I need that --> 
