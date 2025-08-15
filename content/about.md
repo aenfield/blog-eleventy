@@ -13,6 +13,9 @@ If you're interesting in hiring me, send me a message on LinkedIn, or use [email
 
 ## Writing samples
 
+- **My [blog](https://andrewenfield.com)**. This iteration of this blog is only as old as June 2025, and so there's not a lot here yet. I have written a few posts about LLMs/technology/stats and baseball, including:
+  - ["How to choose which baseball game to watch"](https://andrewenfield.com/blog/2025/08/07/how-to-choose-which-baseball-game-to-watch/), which explains the system I built to automatically generate a daily ranked list of games.
+  - ["Using LLMs to collect MLB broadcast data"](https://andrewenfield.com/blog/2025/06/29/using-llms-to-collect-mlb-broadcast-data-or-which-mlb-broadcasts-show-pitch-types/)
 - **Books**. I'm a published author, and wrote chapters of the following books (other authors wrote chapters of the same books). These are old enough to not be available online; I can share more as part of an interview process.
   - [Professional Active Server Pages](https://www.amazon.com/Professional-Active-Server-Ges-Instant/dp/1861000723/)
   - [Professional IE4 Programming](https://www.amazon.com/Professional-Ie4-Programming-Andrew-Enfield/dp/1861000707/)
@@ -23,4 +26,3 @@ If you're interesting in hiring me, send me a message on LinkedIn, or use [email
 - **Customer-focused documentation**.
   - I wrote a wide array of different kinds of technical documentation for an enterprise software company in Austin in the early 2000s. I can share complete PDFs of some of this documentation as part of an interview process, as it's not appropriate for me to publish the docs here.
   - I wrote tutorials, how-tos, conceptual descriptions, and API reference documentation for Windows CE in 2003 and 2004. None of this work is still available online.
-- **This blog**. I don't have much here yet, as this iteration is new as of mid-2025. More to come.
