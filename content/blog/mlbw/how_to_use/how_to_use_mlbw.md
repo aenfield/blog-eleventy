@@ -51,9 +51,9 @@ The pitcher and team scores are just the sum of the individual component scores,
 
 There are a lot of things that would be great to add - the following items are all part of my enjoyment of watching or listening to a game, and aren't in the score right now. For example:
 
-- How good are the broadcasters? RIP [Vin Scully](https://www.mlb.com/news/vin-scully-greatest-calls), who would get an automatic plus-a-lot for every game.
+- (Added 'TV' column on 8/19/25) ~~How good are the broadcasters? RIP [Vin Scully](https://www.mlb.com/news/vin-scully-greatest-calls), who would get an automatic plus-a-lot for every game.~~
 - Does the park or broadcast itself make the game more fun to watch? Can I [see the pitch type](https://andrewenfield.com/blog/2025/06/29/using-llms-to-collect-mlb-broadcast-data-or-which-mlb-broadcasts-show-pitch-types/) where the ball crosses the plate?
-- How good is the bullpen? This isn't included right now because the team stats are, currently, about offense, and the pitching scores are just about the starter.
+- (Added 'Bullpen runs' column on 8/14/25) ~~How good is the bullpen? This isn't included right now because the team stats are, currently, about offense, and the pitching scores are just about the starter.~~
 - Are there other stats that correlate to things that are fun to watch? There are a lot of new stats that weren't a thing when Cistulli started.
 - Does the game matter for the post-season? (Empirically, playoff-involved teams tend to have better team scores and better pitchers, so some of this comes through already.)
 
