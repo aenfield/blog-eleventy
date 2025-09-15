@@ -1,0 +1,541 @@
+---
+title: "MLB: What to watch on September 15, 2025"
+date: 2025-09-15
+tags: mlbw
+---
+
+Here are today's MLB games, ordered by watchability, based on how interesting the teams and starting pitchers look. Higher is better. For more information, [read this post](https://andrewenfield.com/blog/2025/08/07/how-to-choose-which-baseball-game-to-watch).
+
+
+{% wideTable %}
+
+| Score | Time (PT) | Visitors | Score | Home | Score | Starter (V) | Score | Starter (H) | Score |
+|-------|------------|----------|-------|------|-------|-------------|-------|-------------|-------|
+| [15.3](#philadelphia-phillies-los-angeles-dodgers-7-10p) | 7:10p {data-sort='1910'} | [Philadelphia Phillies](https://www.fangraphs.com/teams/phillies/stats) | [9.2](#philadelphia-phillies) | [Los Angeles Dodgers](https://www.fangraphs.com/teams/dodgers/stats) | [7.2](#los-angeles-dodgers) | [Ranger Suárez](https://www.fangraphs.com/search?q=Suárez) | [5.9](#ranger-suarez-philadelphia-phillies) | [Emmet Sheehan](https://www.fangraphs.com/search?q=Sheehan) | [8.3](#emmet-sheehan-los-angeles-dodgers) |
+| [13.1](#chicago-cubs-pittsburgh-pirates-3-40p) | 3:40p {data-sort='1540'} | [Chicago Cubs](https://www.fangraphs.com/teams/cubs/stats) | [10.4](#chicago-cubs) | [Pittsburgh Pirates](https://www.fangraphs.com/teams/pirates/stats) | [3.5](#pittsburgh-pirates) | [Jameson Taillon](https://www.fangraphs.com/search?q=Taillon) | [4.1](#jameson-taillon-chicago-cubs) | [Braxton Ashcraft](https://www.fangraphs.com/search?q=Ashcraft) | [8.2](#braxton-ashcraft-pittsburgh-pirates) |
+| [12.6](#toronto-blue-jays-tampa-bay-rays-4-35p) | 4:35p {data-sort='1635'} | [Toronto Blue Jays](https://www.fangraphs.com/teams/blue-jays/stats) | [8.2](#toronto-blue-jays) | [Tampa Bay Rays](https://www.fangraphs.com/teams/rays/stats) | [6.9](#tampa-bay-rays) | [Trey Yesavage](https://www.fangraphs.com/search?q=Yesavage) | No data | TBD | No data |
+| [9.8](#new-york-yankees-minnesota-twins-4-40p) | 4:40p {data-sort='1640'} | [New York Yankees](https://www.fangraphs.com/teams/yankees/stats) | [8.1](#new-york-yankees) | [Minnesota Twins](https://www.fangraphs.com/teams/twins/stats) | [4.8](#minnesota-twins) | [Carlos Rodón](https://www.fangraphs.com/search?q=Rodón) | [4.7](#carlos-rodon-new-york-yankees) | [Simeon Woods Richardson](https://www.fangraphs.com/search?q=Richardson) | [2.0](#simeon-woods-richardson-minnesota-twins) |
+| [9.6](#texas-rangers-houston-astros-5-10p) | 5:10p {data-sort='1710'} | [Texas Rangers](https://www.fangraphs.com/teams/rangers/stats) | [5.9](#texas-rangers) | [Houston Astros](https://www.fangraphs.com/teams/astros/stats) | [5.7](#houston-astros) | [Jack Leiter](https://www.fangraphs.com/search?q=Leiter) | [3.8](#jack-leiter-texas-rangers) | [Jason Alexander](https://www.fangraphs.com/search?q=Alexander) | [3.7](#jason-alexander-houston-astros) |
+| [8.3](#san-francisco-giants-arizona-diamondbacks-6-40p) | 6:40p {data-sort='1840'} | [San Francisco Giants](https://www.fangraphs.com/teams/giants/stats) | [3.9](#san-francisco-giants) | [Arizona Diamondbacks](https://www.fangraphs.com/teams/diamondbacks/stats) | [4.7](#arizona-diamondbacks) | [Kai-Wei Teng](https://www.fangraphs.com/search?q=Teng) | [4.0](#kai-wei-teng-san-francisco-giants) | [Zac Gallen](https://www.fangraphs.com/search?q=Gallen) | [4.1](#zac-gallen-arizona-diamondbacks) |
+| [7.9](#baltimore-orioles-chicago-white-sox-4-40p) | 4:40p {data-sort='1640'} | [Baltimore Orioles](https://www.fangraphs.com/teams/orioles/stats) | [3.1](#baltimore-orioles) | [Chicago White Sox](https://www.fangraphs.com/teams/white-sox/stats) | [2.7](#chicago-white-sox) | [Kyle Bradish](https://www.fangraphs.com/search?q=Bradish) | No data | TBD | No data |
+| [7.7](#cincinnati-reds-st-louis-cardinals-4-45p) | 4:45p {data-sort='1645'} | [Cincinnati Reds](https://www.fangraphs.com/teams/reds/stats) | [2.7](#cincinnati-reds) | [St. Louis Cardinals](https://www.fangraphs.com/teams/cardinals/stats) | [4.6](#st-louis-cardinals) | [Zack Littell](https://www.fangraphs.com/search?q=Littell) | [4.1](#zack-littell-cincinnati-reds) | [Matthew Liberatore](https://www.fangraphs.com/search?q=Liberatore) | [4.0](#matthew-liberatore-st-louis-cardinals) |
+| [5.2](#atlanta-braves-washington-nationals-3-45p) | 3:45p {data-sort='1545'} | [Atlanta Braves](https://www.fangraphs.com/teams/braves/stats) | [2.1](#atlanta-braves) | [Washington Nationals](https://www.fangraphs.com/teams/nationals/stats) | [1.0](#washington-nationals) | [Spencer Strider](https://www.fangraphs.com/search?q=Strider) | [5.6](#spencer-strider-atlanta-braves) | [Mitchell Parker](https://www.fangraphs.com/search?q=Parker) | [1.8](#mitchell-parker-washington-nationals) |
+{% endwideTable %}
+
+Notes:
+
+- **Pitcher 'no data'**: Pitchers only have a pNERD score once they've started at least one game and have at least 20 innings pitched. I also show 'no data' when I can't correctly link a starting pitcher with their stats.
+- Generated by the [mlb-watchability](https://github.com/aenfield/mlb-watchability) project on GitHub.
+
+
+# Detail
+
+## Philadelphia Phillies @ Los Angeles Dodgers, 7:10p
+
+### Summary
+
+**Top of today’s watchability board: a gNERD 15.29 with star power and two pitchers whose xFIP- (both 87) says “quality” before the anthem. Playoff stakes sweeten it—LA’s chasing a bye while Philly’s already in, so this series can tilt seeding.**   
+Ranger Suárez arrives in full groove—one run over his last 24 innings—and works briskly, while Emmet Sheehan brings mid‑90s ride, a whiff‑heavy profile, and the best pNERD on the slate; his comeback from Tommy John and recent seven‑inning gems add narrative fuel.   
+Lineup theater is unavoidable: Shohei Ohtani sits one swing from another 50‑homer season, with Mookie Betts scorching of late, opposite a Phillies group that’s been launching 19 homers over its last 10 games.   
+The components love the watch: Philadelphia’s high tNERD rides real skills—plus baserunning, solid fielding, and a broadcaster boost—while the Dodgers counter with big barrels and a top bullpen.  
+Given that today’s gNERD range tops out here, add in Sheehan’s velo/whiffs and Suárez’s efficiency, and you’re looking at the rare game that grades out analytically and narratively—must‑click before the bracket locks.
+
+(A model from [OpenAI](https://www.openai.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.truebluela.com/dodgers-scores-standings/103667/dodgers-phillies-game-september-15?utm_source=openai), [2](https://www.truebluela.com/dodgers-scores-standings/103667/dodgers-phillies-game-september-15?utm_source=openai), [3](https://www.mlb.com/news/gamepreview-776311?utm_source=openai), [4](https://www.truebluela.com/dodgers-scores-standings/103667/dodgers-phillies-game-september-15?utm_source=openai).)
+
+**Recommended broadcast:** Philadelphia Phillies ([2.92 rating](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html))
+
+### Philadelphia Phillies
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 69.3 | 8.9% | 8.2 | 7.4 | 29.6 | $279.5M | 29.5 | 29.0 | 2.92 | — | — |
+| **Z-score** | 1.05 | 0.32 | 1.19 | 0.35 | -0.02 | 1.43 | 0.79 | 1.28 | 1.03 | — | — |
+| **tNERD** | 1.05 | 0.32 | 1.19 | 0.35 | -0.02 | 0.00 | 0.00 | 1.28 | 1.03 | 4.00 | 9.20 |
+{% endwideTable %}
+
+### Los Angeles Dodgers
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 90.2 | 9.9% | -0.8 | -5.4 | 52.0 | $341.0M | 29.6 | -1.0 | 2.45 | — | — |
+| **Z-score** | 1.36 | 1.15 | -0.21 | -0.24 | 1.03 | 2.26 | 0.89 | -0.05 | 0.12 | — | — |
+| **tNERD** | 1.36 | 1.15 | -0.21 | -0.24 | 1.03 | 0.00 | 0.00 | 0.00 | 0.12 | 4.00 | 7.22 |
+{% endwideTable %}
+
+### Ranger Suárez, Philadelphia Phillies
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | Total |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 87 | 9.7% | 65.5% | 90.5 mph | 29 | 18.0s | -23 | 0.0% | — | — |
+| **Z-score** | -0.85 | -0.44 | 0.71 | -1.55 | 0.12 | -0.42 | — | — | — | — |
+| **pNERD** | 1.70 | -0.22 | 0.36 | 0.00 | 0.00 | 0.21 | 0.00 | 0.00 | 3.80 | 5.85 |
+{% endwideTable %}
+
+### Emmet Sheehan, Los Angeles Dodgers
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | Total |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 87 | 15.3% | 64.6% | 95.9 mph | 25 | 19.3s | -8 | 0.0% | — | — |
+| **Z-score** | -0.85 | 2.24 | 0.30 | 0.92 | -0.93 | 0.63 | — | — | — | — |
+| **pNERD** | 1.70 | 1.12 | 0.15 | 0.92 | 0.93 | -0.31 | 0.00 | 0.00 | 3.80 | 8.31 |
+{% endwideTable %}
+
+
+[Go back to top of page](#)
+
+## Chicago Cubs @ Pittsburgh Pirates, 3:40p
+
+### Summary
+
+**A live‑wire rookie with real bat-missing stuff meets a savvy strike‑thrower fresh off the IL, wrapped around one of baseball’s most athletic lineups.** **At a 13.08 gNERD—comfortably above the historical 75th percentile—this belongs in the day’s upper tier of watchability.** Ashcraft is the headliner: upper‑90s fastball and breaking balls that have played to a sub‑3.00 FIP with just two homers allowed in roughly 58 innings, most of them short, efficient stints; the intrigue is how deep he’s allowed to go.  The matchup tilts toward action because the Cubs pair top‑quartile barrels with elite baserunning and plus defense, a profile that stresses young power arms as much on contact management and hold times as on pure velocity. Taillon’s pNERD is middling, but he works quickly, lands strikes, and he just returned from a groin IL stint; earlier this summer he handled Pittsburgh with 7 K in 6.1 IP.  Pittsburgh’s bats have been light on impact (last in MLB in homers), which nudges the watch toward Chicago’s side.  Also: the Cubs arrive off a 4–3 win keyed by a late Nico Hoerner double.
+
+(A model from [OpenAI](https://www.openai.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://baseballsavant.mlb.com/savant-player/braxton-ashcraft-677952?utm_source=openai), [2](https://www.bleedcubbieblue.com/chicago-cubs-roster-moves/195421/cubs-roster-move-jameson-taillon-activated-injured-list-ethan-roberts-optioned?utm_source=openai), [3](https://www.foxsports.com/articles/mlb/2025-mlb-offense-rankings-team-hitting-and-batting-stats?utm_source=openai), [4](https://www.reuters.com/sports/baseball/cubs-continue-surge-with-win-over-rays--flm-2025-09-14/?utm_source=openai).)
+
+**Recommended broadcast:** Chicago Cubs ([3.01 rating](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html))
+
+### Chicago Cubs
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 61.9 | 9.9% | 11.3 | 32.0 | 28.6 | $197.7M | 30.6 | -10.0 | 3.01 | — | — |
+| **Z-score** | 0.94 | 1.15 | 1.67 | 1.48 | -0.07 | 0.33 | 1.91 | -0.45 | 1.22 | — | — |
+| **tNERD** | 0.94 | 1.15 | 1.67 | 1.48 | -0.07 | 0.00 | 0.00 | 0.00 | 1.22 | 4.00 | 10.38 |
+{% endwideTable %}
+
+### Pittsburgh Pirates
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | -120.7 | 7.8% | -5.5 | 12.3 | 39.3 | $88.9M | 28.4 | 8.0 | 2.01 | — | — |
+| **Z-score** | -1.77 | -0.59 | -0.93 | 0.57 | 0.44 | -1.13 | -0.33 | 0.35 | -0.74 | — | — |
+| **tNERD** | -1.77 | -0.59 | -0.93 | 0.57 | 0.44 | 1.13 | 0.33 | 0.35 | 0.00 | 4.00 | 3.53 |
+{% endwideTable %}
+
+### Jameson Taillon, Chicago Cubs
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | Total |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 106 | 8.9% | 66.7% | 92.3 mph | 33 | 17.0s | -6 | 0.0% | — | — |
+| **Z-score** | 0.29 | -0.82 | 1.26 | -0.72 | 1.16 | -1.24 | — | — | — | — |
+| **pNERD** | -0.58 | -0.41 | 0.63 | 0.00 | 0.00 | 0.62 | 0.00 | 0.00 | 3.80 | 4.05 |
+{% endwideTable %}
+
+### Braxton Ashcraft, Pittsburgh Pirates
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | Total |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 88 | 11.0% | 65.7% | 96.8 mph | 25 | 18.4s | -31 | 0.0% | — | — |
+| **Z-score** | -0.79 | 0.19 | 0.81 | 1.33 | -0.93 | -0.10 | — | — | — | — |
+| **pNERD** | 1.58 | 0.09 | 0.40 | 1.33 | 0.93 | 0.05 | 0.00 | 0.00 | 3.80 | 8.19 |
+{% endwideTable %}
+
+
+[Go back to top of page](#)
+
+## Toronto Blue Jays @ Tampa Bay Rays, 4:35p
+
+### Summary
+
+**A top-prospect debut meets a bullpen mystery and a 44-homer thunderstick: that’s plenty of reason to peek in early.** **With a gNERD of 12.56—top-quartile by the historic distribution and comfortably above today’s average—this one earns your remote.**
+
+Toronto’s tNERD is buoyed by real run creation and elite gloves (fielding runs +1.70), and the stakes are tangible after a sweep that kept them atop the AL East.  Trey Yesavage, 22, brings strikeout volume (160 K in 98 MiLB IP, ~14.7 K/9) and a north–south mix headlined by a riding fastball and splitter, and he’s confirmed to start.  Tampa Bay hasn’t named a starter, which often signals an opener/bulk day—fitting a club whose bullpen grades as a relative strength in the model—even as their team defense lags.  The Rays’ draw is Junior Caminero, in the midst of a breakout and closing on the franchise single-season homer mark.  With 0.00 pNERDs on both sides, watchability skews toward novelty (Yesavage’s first look), contrasts (Jays’ defense vs. Rays’ power/baserunning), and pennant-race context rather than tidy projections.
+
+(A model from [OpenAI](https://www.openai.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.reuters.com/sports/baseball/blue-jays-rout-orioles-complete-sweep--flm-2025-09-14/?utm_source=openai), [2](https://www.cbssports.com/fantasy/baseball/news/blue-jays-trey-yesavage-will-start-in-mlb-debut-monday/?utm_source=openai), [3](https://www.bleachernation.com/stats-and-news/2025/09/15/blue-jays-vs-rays-injury-report-updates-probable-starters-sept-15/feed/?utm_source=openai), [4](https://www.draysbay.com/game-recaps/85611/player-of-the-series-junior-caminero?utm_source=openai).)
+
+**Recommended broadcast:** Toronto Blue Jays ([3.10 rating](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html))
+
+### Toronto Blue Jays
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 98.4 | 8.1% | -5.3 | 36.8 | 25.6 | $248.4M | 29.6 | 25.0 | 3.10 | — | — |
+| **Z-score** | 1.48 | -0.34 | -0.90 | 1.70 | -0.21 | 1.01 | 0.89 | 1.10 | 1.40 | — | — |
+| **tNERD** | 1.48 | -0.34 | -0.90 | 1.70 | -0.21 | 0.00 | 0.00 | 1.10 | 1.40 | 4.00 | 8.23 |
+{% endwideTable %}
+
+### Tampa Bay Rays
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | -14.8 | 7.8% | 11.7 | -27.3 | 45.1 | $89.9M | 27.4 | -14.0 | 2.27 | — | — |
+| **Z-score** | -0.20 | -0.59 | 1.73 | -1.24 | 0.71 | -1.12 | -1.35 | -0.62 | -0.23 | — | — |
+| **tNERD** | -0.20 | -0.59 | 1.73 | -1.24 | 0.71 | 1.12 | 1.35 | 0.00 | 0.00 | 4.00 | 6.89 |
+{% endwideTable %}
+
+### Trey Yesavage, Toronto Blue Jays
+
+No detailed stats available
+
+
+[Go back to top of page](#)
+
+## New York Yankees @ Minnesota Twins, 4:40p
+
+### Summary
+
+**Yankees barrels vs. Twins bullpen is the hook here, with Aaron Judge stalking a fourth 50‑homer season and Simeon Woods Richardson making his first career start against New York.**  **There’s juice in the stakes, too: the Yankees sit narrowly atop the AL wild-card field, so every Rodón start matters.** 
+
+At a gNERD of 9.76, this is a shade below today’s average, but it plays up because the components pull in opposite directions. The Yankees’ strong tNERD (8.07) is powered by premium contact—an elite barrel rate—so New York’s lineup drives the watchability. On the mound, Carlos Rodón’s middling pNERD (4.67) masks a useful underlying: his xFIP- is better than average and he’s diversified the arsenal in 2025, adding a sinker and leaning more on the changeup per Statcast, which can neuter righty power when located.  Woods Richardson’s low pNERD (1.99) reflects a shaky xFIP-, and the data backs it: his changeup has been hammered while a nascent splitter flashes out-pitch traits—boom‑bust viewing against a patient, power-heavy offense. 
+
+Minnesota’s tNERD lags, but a legitimately strong bullpen shortens games and adds late‑inning intrigue if they’re close.  Add Judge’s 50‑homer watch and recent long-ball form, and you’ve got a solid, if not top‑shelf, pick.
+
+(A model from [OpenAI](https://www.openai.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.mlb.com/stories/game-preview/776313?utm_source=openai), [2](https://www.reuters.com/sports/baseball/red-sox-bats-back-garrett-crochet-12-ks-win-vs-yankees--flm-2025-09-15/?utm_source=openai), [3](https://baseballsavant.mlb.com/savant-player/607074?utm_source=openai), [4](https://baseballsavant.mlb.com/savant-player/simeon-woods-richardson-680573?utm_source=openai), [5](https://blogs.fangraphs.com/2025-positional-power-rankings-bullpen-no-1-15/?utm_source=openai), [6](https://www.reuters.com/sports/baseball/red-sox-bats-back-garrett-crochet-12-ks-win-vs-yankees--flm-2025-09-15/?utm_source=openai).)
+
+**Recommended broadcast:** Minnesota Twins ([2.30 rating](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html))
+
+### New York Yankees
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 112.6 | 11.6% | -1.6 | -0.5 | 21.5 | $290.9M | 29.1 | 13.0 | 2.08 | — | — |
+| **Z-score** | 1.69 | 2.55 | -0.33 | -0.01 | -0.40 | 1.58 | 0.38 | 0.57 | -0.61 | — | — |
+| **tNERD** | 1.69 | 2.55 | -0.33 | -0.01 | -0.40 | 0.00 | 0.00 | 0.57 | 0.00 | 4.00 | 8.07 |
+{% endwideTable %}
+
+### Minnesota Twins
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | -15.1 | 8.8% | -3.3 | -13.0 | 44.5 | $145.1M | 28.8 | 20.0 | 2.30 | — | — |
+| **Z-score** | -0.20 | 0.24 | -0.59 | -0.58 | 0.68 | -0.37 | 0.08 | 0.88 | -0.17 | — | — |
+| **tNERD** | -0.20 | 0.24 | -0.59 | -0.58 | 0.68 | 0.37 | 0.00 | 0.88 | 0.00 | 4.00 | 4.80 |
+{% endwideTable %}
+
+### Carlos Rodón, New York Yankees
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | Total |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 94 | 12.2% | 62.2% | 93.8 mph | 32 | 18.5s | -17 | 0.0% | — | — |
+| **Z-score** | -0.43 | 0.76 | -0.75 | -0.04 | 0.90 | -0.02 | — | — | — | — |
+| **pNERD** | 0.86 | 0.38 | -0.38 | 0.00 | 0.00 | 0.01 | 0.00 | 0.00 | 3.80 | 4.67 |
+{% endwideTable %}
+
+### Simeon Woods Richardson, Minnesota Twins
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | Total |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 122 | 9.8% | 62.9% | 93.4 mph | 24 | 18.7s | -11 | 0.0% | — | — |
+| **Z-score** | 1.26 | -0.39 | -0.46 | -0.22 | -1.19 | 0.14 | — | — | — | — |
+| **pNERD** | -2.51 | -0.19 | -0.23 | 0.00 | 1.19 | -0.07 | 0.00 | 0.00 | 3.80 | 1.99 |
+{% endwideTable %}
+
+
+[Go back to top of page](#)
+
+## Texas Rangers @ Houston Astros, 5:10p
+
+### Summary
+
+**Playoff leverage meets pace-contrast: Texas brings Jack Leiter’s 97 mph heat while Houston counters with quick-working Jason Alexander, and the AL West race makes every pitch feel louder.** **If José Altuve’s sore foot keeps him limited, Houston may again lean on run prevention and Yainer Díaz’s timely thump.** 
+
+At 9.57, the gNERD sits a hair below today’s average, mostly because the pNERDs are modest, but both clubs grade above today’s team-average watchability. Leiter’s xFIP- (111) says “volatile stuff,” yet the velo and youth boost pNERD, and he’s handled Houston capably in two prior meetings (12.1 IP, 10 K). Alexander’s profile is steadier (xFIP- 101) and he works fast, which tends to keep things crisp. 
+
+Context makes this pop: the Astros opened a pivotal homestand with Brown/Valdez saved for Seattle, Alexander set to start, and standings that squeeze both sides. Houston’s offense has been uneven, but Díaz recently decided a game and Alexander spun seven scoreless. Meanwhile, Texas arrives shorthanded—Corey Seager (appendectomy) and Marcus Semien (foot) are tracking returns but not quite there—which has dragged their recent bat quality. 
+
+Add in Rangers’ strong defense/baserunning versus Houston’s elite bullpen and positive “luck” signal, and you’ve got a divisional grinder with clean run prevention and just enough swing-changer potential to merit attention.
+
+(A model from [OpenAI](https://www.openai.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.houstonchronicle.com/sports/astros/article/houston-jose-altuve-injured-foot-21047597.php?utm_source=openai), [2](https://www.mlb.com/stories/game-preview/776319/?utm_source=openai), [3](https://www.houstonchronicle.com/sports/astros/article/houston-astros-face-texas-seattle-21047529.php?utm_source=openai).)
+
+**Recommended broadcast:** Houston Astros ([2.17 rating](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html))
+
+### Texas Rangers
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | -43.2 | 8.6% | 7.7 | 22.8 | 35.4 | $219.7M | 30.4 | -28.0 | 2.01 | — | — |
+| **Z-score** | -0.62 | 0.07 | 1.11 | 1.06 | 0.25 | 0.63 | 1.71 | -1.24 | -0.74 | — | — |
+| **tNERD** | -0.62 | 0.07 | 1.11 | 1.06 | 0.25 | 0.00 | 0.00 | 0.00 | 0.00 | 4.00 | 5.88 |
+{% endwideTable %}
+
+### Houston Astros
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 0.2 | 7.9% | -6.1 | 17.4 | 51.0 | $221.9M | 29.0 | 33.0 | 2.17 | — | — |
+| **Z-score** | 0.02 | -0.50 | -1.03 | 0.81 | 0.99 | 0.66 | 0.28 | 1.46 | -0.42 | — | — |
+| **tNERD** | 0.02 | -0.50 | -1.03 | 0.81 | 0.99 | 0.00 | 0.00 | 1.46 | 0.00 | 4.00 | 5.74 |
+{% endwideTable %}
+
+### Jack Leiter, Texas Rangers
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | Total |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 111 | 10.8% | 62.4% | 97.0 mph | 25 | 20.7s | -17 | 0.0% | — | — |
+| **Z-score** | 0.59 | 0.09 | -0.68 | 1.42 | -0.93 | 1.77 | — | — | — | — |
+| **pNERD** | -1.19 | 0.05 | -0.34 | 1.42 | 0.93 | -0.88 | 0.00 | 0.00 | 3.80 | 3.78 |
+{% endwideTable %}
+
+### Jason Alexander, Houston Astros
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | Total |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 101 | 9.8% | 61.6% | 91.1 mph | 32 | 17.0s | 0 | 0.0% | — | — |
+| **Z-score** | -0.01 | -0.39 | -1.02 | -1.27 | 0.90 | -1.24 | — | — | — | — |
+| **pNERD** | 0.02 | -0.19 | -0.51 | 0.00 | 0.00 | 0.62 | 0.00 | 0.00 | 3.80 | 3.73 |
+{% endwideTable %}
+
+
+[Go back to top of page](#)
+
+## San Francisco Giants @ Arizona Diamondbacks, 6:40p
+
+### Summary
+
+**A solid “late-night channel surf” pick: Zac Gallen’s steadier underlying line (4.41 FIP/4.08 xFIP) meets a volatile rookie in Kai‑Wei Teng, with wild‑card positioning still very much in play.** **Arizona’s bats and legs add juice, but their bullpen’s wobbles mean even a lead won’t feel safe.** 
+
+The gNERD sits at 8.34—just below today’s average—because both pNERDs hover around average, yet the ingredients are interesting: Arizona’s tNERD is buoyed by positive batting and baserunning components, while San Francisco’s offense brings fewer barrels and rough baserunning but a sturdier bullpen that can flip late innings. On the mound, Gallen’s results have improved since the deadline (4–2, 2.83 ERA) even as the peripherals say “good, not dominant,” and he just saw these Giants last week. Teng brings strikeouts but also traffic; he’s flashed swing‑and‑miss (11.1 K/9; eight Ks at Coors) alongside walks and short outings—watchable chaos in a bottle. 
+
+Storylines help: Ketel Marte fouled a ball off his foot midweek but scans were clean and he returned over the weekend, keeping Arizona’s top‑order thump intact. If you’re ranking options, tune for Gallen’s pace and command early, then stick around to see whether the Giants’ bullpen can outlast Arizona’s in the late frames.
+
+(A model from [OpenAI](https://www.openai.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.fangraphs.com/players/zac-gallen/19291/splits?position=P&season=2025&utm_source=openai), [2](https://www.mlb.com/news/gamepreview-776309?utm_source=openai), [3](https://www.reuters.com/sports/diamondbacks-2b-ketel-marte-leaves-game-vs-giants--flm-2025-09-10/?utm_source=openai).)
+
+**Recommended broadcast:** San Francisco Giants ([3.20 rating](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html))
+
+### San Francisco Giants
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | -9.2 | 7.5% | -8.6 | 4.7 | 39.3 | $195.3M | 29.3 | -16.0 | 3.20 | — | — |
+| **Z-score** | -0.12 | -0.83 | -1.41 | 0.23 | 0.44 | 0.30 | 0.59 | -0.71 | 1.59 | — | — |
+| **tNERD** | -0.12 | -0.83 | -1.41 | 0.23 | 0.44 | 0.00 | 0.00 | 0.00 | 1.59 | 4.00 | 3.89 |
+{% endwideTable %}
+
+### Arizona Diamondbacks
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 56.5 | 9.0% | 5.1 | 10.8 | -7.3 | $189.5M | 29.5 | 0.0 | 2.19 | — | — |
+| **Z-score** | 0.86 | 0.40 | 0.71 | 0.51 | -1.75 | 0.22 | 0.79 | -0.00 | -0.39 | — | — |
+| **tNERD** | 0.86 | 0.40 | 0.71 | 0.51 | -1.75 | 0.00 | 0.00 | 0.00 | 0.00 | 4.00 | 4.72 |
+{% endwideTable %}
+
+### Kai-Wei Teng, San Francisco Giants
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | Total |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 109 | 12.7% | 63.8% | 93.0 mph | 26 | 18.7s | 73 | 0.0% | — | — |
+| **Z-score** | 0.47 | 1.00 | -0.03 | -0.41 | -0.67 | 0.14 | — | — | — | — |
+| **pNERD** | -0.94 | 0.50 | -0.01 | 0.00 | 0.67 | -0.07 | 0.05 | 0.00 | 3.80 | 3.99 |
+{% endwideTable %}
+
+### Zac Gallen, Arizona Diamondbacks
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | Total |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 99 | 9.2% | 63.1% | 93.5 mph | 29 | 17.3s | 14 | 0.0% | — | — |
+| **Z-score** | -0.13 | -0.68 | -0.37 | -0.18 | 0.12 | -0.99 | — | — | — | — |
+| **pNERD** | 0.26 | -0.34 | -0.18 | 0.00 | 0.00 | 0.50 | 0.05 | 0.00 | 3.80 | 4.08 |
+{% endwideTable %}
+
+
+[Go back to top of page](#)
+
+## Baltimore Orioles @ Chicago White Sox, 4:40p
+
+### Summary
+
+**Watch this for Kyle Bradish; debate the rest with your conscience.** **If he resembles the guy who spun seven no‑hit innings on this mound last year, that’s your hook.** 
+
+At a gNERD of 7.93, this lands below today’s average (9.94) and under the 25th percentile historically, and the low tNERDs for both clubs confirm the vibe: more background baseball than red‑carpet event. The on‑field draw is Bradish, who’s slated to face Sean Burke; in a tiny 2025 sample Bradish brings a tidy 5.25 K/BB and 0.94 WHIP, while Burke returns with live velocity and a walk rate that can wander.  Baltimore’s coming off an emphatic sweep at Toronto, and Chicago just got broomed by Cleveland, which doesn’t boost the watchability math. 
+
+There are storylines, though. Bradish’s matchup history here is real, and he’s officially lined up again opposite Burke per MLB’s preview; if command shows up, strikeouts should follow. Baltimore did activate Tyler O’Neill as a lineup jolt, but the broader offensive/defensive profiles (reflected in those modest tNERDs) remain light. If you prioritize pitching intrigue over crisp team play, you’ve found your mid‑card.
+
+(A model from [OpenAI](https://www.openai.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.mlb.com/stories/game-preview/776314?utm_source=openai), [2](https://www.cbssports.com/mlb/gametracker/live/MLB_20250915_BAL%40CHW/?utm_source=openai), [3](https://www.espn.com/mlb/recap/_/gameId/401697139?utm_source=openai), [4](https://www.mlb.com/stories/game-preview/776314?utm_source=openai).)
+
+**Recommended broadcast:** Baltimore Orioles ([2.82 rating](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html))
+
+### Baltimore Orioles
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | -22.3 | 9.1% | -2.1 | -19.2 | 15.1 | $167.6M | 29.2 | -8.0 | 2.82 | — | — |
+| **Z-score** | -0.31 | 0.49 | -0.41 | -0.87 | -0.70 | -0.07 | 0.49 | -0.36 | 0.85 | — | — |
+| **tNERD** | -0.31 | 0.49 | -0.41 | -0.87 | -0.70 | 0.07 | 0.00 | 0.00 | 0.85 | 4.00 | 3.12 |
+{% endwideTable %}
+
+### Chicago White Sox
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | -77.3 | 7.9% | -6.3 | -32.8 | 38.4 | $79.0M | 27.5 | -15.0 | 1.82 | — | — |
+| **Z-score** | -1.12 | -0.50 | -1.06 | -1.49 | 0.39 | -1.26 | -1.25 | -0.67 | -1.11 | — | — |
+| **tNERD** | -1.12 | -0.50 | -1.06 | -1.49 | 0.39 | 1.26 | 1.25 | 0.00 | 0.00 | 4.00 | 2.73 |
+{% endwideTable %}
+
+### Kyle Bradish, Baltimore Orioles
+
+No detailed stats available
+
+
+[Go back to top of page](#)
+
+## Cincinnati Reds @ St. Louis Cardinals, 4:45p
+
+### Summary
+
+**Ball-in-play theater in Busch: Zack Littell’s contact-heavy, homer-prone profile runs into the Cardinals’ glove-first identity, while both clubs still have a pulse in the NL wild-card chase.** **Expect more action than whiffs, and a result that swings on who handles all those balls in play.** 
+
+The gNERD sits at 7.73, a tick below today’s slate average, and the components explain why: average-ish pNERDs (Littell 4.10, Liberatore 4.03) with low swing-and-miss rates but solid strike-throwing point toward pace and traffic over strikeouts; their xFIP-s (104/106) frame both as near-league-average run preventers. Cincinnati’s watchability leans on speed (positive baserunning) more than thump (poor barrel rate), while St. Louis brings run-saving defense and a steady bullpen. 
+
+As for storylines: the Reds just acquired Littell, who’s limited homers better on the road since joining Cincinnati but still leads MLB in long balls allowed, which keeps volatility high; Liberatore’s recent line includes a five-run stumble in Seattle after a midseason run of quality starts. 
+
+Injuries nudge things, too: Masyn Winn—central to that elite Cards defense—is shut down, while Nolan Arenado has been working back from a shoulder strain with a target of returning around this series; the Cards’ late-inning mix has settled with Riley O’Brien snagging saves.
+
+(A model from [OpenAI](https://www.openai.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.cbssports.com/fantasy/baseball/news/reds-zack-littell-bounces-back-in-no-decision/?utm_source=openai), [2](https://www.cbssports.com/fantasy/baseball/news/reds-zack-littell-bounces-back-in-no-decision/?utm_source=openai), [3](https://www.reuters.com/sports/reds-add-rhp-zack-littell-reds-3-team-deal-2025-07-31/?utm_source=openai), [4](https://www.reuters.com/sports/cardinals-ss-masyn-winn-knee-shut-down-season--flm-2025-09-13/?utm_source=openai).)
+
+**Recommended broadcast:** St. Louis Cardinals ([2.17 rating](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html))
+
+### Cincinnati Reds
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | -52.4 | 7.0% | 5.4 | -6.5 | 18.0 | $115.7M | 28.7 | -20.0 | 2.09 | — | — |
+| **Z-score** | -0.76 | -1.25 | 0.76 | -0.29 | -0.56 | -0.77 | -0.02 | -0.89 | -0.59 | — | — |
+| **tNERD** | -0.76 | -1.25 | 0.76 | -0.29 | -0.56 | 0.77 | 0.02 | 0.00 | 0.00 | 4.00 | 2.70 |
+{% endwideTable %}
+
+### St. Louis Cardinals
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | -27.5 | 7.8% | -4.1 | 22.1 | 44.6 | $135.7M | 28.6 | -18.0 | 2.17 | — | — |
+| **Z-score** | -0.39 | -0.59 | -0.72 | 1.02 | 0.69 | -0.50 | -0.13 | -0.80 | -0.43 | — | — |
+| **tNERD** | -0.39 | -0.59 | -0.72 | 1.02 | 0.69 | 0.50 | 0.13 | 0.00 | 0.00 | 4.00 | 4.65 |
+{% endwideTable %}
+
+### Zack Littell, Cincinnati Reds
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | Total |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 104 | 9.4% | 67.2% | 92.0 mph | 29 | 18.0s | -15 | 0.0% | — | — |
+| **Z-score** | 0.17 | -0.58 | 1.44 | -0.86 | 0.12 | -0.42 | — | — | — | — |
+| **pNERD** | -0.34 | -0.29 | 0.72 | 0.00 | 0.00 | 0.21 | 0.00 | 0.00 | 3.80 | 4.10 |
+{% endwideTable %}
+
+### Matthew Liberatore, St. Louis Cardinals
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | Total |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 106 | 8.8% | 65.1% | 93.9 mph | 25 | 18.4s | -1 | 0.0% | — | — |
+| **Z-score** | 0.29 | -0.87 | 0.52 | 0.01 | -0.93 | -0.10 | — | — | — | — |
+| **pNERD** | -0.58 | -0.43 | 0.26 | 0.01 | 0.93 | 0.05 | 0.00 | 0.00 | 3.80 | 4.03 |
+{% endwideTable %}
+
+
+[Go back to top of page](#)
+
+## Atlanta Braves @ Washington Nationals, 3:45p
+
+### Summary
+
+**Spencer Strider is the reason to sample this one; Washington counters with contact-friendly Mitchell Parker and a defense that tends to add extra outs the hard way. On the daily watchability board, this sits near the bottom, but there’s a little prospect sheen to keep the remote from wandering.**
+
+The gNERD is a slate-low 5.24 because both teams’ tNERDs are weak and Washington’s is dragged down by poor fielding and a shaky bullpen, while Strider’s above-average pNERD (5.62) is offset by Parker’s low mark (1.76). Strider at least brings bat-missing credibility, punching out eight over six in his last turn against Chicago; Parker’s best recent note was 7⅔ innings of two-run ball versus Miami.  Washington’s kids have been the draw: Daylen Lile and James Wood just helped snag a series, and even the much-maligned bullpen — still carrying an MLB-worst ERA — stitched together a late lockdown.  Atlanta’s lineup is thinner without Austin Riley, who underwent season-ending core surgery, and the staff has leaked (5.40 ERA, 15 HR) over the past 10 games — factors that nudge this toward background viewing unless Strider starts spinning sliders like 2023.
+
+(A model from [OpenAI](https://www.openai.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.reuters.com/sports/baseball/cubs-cade-horton-boggles-braves-again--flm-2025-09-10/?utm_source=openai), [2](https://www.reuters.com/sports/baseball/daylen-lile-nationals-edge-pirates-take-series--flm-2025-09-14/?utm_source=openai), [3](https://www.espn.com/mlb/story/_/id/46042325/braves-austin-riley-undergoes-season-ending-surgery?utm_source=openai).)
+
+**Recommended broadcast:** Atlanta Braves ([2.36 rating](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html))
+
+### Atlanta Braves
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | -19.5 | 8.7% | -8.1 | 6.5 | 6.0 | $216.2M | 29.4 | 9.0 | 2.36 | — | — |
+| **Z-score** | -0.27 | 0.16 | -1.34 | 0.31 | -1.13 | 0.58 | 0.69 | 0.39 | -0.05 | — | — |
+| **tNERD** | -0.27 | 0.16 | -1.34 | 0.31 | -1.13 | 0.00 | 0.00 | 0.39 | 0.00 | 4.00 | 2.13 |
+{% endwideTable %}
+
+### Washington Nationals
+
+{% wideTable %}
+
+|              | Batting runs | Barrel % | Baserunning runs | Fielding runs | Bullpen runs | Payroll | Age   | Luck | TV   | Constant | Total |
+| ------------ | ------------ | -------- | ----------- | -------- | ------------ | ------- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | -41.2 | 7.9% | -1.8 | -42.4 | -5.3 | $115.9M | 27.5 | -28.0 | 2.00 | — | — |
+| **Z-score** | -0.59 | -0.50 | -0.36 | -1.93 | -1.66 | -0.77 | -1.25 | -1.24 | -0.75 | — | — |
+| **tNERD** | -0.59 | -0.50 | -0.36 | -1.93 | -1.66 | 0.77 | 1.25 | 0.00 | 0.00 | 4.00 | 0.97 |
+{% endwideTable %}
+
+### Spencer Strider, Atlanta Braves
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | Total |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 100 | 13.7% | 61.3% | 95.6 mph | 26 | 18.5s | 14 | 0.0% | — | — |
+| **Z-score** | -0.07 | 1.48 | -1.14 | 0.78 | -0.67 | -0.02 | — | — | — | — |
+| **pNERD** | 0.14 | 0.74 | -0.57 | 0.78 | 0.67 | 0.01 | 0.05 | 0.00 | 3.80 | 5.62 |
+{% endwideTable %}
+
+### Mitchell Parker, Washington Nationals
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike % | Velocity | Age   | Pace  | Luck | KN%  | Constant | Total |
+| ------------ | ----- | ------ | -------- | -------- | ----- | ----- | ---- | ---- | -------- | ----- |
+| **Raw stat** | 122 | 9.7% | 65.8% | 93.0 mph | 25 | 20.3s | 12 | 0.0% | — | — |
+| **Z-score** | 1.26 | -0.44 | 0.86 | -0.41 | -0.93 | 1.44 | — | — | — | — |
+| **pNERD** | -2.51 | -0.22 | 0.43 | 0.00 | 0.93 | -0.72 | 0.05 | 0.00 | 3.80 | 1.76 |
+{% endwideTable %}
+
+
+[Go back to top of page](#)
+
