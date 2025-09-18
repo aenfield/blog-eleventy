@@ -676,13 +676,14 @@ pre[class*="language-diff-"] {
 <li>Luck: Like with the pitcher luck component above, is the team underperforming and likely to improve, as measured by a traditional stat (actual runs scored) compared to a stat that better correlates with future performance (<a href="https://library.fangraphs.com/offense/wrc/">wRC</a>)? Positive is better.</li>
 <li>(Added 8/14/25) Bullpen runs: How much does the bullpen contribute or take away from the team's overall performance? The raw stat I use here is FanGraph's 'RAR' (runs above replacement) number for the relievers on the team. In contrast to the other run stats, the number is 'above replacement' instead of 'above average' (because that's what FanGraphs provides for team data filtered to just relievers). But, as the contribution to tNERD is still just the z-score, the different baseline doesn't matter. The raw stat however does look higher than the other 'run' stats, because it's calculated from a 'replacement' player instead of an average player, and replacement players are worse than average.</li>
 <li>(Added 8/19/25) TV: A small bump up for better TV broadcasting teams, based on <a href="https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html">Awful Announcing's local broadcaster ratings</a>. The contribution is the z-score of the rating from the site, capped on the low side at zero so only teams that are better than average see a change - teams with broadcasters that are worse than average stay at zero.</li>
+<li>(Added 9/18/25) Radio: <a href="https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html">Awful Announcing published radio broadcaster ratings</a>, and I updated the generated page to show both TV and radio. The contribution to the tNERD score is now <em>half</em> of the z-score for each type of broadcast, so the overall contribution to tNERD stays roughly in the same range as it was before.</li>
 </ul>
 <p>For most of the stats, I calculate the <a href="https://en.wikipedia.org/wiki/Standard_score">z-score</a> - so a score that's equal to the average of all pitchers/teams is zero, a score of one is one standard deviation above the mean, etc. Then I (sometimes) multiply that z-score by a value to bump up or down the final contribution based on importance - for example, I multiple pitcher xFIP- by two. I cap some components, like age, payroll, and luck, so they're always between zero and a given value, like two.</p>
 <p>The pitcher and team scores are just the sum of the individual component scores, and the overall game score is the mean of the team and pitcher scores. All of this matches Cistulli's approach oh so many years ago. You can see the details of the calculation for each team and pitcher in the focused tables further down the page.</p>
 <h2 id="ideas">Ideas</h2>
 <p>There are a lot of things that would be great to add - the following items are all part of my enjoyment of watching or listening to a game, and aren't in the score right now. For example:</p>
 <ul>
-<li>(Added 'TV' column on 8/19/25) <s>How good are the broadcasters? RIP <a href="https://www.mlb.com/news/vin-scully-greatest-calls">Vin Scully</a>, who would get an automatic plus-a-lot for every game.</s></li>
+<li>(Added 'TV' column on 8/19/25, and radio on 9/18/25) <s>How good are the broadcasters? RIP <a href="https://www.mlb.com/news/vin-scully-greatest-calls">Vin Scully</a>, who would get an automatic plus-a-lot for every game.</s></li>
 <li>Does the park or broadcast itself make the game more fun to watch? Can I <a href="https://andrewenfield.com/blog/2025/06/29/using-llms-to-collect-mlb-broadcast-data-or-which-mlb-broadcasts-show-pitch-types/">see the pitch type</a> where the ball crosses the plate?</li>
 <li>(Added 'Bullpen runs' column on 8/14/25) <s>How good is the bullpen? This isn't included right now because the team stats are, currently, about offense, and the pitching scores are just about the starter.</s></li>
 <li>Are there other stats that correlate to things that are fun to watch? There are a lot of new stats that weren't a thing when Cistulli started.</li>
@@ -703,7 +704,7 @@ pre[class*="language-diff-"] {
 			</p>
 		</footer>
 
-		<!-- This page `/blog/2025/08/07/how-to-choose-which-baseball-game-to-watch/` was built on 2025-09-18T12:59:31.803Z -->
+		<!-- This page `/blog/2025/08/07/how-to-choose-which-baseball-game-to-watch/` was built on 2025-09-18T19:22:06.321Z -->
 		<script type="module" src="/dist/5HyEuK1_7A.js"></script>
 
 		<!-- Use slim tablesort library to add client-side sorting for tables - I can look up how to turn off for certain tables later if I need that --> 
