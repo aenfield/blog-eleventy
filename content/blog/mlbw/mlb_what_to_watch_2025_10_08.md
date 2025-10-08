@@ -11,9 +11,9 @@ Here are today's MLB games, ordered by watchability, based on how interesting th
 
 | Score | Time (PT) | Visitors | Score | Home | Score | Starter (V) | Score | Starter (H) | Score |
 |-------|------------|----------|-------|------|-------|-------------|-------|-------------|-------|
+| [17.1](#toronto-blue-jays-new-york-yankees-4-08p) | 4:08p {data-sort='1608'} | [Toronto Blue Jays](https://www.fangraphs.com/teams/blue-jays/stats) | [6.9](#toronto-blue-jays) | [New York Yankees](https://www.fangraphs.com/teams/yankees/stats) | [8.5](#new-york-yankees) | [Louis Varland](https://www.fangraphs.com/search?q=Varland) | [10.8](#louis-varland-toronto-blue-jays) | [Cam Schlittler](https://www.fangraphs.com/search?q=Schlittler) | [8.0](#cam-schlittler-new-york-yankees) |
 | [15.5](#milwaukee-brewers-chicago-cubs-2-08p) | 2:08p {data-sort='1408'} | [Milwaukee Brewers](https://www.fangraphs.com/teams/brewers/stats) | [9.7](#milwaukee-brewers) | [Chicago Cubs](https://www.fangraphs.com/teams/cubs/stats) | [10.4](#chicago-cubs) | [Quinn Priester](https://www.fangraphs.com/search?q=Priester) | [6.5](#quinn-priester-milwaukee-brewers) | [Jameson Taillon](https://www.fangraphs.com/search?q=Taillon) | [4.3](#jameson-taillon-chicago-cubs) |
 | [15.2](#philadelphia-phillies-los-angeles-dodgers-6-08p) | 6:08p {data-sort='1808'} | [Philadelphia Phillies](https://www.fangraphs.com/teams/phillies/stats) | [8.3](#philadelphia-phillies) | [Los Angeles Dodgers](https://www.fangraphs.com/teams/dodgers/stats) | [7.6](#los-angeles-dodgers) | [Aaron Nola](https://www.fangraphs.com/search?q=Nola) | [5.6](#aaron-nola-philadelphia-phillies) | [Yoshinobu Yamamoto](https://www.fangraphs.com/search?q=Yamamoto) | [8.9](#yoshinobu-yamamoto-los-angeles-dodgers) |
-| [14.2](#toronto-blue-jays-new-york-yankees-4-08p) | 4:08p {data-sort='1608'} | [Toronto Blue Jays](https://www.fangraphs.com/teams/blue-jays/stats) | [6.9](#toronto-blue-jays) | [New York Yankees](https://www.fangraphs.com/teams/yankees/stats) | [8.5](#new-york-yankees) | [Louis Varland](https://www.fangraphs.com/search?q=Varland) | No data | [Cam Schlittler](https://www.fangraphs.com/search?q=Schlittler) | [8.0](#cam-schlittler-new-york-yankees) |
 | [11.4](#seattle-mariners-detroit-tigers-12-08p) | 12:08p {data-sort='1208'} | [Seattle Mariners](https://www.fangraphs.com/teams/mariners/stats) | [5.9](#seattle-mariners) | [Detroit Tigers](https://www.fangraphs.com/teams/tigers/stats) | [6.8](#detroit-tigers) | [Bryce Miller](https://www.fangraphs.com/search?q=Miller) | [4.2](#bryce-miller-seattle-mariners) | [Casey Mize](https://www.fangraphs.com/search?q=Mize) | [5.9](#casey-mize-detroit-tigers) |
 {% endwideTable %}
 
@@ -25,17 +25,72 @@ Notes:
 
 # Detail
 
+## Toronto Blue Jays @ New York Yankees, 4:08p
+
+### Summary
+
+**This is must-watch baseball as the Yankees face elimination with their season on the line, and both teams are sending out pitchers who should make this a high-scoring affair.** The Yankees rallied from five runs down to win Game 3 on Tuesday 9-6, pulling to 2-1 in this best-of-five ALDS, with Aaron Judge hitting .636 in the series with five RBIs.
+
+The gNERD score of 17.11 ranks as the highest of all games today and sits near the 95th percentile historically, driven by strong pitching watchability scores. Louis Varland's pNERD of 10.81 is the top pitcher score today, boosted by his 98 mph velocity and a 74 xFIP- that indicates excellent skill. Varland entered Game 3 in relief and surrendered a three-run homer to Judge, so there's immediate revenge potential here. Cam Schlittler brings an 8.01 pNERD with similar velocity, though he threw eight scoreless innings with 12 strikeouts against Boston in his last start. Both pitchers are young and relatively inexperienced, which should benefit the Yankees' powerful lineup that posted 137.2 batting runs with a 2.65 barrel rate z-score. The Blue Jays counter with 90.8 batting runs and elite fielding that's 1.61 standard deviations above average. The elimination game stakes combined with two teams capable of offensive explosions makes this essential viewing.
+
+(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.ocregister.com/2025/10/05/yesavage-sets-blue-jays-postseason-record-with-11-ks-toronto-thumps-yankees-13-7-in-game-2-of-alds/), [2](https://sports.yahoo.com/mlb/live/mlb-playoffs-2025-division-series-scores-news-live-updates-from-tigers-mariners-game-2-after-blue-jays-win-193045933.html), [3](https://www.mlb.com/bluejays/schedule), [4](https://www.espn.com/mlb/game/_/gameId/401809266/blue-jays-yankees), [5](https://www.espn.com/mlb/boxscore/_/gameId/401809265), [6](https://www.mlb.com/news/yankees-lose-to-blue-jays-down-2-0-in-2025-alds), [7](https://winnersandwhiners.com/free-picks/mlb/toronto-blue-jays-vs-new-york-yankees-picks-and-prediction-for-alds-game-4-wednesday-october-8-2025), [8](https://abc7ny.com/post/mlb-playoffs-2025-new-york-yankees-face-elimination-game-3-alds-toronto-blue-jays/17958988/), [9](https://www.foxsports.com/mlb/alds-game-1-new-york-yankees-vs-toronto-blue-jays-oct-04-2025-game-boxscore-94192), [10](https://www.espn.com/mlb/recap/_/gameId/401809264).)
+
+**Recommended broadcasts:** TV, Toronto Blue Jays ([3.10](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html)); radio, Toronto Blue Jays ([2.39](https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html))
+
+### Toronto Blue Jays
+
+{% wideTable %}
+
+|              | Batting | Barrel% | BaseR | Fielding | Bullpen | Payroll | Age   | Luck | TV | Radio | C | Total |
+| ------------ | ------- | ------- | ----- | -------- | ------- | ------- | ----- | ---- | -- | ----- | - | ----- |
+| **Raw stat** | 90.8 | 8.1% | -5.6 | 38.6 | 30.3 | $248.4M | 29.6 | 17.0 | 3.10 | 2.39 | — | — |
+| **Z-score** | 1.27 | -0.41 | -0.88 | 1.61 | -0.10 | 1.01 | 0.89 | 0.74 | 1.40 | 0.01 | — | — |
+| **tNERD** | 1.27 | -0.41 | -0.88 | 1.61 | -0.10 | 0.00 | 0.00 | 0.74 | 0.70 | 0.00 | 4.00 | 6.94 |
+{% endwideTable %}
+
+### New York Yankees
+
+{% wideTable %}
+
+|              | Batting | Barrel% | BaseR | Fielding | Bullpen | Payroll | Age   | Luck | TV | Radio | C | Total |
+| ------------ | ------- | ------- | ----- | -------- | ------- | ------- | ----- | ---- | -- | ----- | - | ----- |
+| **Raw stat** | 137.2 | 11.8% | -4.7 | 6.3 | 26.3 | $290.9M | 29.1 | 15.0 | 2.08 | 2.22 | — | — |
+| **Z-score** | 1.91 | 2.65 | -0.75 | 0.28 | -0.28 | 1.58 | 0.38 | 0.65 | -0.61 | -0.36 | — | — |
+| **tNERD** | 1.91 | 2.65 | -0.75 | 0.28 | -0.28 | 0.00 | 0.00 | 0.65 | 0.00 | 0.00 | 4.00 | 8.46 |
+{% endwideTable %}
+
+### Louis Varland, Toronto Blue Jays
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike% | Velocity | Age   | Pace  | Luck | KN%  | C | Total |
+| ------------ | ----- | ------ | ------- | -------- | ----- | ----- | ---- | ---- | - | ----- |
+| **Raw stat** | 74 | 13.1% | 67.3% | 98.0 mph | 27 | 18.2s | -1 | 0.0% | — | — |
+| **Z-score** | -1.65 | 1.17 | 1.47 | 1.87 | -0.39 | -0.26 | — | — | — | — |
+| **pNERD** | 3.29 | 0.59 | 0.74 | 1.87 | 0.39 | 0.13 | 0.00 | 0.00 | 3.80 | 10.81 |
+{% endwideTable %}
+
+### Cam Schlittler, New York Yankees
+
+{% wideTable %}
+
+|              | xFIP- | SwStr% | Strike% | Velocity | Age   | Pace  | Luck | KN%  | C | Total |
+| ------------ | ----- | ------ | ------- | -------- | ----- | ----- | ---- | ---- | - | ----- |
+| **Raw stat** | 90 | 11.1% | 65.8% | 98.0 mph | 24 | 20.3s | -17 | 0.0% | — | — |
+| **Z-score** | -0.68 | 0.21 | 0.82 | 1.87 | -1.18 | 1.44 | — | — | — | — |
+| **pNERD** | 1.36 | 0.10 | 0.41 | 1.87 | 1.18 | -0.72 | 0.00 | 0.00 | 3.80 | 8.01 |
+{% endwideTable %}
+
+
+[Go back to top of page](#)
+
 ## Milwaukee Brewers @ Chicago Cubs, 2:08p
 
 ### Summary
 
-**This is a must-watch playoff game with a 15.47 gNERD score—the highest among today's games and well above the historical 95th percentile—as the Brewers look to complete a sweep at Wrigley Field.** The stakes couldn't be higher: Milwaukee holds a 2-0 NLDS lead and will advance to the NLCS with a victory, while the Cubs face elimination.
+**This NLDS elimination game between two NL Central rivals packs serious watchability, with a gNERD of 15.47 that sits comfortably in the top tier of games both historically and today, driven by two strong team scores and a playoff atmosphere where the Brewers can sweep.** The Brewers hold a commanding 2-0 series lead and can advance to the NLCS with a win, while the desperate Cubs will seek a path to survival at Wrigley Field. Both teams earned elite tNERD scores—Milwaukee's 9.72 and Chicago's 10.40—fueled by strong all-around play. The Cubs excel in batting (71.9 runs above average), barrel rate, fielding, and baserunning, plus they boast the day's best broadcaster ratings. The Brewers counter with excellent baserunning (15.1 runs, z-score of 2.13) and a dominant bullpen (57.2 runs). Quinn Priester brings a solid 6.47 pNERD with a 92 xFIP- and works quickly at 16.7 seconds per pitch, while Priester posted a 3.32 ERA and 3.81 xFIP this season. Jameson Taillon's 4.35 pNERD reflects below-average swing-and-miss stuff but good strike-throwing ability. The Brewers have put 16 runs on the board in consecutive convincing wins, making this a compelling watch as Chicago fights to avoid elimination.
 
-Both teams bring elite tNERD scores (Milwaukee 9.72, Chicago 10.40) that rank among the best today and historically. The Cubs excel across the board with strong batting (71.9 runs above average), impressive barrel rate, excellent baserunning and fielding, plus top-tier broadcasters. The Brewers counter with outstanding baserunning (15.1 runs above average, z-score of 2.13) and a bullpen that ranks among baseball's best. Milwaukee's pitchers have a collective 3.59 ERA, which ranks second in the majors.
-
-Quinn Priester is set to start Game 3 for the Brewers after serving as a decoy in Game 2, bringing solid numbers with a 6.47 pNERD and better-than-average xFIP. Jameson Taillon was money down the stretch with a 1.57 ERA across his final six starts, though his season-long 105 xFIP suggests some regression risk. The playoff atmosphere, elimination drama, and quality pitching matchup make this essential viewing for any baseball fan.
-
-(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.espn.com/mlb/game/_/gameId/401809275/brewers-cubs), [2](https://www.sportskeeda.com/baseball/brewers-vs-cubs-game-3-prediction-injuries-odds-bets-picks-october-8-2025-nlds-series), [3](https://www.espn.com/mlb/preview/_/gameId/401809275), [4](https://www.espn.com/mlb/game/_/gameId/401809274/cubs-brewers), [5](https://www.foxsports.com/articles/mlb/cubs-vs-brewers-nlds-game-3-prediction-odds-picks-october-8), [6](https://www.mlb.com/news/brewers-win-nlds-game-2-2025), [7](https://sports.yahoo.com/mlb/breaking-news/live/mlb-playoffs-2025-division-series-scores-updates-as-brewers-roll-past-cubs-again-dodgers-put-phillies-on-the-brink-211557086.html), [8](https://www.mlb.com/cubs/schedule), [9](https://www.covers.com/mlb/brewers-vs-cubs-prediction-picks-odds-game-3-wednesday-10-8-2025), [10](https://www.brewcrewball.com/series-previews/72637/2025-nlds-series-preview-brewers-cubs-pitching-probables-peralta-boyd-priester-quintana).)
+(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.espn.com/mlb/game/_/gameId/401809275/brewers-cubs), [2](https://www.sportskeeda.com/baseball/brewers-vs-cubs-game-3-prediction-injuries-odds-bets-picks-october-8-2025-nlds-series), [3](https://www.espn.com/mlb/game/_/gameId/401809274/cubs-brewers), [4](https://www.espn.com/mlb/preview?gameId=401809275&amp%3Bex_cid=espnapi_affiliate_abcotv), [5](https://www.foxsports.com/articles/mlb/cubs-vs-brewers-nlds-game-3-prediction-odds-picks-october-8), [6](https://chicago.suntimes.com/cubs/2025/10/07/cubs-brewers-isnt-over-mlb-postseason-nlds-wrigley-field), [7](https://www.foxsports.com/articles/mlb/how-to-watch-cubs-vs-brewers-nlds-game-3-october-8), [8](https://www.covers.com/mlb/brewers-vs-cubs-prediction-picks-odds-game-3-wednesday-10-8-2025), [9](https://www.brewcrewball.com/series-previews/72637/2025-nlds-series-preview-brewers-cubs-pitching-probables-peralta-boyd-priester-quintana), [10](https://www.mlb.com/news/cubs-vs-brewers-nlds-game-1-starting-lineups-pitching-matchup).)
 
 **Recommended broadcasts:** TV, Chicago Cubs ([3.01](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html)); radio, Chicago Cubs ([3.15](https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html))
 
@@ -90,11 +145,11 @@ Quinn Priester is set to start Game 3 for the Brewers after serving as a decoy i
 
 ### Summary
 
-**This elimination game features playoff-tested teams with solid pitching and potent lineups, making it one of the better matchups in today's slate.** The Phillies face elimination down 0-2 in the NLDS, setting up a must-win scenario that should deliver heightened intensity. The gNERD of 15.22 sits well above the historical median of 10.10 and ranks second among today's games, driven by strong fundamentals from both clubs and quality starting pitching.
+**This NLDS elimination game pits a struggling Aaron Nola against a dominant Yoshinobu Yamamoto with the Phillies facing a sweep, making it compelling for the high stakes rather than the pitching matchup itself.** The Dodgers lead the series 2-0 and can close out the Phillies, who are desperate to keep their season alive after their top three hitters went a combined 2 for 21 with zero extra-base hits through the first two games.
 
-Yamamoto struck out nine while pitching into the seventh inning in the Wild Card Series clincher, and his pNERD of 8.89 reflects his elite skill set with a 74 xFIP- and solid swinging strike rate. At 26, he brings youth and velocity to a high-leverage spot. Nola's 5.64 pNERD is respectable, boosted by a 90 xFIP- that suggests better underlying performance than his surface numbers, though he finished the regular season with a 6.01 ERA. The Dodgers boast superior batting (95 runs above average) and an excellent bullpen (56.5 runs), while the Phillies counter with strong baserunning and a notable luck component suggesting they've underperformed their talent. Both offenses rank top-10 against righties, setting up potential fireworks in a game with real stakes.
+The gNERD score of 15.22 sits comfortably above today's average of 14.80 and well above the historical median of 10.10, driven by strong offensive teams and a significant pitching advantage for the Dodgers. Yamamoto's pNERD of 8.89 reflects his excellent 74 xFIP- and elite swinging-strike rate, and he delivered 6⅔ shutout innings against the Reds in the Wild Card Series. Nola's pedestrian 5.64 pNERD tells a concerning story - he posted a career-high 6.01 xFIP equivalent this season and works at a glacially slow pace that drags down watchability. The Phillies' substantial luck component of 1.27 suggests they've underperformed their talent, though that matters little if they can't solve Yamamoto. Both teams bring strong batting numbers, with the Dodgers boasting superior barrel rate and bullpen runs. The combination of elimination drama and a clear pitching mismatch makes this worth watching despite Nola's limitations.
 
-(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.covers.com/mlb/phillies-vs-dodgers-prop-bets-nlds-game-3-wednesday-october-8-2025), [2](https://sports.yahoo.com/mlb/live/mlb-playoffs-2025-division-series-scores-news-updates-as-phillies-and-cubs-look-to-get-even-with-dodgers-brewers-211557136.html), [3](https://www.actionnetwork.com/mlb/los-angeles-dodgers-vs-philadelphia-phillies-prediction-pick-odds-national-league-division-series-game-2-october-6-qs), [4](https://www.covers.com/mlb/home-run-props-parlay-and-odds-monday-10-6-2025), [5](https://www.covers.com/mlb/dodgers-vs-phillies-prediction-picks-odds-game-2-monday-10-6-2025), [6](https://dknetwork.draftkings.com/2025/10/06/los-angeles-dodgers-vs-philadelphia-phillies-prediction-pick-for-nlds-game-2-on-monday-10-6-25/), [7](https://www.bleachernation.com/picks/2025/10/06/best-mlb-prop-bets-today-october-6-2025/), [8](https://www.cbssports.com/mlb/gametracker/boxscore/MLB_20251006_LAD@PHI/), [9](https://www.cbsnews.com/philadelphia/news/phillies-vs-dodgers-nlds-schedule-2025/), [10](https://www.truebluela.com/los-angeles-dodgers-schedule/105080/dodgers-phillies-nlds-schedule-2025).)
+(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.espn.com/mlb/story/_/id/46409722/2025-mlb-playoffs-word-series-schedule-how-watch-postseason-bracket-standings), [2](https://www.covers.com/mlb/phillies-vs-dodgers-prop-bets-nlds-game-3-wednesday-october-8-2025), [3](https://www.cbsnews.com/philadelphia/news/phillies-vs-dodgers-nlds-schedule-2025/), [4](https://www.truebluela.com/los-angeles-dodgers-schedule/105080/dodgers-phillies-nlds-schedule-2025), [5](https://www.cbssports.com/mlb/news/phillies-dodgers-nlds-schedule-odds-prediction-pick-2025-mlb-playoffs/), [6](https://www.mlb.com/news/dodgers-win-nlds-game-2-2025), [7](https://sports.yahoo.com/mlb/article/mlb-playoffs-2025-boos-rain-down-on-the-phillies-as-dodgers-go-up-2-0-in-nlds-with-the-end-of-an-era-looming-052333564.html), [8](https://www.cbssports.com/mlb/news/mlb-playoff-bracket-schedule-2025/), [9](https://sports.yahoo.com/mlb/article/mlb-playoffs-2025-with-wild-card-sweep-dodgers-sail-through-to-nlds-vs-phillies--and-now-the-hard-part-begins-071228240.html), [10](https://6abc.com/post/nlds-2025-phillies-playoff-schedule-possible-opponents-analysis/17907163/).)
 
 **Recommended broadcasts:** TV, Philadelphia Phillies ([2.92](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html)); radio, Philadelphia Phillies ([2.69](https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html))
 
@@ -145,69 +200,15 @@ Yamamoto struck out nine while pitching into the seventh inning in the Wild Card
 
 [Go back to top of page](#)
 
-## Toronto Blue Jays @ New York Yankees, 4:08p
-
-### Summary
-
-Based on my web search, I can see this is Game 4 of an ALDS playoff series where the Blue Jays lead 2-1 after the Yankees rallied from an 0-2 deficit. Let me craft the summary:
-
-**This ALDS Game 4 carries elimination stakes for Toronto and features a fascinating pitching mismatch, with the Yankees' Cam Schlittler bringing legitimate watchability (8.01 pNERD) against Louis Varland, who appeared in Game 3 and gave up a crucial three-run homer to Aaron Judge.** The gNERD of 14.21 sits comfortably above the historic median and near today's average, driven primarily by the Yankees' explosive offense.
-
-The Yankees staved off elimination in Game 3 with a 9-6 comeback victory, pulling the series to 2-1, setting up a must-win scenario for Toronto. New York's offensive firepower shines through their tNERD components, posting elite marks in batting runs (1.91) and barrel rate (2.65), the latter representing an exceptional ability to make hard contact. Schlittler's youth (24 years old) and triple-digit velocity (98 mph) provide genuine intrigue, with his 90 xFIP- indicating above-average effectiveness. The Blue Jays counter with solid defense (1.61 fielding runs component) and respectable batting (1.27), though Varland's 100 mph fastball didn't prevent Judge from launching it off the foul pole in Game 3. With both teams at 94-68 and playoff survival on the line, this matchup delivers meaningful baseball with enough offensive firepower to keep things interesting.
-
-(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.ocregister.com/2025/10/05/yesavage-sets-blue-jays-postseason-record-with-11-ks-toronto-thumps-yankees-13-7-in-game-2-of-alds/), [2](https://www.mlb.com/stories/game/813062), [3](https://sports.yahoo.com/mlb/live/mlb-playoffs-2025-division-series-scores-news-live-updates-from-tigers-mariners-game-2-after-blue-jays-win-193045933.html), [4](https://www.espn.com/mlb/game/_/gameId/401809266/blue-jays-yankees), [5](https://www.espn.com/mlb/boxscore/_/gameId/401809265), [6](https://www.mlb.com/news/yankees-lose-to-blue-jays-down-2-0-in-2025-alds), [7](https://www.mlb.com/bluejays/schedule), [8](https://www.espn.com/mlb/recap/_/gameId/401809264), [9](https://abc7ny.com/post/mlb-playoffs-2025-new-york-yankees-face-elimination-game-3-alds-toronto-blue-jays/17958988/), [10](https://www.foxsports.com/mlb/alds-game-1-new-york-yankees-vs-toronto-blue-jays-oct-04-2025-game-boxscore-94192).)
-
-**Recommended broadcasts:** TV, Toronto Blue Jays ([3.10](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html)); radio, Toronto Blue Jays ([2.39](https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html))
-
-### Toronto Blue Jays
-
-{% wideTable %}
-
-|              | Batting | Barrel% | BaseR | Fielding | Bullpen | Payroll | Age   | Luck | TV | Radio | C | Total |
-| ------------ | ------- | ------- | ----- | -------- | ------- | ------- | ----- | ---- | -- | ----- | - | ----- |
-| **Raw stat** | 90.8 | 8.1% | -5.6 | 38.6 | 30.3 | $248.4M | 29.6 | 17.0 | 3.10 | 2.39 | — | — |
-| **Z-score** | 1.27 | -0.41 | -0.88 | 1.61 | -0.10 | 1.01 | 0.89 | 0.74 | 1.40 | 0.01 | — | — |
-| **tNERD** | 1.27 | -0.41 | -0.88 | 1.61 | -0.10 | 0.00 | 0.00 | 0.74 | 0.70 | 0.00 | 4.00 | 6.94 |
-{% endwideTable %}
-
-### New York Yankees
-
-{% wideTable %}
-
-|              | Batting | Barrel% | BaseR | Fielding | Bullpen | Payroll | Age   | Luck | TV | Radio | C | Total |
-| ------------ | ------- | ------- | ----- | -------- | ------- | ------- | ----- | ---- | -- | ----- | - | ----- |
-| **Raw stat** | 137.2 | 11.8% | -4.7 | 6.3 | 26.3 | $290.9M | 29.1 | 15.0 | 2.08 | 2.22 | — | — |
-| **Z-score** | 1.91 | 2.65 | -0.75 | 0.28 | -0.28 | 1.58 | 0.38 | 0.65 | -0.61 | -0.36 | — | — |
-| **tNERD** | 1.91 | 2.65 | -0.75 | 0.28 | -0.28 | 0.00 | 0.00 | 0.65 | 0.00 | 0.00 | 4.00 | 8.46 |
-{% endwideTable %}
-
-### Louis Varland, Toronto Blue Jays
-
-No detailed stats available
-
-### Cam Schlittler, New York Yankees
-
-{% wideTable %}
-
-|              | xFIP- | SwStr% | Strike% | Velocity | Age   | Pace  | Luck | KN%  | C | Total |
-| ------------ | ----- | ------ | ------- | -------- | ----- | ----- | ---- | ---- | - | ----- |
-| **Raw stat** | 90 | 11.1% | 65.8% | 98.0 mph | 24 | 20.3s | -17 | 0.0% | — | — |
-| **Z-score** | -0.68 | 0.21 | 0.82 | 1.87 | -1.18 | 1.44 | — | — | — | — |
-| **pNERD** | 1.36 | 0.10 | 0.41 | 1.87 | 1.18 | -0.72 | 0.00 | 0.00 | 3.80 | 8.01 |
-{% endwideTable %}
-
-
-[Go back to top of page](#)
-
 ## Seattle Mariners @ Detroit Tigers, 12:08p
 
 ### Summary
 
-Based on the search results, I can see this is Game 4 of the ALDS (not Game 3, which was played on October 7), with the Mariners leading the series 2-1 after their 8-4 victory. Let me craft the summary:
+**This ALDS Game 4 offers the highest stakes imaginable—an elimination game where the Mariners hold a 2-1 series lead and can advance with a win while the Tigers fight to stave off elimination—but the pitching matchup and underlying metrics suggest it won't be particularly thrilling baseball.** The gNERD of 11.39 sits well below today's average of 14.80 and barely cracks the historical median, making this the least watchable game on the slate despite the postseason drama.
 
-**This ALDS Game 4 offers a middling gNERD of 11.39—below today's average but still comfortably above the historical median—as the Mariners look to close out the Tigers at Comerica Park with a chance to advance to the ALCS.** The Mariners took a 2-1 series lead after spoiling Detroit's return home and can clinch the best-of-five series with a win, adding genuine stakes that boost watchability beyond what the numbers suggest. Bryce Miller takes the mound with a modest pNERD of 4.24, dragged down by his 110 xFIP- and sluggish 20.3-second pace, though he carries significant positive luck suggesting he's been pitching worse than his results indicate. Casey Mize counters with a stronger 5.85 pNERD, buoyed by his 95 xFIP- that translates to above-average effectiveness. The team metrics are unremarkable, with Seattle's 5.86 tNERD propped up by solid batting and Detroit's 6.83 benefiting from their youth component and broadcaster ratings. Neither bullpen inspires confidence based on their negative run components, which could make this a battle of who blinks first when starters exit. The elimination scenario provides the drama these pedestrian metrics lack.
+Both starters bring modest pNERD scores, with Bryce Miller at 4.24 and Casey Mize at 5.85. Miller's 110 xFIP- indicates below-average effectiveness, and his substantial luck component of 1.00 suggests he's been fortunate to perform as well as he has. Mize offers slightly better underlying numbers with a 95 xFIP- and works at a quicker pace, but neither pitcher profiles as dominant. The team metrics are similarly uninspiring, with both tNERD scores hovering around the historical mean. Seattle's batting has been solid (91.7 runs above average), but their fielding has been poor. Detroit gets a boost from being the youngest team in baseball, though their bullpen ranks near the bottom. The Mariners dominated Game 3 with an 8-4 victory, and the pressure falls squarely on Detroit to extend the series.
 
-(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.foxsports.com/stories/mlb/tigersmariners-alds-game-3-delayed-by-rain), [2](https://yourkenora.ca/classifieds/listings/mlb-mariners-vs-tigers-live-streams-free-alds-game-3-start-time-full-match-tuesday-october-7-2025-6/), [3](https://www.foxsports.com/articles/mlb/how-to-watch-mariners-vs-tigers-alds-game-3-october-7), [4](https://www.covers.com/mlb/mariners-vs-tigers-prediction-picks-odds-game-3-tuesday-10-7-2025), [5](https://accuscore.com/baseball/mlb-picks/10-7-2025/seattle-mariners-detroit-tigers-2450), [6](https://933kjr.iheart.com/content/2025-10-06-how-to-watch-mariners-vs-tigers-game-3-streaming-tv-on-oct-7/), [7](https://www.espn.ph/mlb/preview/_/gameId/401809270), [8](https://sports.yahoo.com/mlb/live/mlb-playoffs-2025-division-series-scores-news-live-updates-as-mariners-tigers-try-to-pull-ahead-yankees-look-to-stay-alive-193003742.html), [9](https://www.mlb.com/news/mariners-vs-tigers-alds-game-3-starting-lineups-and-pitching-matchup), [10](https://www.espn.com/mlb/story/_/id/46409722/2025-mlb-playoffs-word-series-schedule-how-watch-postseason-bracket-standings).)
+(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.covers.com/mlb/mariners-vs-tigers-prediction-picks-odds-game-4-wednesday-10-8-2025), [2](https://www.foxsports.com/stories/mlb/tigersmariners-alds-game-3-delayed-by-rain), [3](https://www.actionnetwork.com/mlb/seattle-mariners-vs-detroit-tigers-prediction-pick-odds-american-league-division-series-game-3-october-7-qs), [4](https://yourkenora.ca/classifieds/listings/mlb-mariners-vs-tigers-live-streams-free-alds-game-3-start-time-full-match-tuesday-october-7-2025-6/), [5](https://www.foxsports.com/articles/mlb/how-to-watch-mariners-vs-tigers-alds-game-3-october-7), [6](https://www.covers.com/mlb/mariners-vs-tigers-prediction-picks-odds-game-3-tuesday-10-7-2025), [7](https://933kjr.iheart.com/content/2025-10-06-how-to-watch-mariners-vs-tigers-game-3-streaming-tv-on-oct-7/), [8](https://www.espn.com/mlb/game/_/gameId/401809271/mariners-tigers), [9](https://sports.yahoo.com/mlb/live/mlb-playoffs-2025-division-series-scores-news-live-updates-as-mariners-tigers-try-to-pull-ahead-yankees-look-to-stay-alive-193003742.html), [10](https://www.espn.com/mlb/game/_/gameId/401809270/mariners-tigers).)
 
 **Recommended broadcasts:** TV, Detroit Tigers ([2.74](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html)); radio, Detroit Tigers ([2.64](https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html))
 
