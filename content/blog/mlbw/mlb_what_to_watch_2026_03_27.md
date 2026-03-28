@@ -33,9 +33,13 @@ Notes:
 
 ### Summary
 
-I'll search for information about this game and the starting pitchers.This is a pitcher's duel between Gavin Williams and George Kirby that's more compelling than the moneyline suggests. Williams quietly became one of the best starters in the American League in 2025, finishing 12-5 with a 3.06 ERA across 167.2 innings and 173 strikeouts, and he already demonstrated he can handle Seattle specifically, including a seven-inning win against the Mariners in late August of last season. Williams' ability to work deep into games is particularly valuable given the uncertainty surrounding Cleveland's bullpen depth, with Tanner Bibee having left Opening Day with right shoulder inflammation. Kirby had two strong outings against the Guardians last season, allowing two runs in five innings and two runs in seven innings, and had a strong spring with increased velocity in his last couple of outings. The Mariners carry the more explosive lineup ceiling, headlined by Cal Raleigh coming off a historic 60-homer season, though the Guardians stole the series opener behind rookie Chase DeLauter's two home runs in his debut. The Guardians' high tNERD score reflects strong underlying metrics including above-average barrel rate and batting runs, while the Mariners' tNERD is bolstered primarily by elite hard-hit rate. This matchup sits well above today's average gNERD score of 8.29, making it worth prioritizing for quality starting pitching and competitive series positioning.
+**Two AL division winners, two legit aces, and a subplot-rich series opener that already delivered fireworks — this is exactly the kind of game the first weekend of the season should look like.** At a gNERD of 14.94, this is the top game on today's slate and well into the top quartile of all games in the historical dataset.
 
-(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.baseball-reference.com/previews/2026/SEA202603270.shtml), [2](https://winnersandwhiners.com/free-picks/mlb/cleveland-guardians-vs-seattle-mariners-picks-prediction-odds-and-line-movement-for-friday-march-27-2026), [3](https://winnersandwhiners.com/free-picks/mlb/cleveland-guardians-vs-seattle-mariners-picks-predictions-odds-and-line-movement-for-Friday-march-27-2026), [4](https://www.espn.com/mlb/game/_/gameId/401814700/guardians-mariners), [5](https://sports.yahoo.com/mlb/article/where-to-watch-cleveland-guardians-vs-seattle-mariners-live-stream-start-time-tv-channel-odds-for-friday-march-27-165345788.html), [6](https://www.totalprosports.com/mlb/cleveland-guardians/guardians-vs-mariners-tv-channel-streaming-probable-pitchers-lineups-mar-27-mlb-2026/), [7](https://dknetwork.draftkings.com/2026/03/27/cleveland-guardians-at-seattle-mariners-prediction-pick-on-friday-3-27-25/), [8](https://www.foxsports.com/mlb/cleveland-guardians-vs-seattle-mariners-mar-27-2026-game-boxscore-94740), [9](https://www.mlb.com/news/guardians-mariners-2026-opening-day-faq), [10](https://550thezone.iheart.com/content/2026-03-27-buy-tickets-for-mariners-vs-guardians-on-march-27/).)
+Cleveland's tNERD of 12.13 — the highest team score today by a wide margin — is driven by a young roster (average age 27.5), a low payroll that punches well above its weight, and a legitimately elite barrel rate. Both clubs were division winners in 2025: the Guardians won the AL Central, while the Mariners cruised to the AL West crown and pushed the Blue Jays to seven games in the ALCS. Seattle brings its own pop, led by Cal Raleigh coming off a historic 60-homer season and the league's highest barrel rate in today's games.
+
+In the series opener, rookie Chase DeLauter hit his first two career home runs, including one in the very first at-bat of his major league career — a genuine storyline worth following into Game 2. Kirby started last year on the IL but went 10-8 with a 4.21 ERA once he returned, while Williams posted a 2.50 ERA in the second half, though his FIP sat at 4.27 — a lot of batted-ball luck propping up an otherwise solid but not elite profile. Both pitchers have pNERD scores of 0.00 due to missing data, so take the matchup quality on reputation for now. Shortstop J.P. Crawford is on the injured list with right shoulder inflammation for Seattle, a meaningful absence worth noting.
+
+(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.totalprosports.com/mlb/cleveland-guardians/guardians-vs-mariners-tv-channel-streaming-probable-pitchers-lineups-mar-27-mlb-2026/), [2](https://www.capperspicks.com/free-picks/mlb-baseball/cleveland-guardians-vs-seattle-mariners-betting-prediction-3-27-2026/), [3](https://www.predictem.com/mlb/guardians-mariners-mlb-betting-prediction-03-28-2026/), [4](https://dknetwork.draftkings.com/2026/03/27/cleveland-guardians-at-seattle-mariners-prediction-pick-on-friday-3-27-25/), [5](https://winnersandwhiners.com/free-picks/mlb/cleveland-guardians-vs-seattle-mariners-picks-predictions-odds-and-line-movement-for-Friday-march-27-2026), [6](https://www.cbssports.com/mlb/gametracker/live/MLB_20260326_CLE@SEA/), [7](https://www.lookoutlanding.com/seattle-mariners-analysis/140753/series-preview-seattle-mariners-vs-cleveland-guardians-march-2026), [8](https://www.cbssports.com/mlb/gametracker/boxscore/MLB_20260326_CLE@SEA/), [9](https://sports.yahoo.com/mlb/article/where-to-watch-cleveland-guardians-vs-seattle-mariners-live-stream-start-time-tv-channel-odds-for-friday-march-27-165345788.html), [10](https://www.si.com/mlb/guardians/onsi/news/what-to-expect-from-gavin-williams-in-his-2026-season-debut-for-the-guardians).)
 
 **Recommended broadcasts:** TV, Seattle Mariners ([2.35](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html)); radio, Cleveland Guardians ([3.14](https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html))
 
@@ -74,6 +78,16 @@ No detailed stats available
 
 ## Detroit Tigers @ San Diego Padres, 6:40p
 
+### Summary
+
+**The real headline here is Framber Valdez making his Detroit debut — a $115 million man stepping into the box score for the first time in Tigers pinstripes, following Tarik Skubal's dominant opener. Add a Michael King bounce-back storyline on the other side, and there's genuine narrative tension to go with the pitching.**
+
+Both pNERD scores come in at 0.00 due to missing data, but what we know from 2025 tells a story: Valdez isn't a pure power pitcher, but he generates groundball outs at a remarkable rate — 1.64 groundball outs per flyout, more than double the MLB average. He went 13-11 with a 1.24 WHIP over 192 innings last season, striking out 187. King, meanwhile, is carrying some spring baggage into this one: spring training was brutal for him — in 17.2 innings he surrendered 26 hits, 20 earned runs, and nine home runs. Whether that's noise or signal remains to be seen, but it's worth watching.
+
+The team NERD scores are nearly identical (Tigers 4.98, Padres 5.01), both sitting around the historical median. The Padres' score is propped up largely by strong broadcaster ratings, while the Tigers get a boost from their unusually young roster. Detroit faltered down the stretch in 2025 before reloading with Valdez to pair alongside Skubal. A gNERD of 9.99 lands right at the historical median — solidly watchable, not a must-see.
+
+(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.covers.com/mlb/tigers-vs-padres-prediction-picks-odds-friday-3-27-2026), [2](https://gobluedetroit.com/2026/03/27/detroit-tigers-vs-san-diego-padres-odds-spread-and-total-2/), [3](https://www.capperspicks.com/free-picks/mlb-baseball/detroit-tigers-vs-san-diego-padres-betting-prediction-3-27-2026/), [4](https://picksandparlays.net/free-picks/mlb/cleveland-guardians-vs-seattle-mariners-picks-and-prediction-for-friday-march-27-2026), [5](https://www.dimers.com/news/detroit-tigers-vs-san-diego-padres-prediction-mlb-friday-03-27-2026-ac), [6](https://www.sportskeeda.com/baseball/news-padres-vs-tigers-game-2-preview-odds-predictions-betting-tips-starting-lineups-march-27-2026-mlb-season), [7](https://dknetwork.draftkings.com/2026/03/27/detroit-tigers-vs-san-diego-padres-prediction-pick-for-friday-3-27-26/), [8](https://www.totalprosports.com/mlb/detroit-tigers/tigers-vs-padres-opening-day-predictions-picks-odds-mar-26-mlb-2026/), [9](https://yournews.com/2026/03/27/6734636/tigers-lhp-framber-valdez-draws-padres-to-open-his-detroit/), [10](https://www.detroitnews.com/story/sports/mlb/tigers/2026/03/27/detroit-tigers-lineup-vs-san-diego-padres-as-framber-valdez-debuts/89346306007/).)
+
 **Recommended broadcasts:** TV, San Diego Padres ([3.47](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html)); radio, San Diego Padres ([3.37](https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html))
 
 ### Detroit Tigers
@@ -110,6 +124,14 @@ No detailed stats available
 [Go back to top of page](#)
 
 ## Los Angeles Angels @ Houston Astros, 5:15p
+
+### Summary
+
+**The Angels just shut out the Astros on Opening Day, and now a rookie making his first career MLB start has to face the team that just made Houston look ordinary — there's enough tension here to keep you watching even if the underlying numbers are middling.** The Angels' tNERD of 7.65 drives most of this game's watchability, boosted significantly by a luck component suggesting they've been underperforming their underlying skills and are due for positive regression.
+
+Mike Burrows makes his MLB regular season debut for the Astros, having spent two seasons with the Pirates before being acquired via trade in December. He flashed solid strikeout stuff (9.09 K/9) in his limited 96 innings of MLB experience, but both pitchers carry pNERD scores of 0.00, meaning we're working without meaningful statistical data on either. Kikuchi, the Angels' lone All-Star from last season, takes the mound in a nationally televised game. He's 1-6 with a 5.83 ERA in 16 career starts against Houston, which is a genuine concern. Meanwhile, closer Josh Hader remains unavailable for Houston, leaving a meaningful hole at the back of the Astros' bullpen, and Ronel Blanco and Hayden Wesneski are on the injured list, reducing rotation depth. The Astros' tNERD of 2.21 reflects poor early batting and bullpen numbers. At a gNERD of 9.93 — right around the historical median — this is a perfectly watchable game, elevated by the debut storyline and the series context.
+
+(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://pickdawgz.com/mlb-picks/los-angeles-angels-vs-houston-astros-prediction-3-27-2026-todays-mlb-picks-2026-03-27/), [2](https://www.sportsgrid.com/mlb/article/angels-vs-astros-opening-day-2026-preview-pitching-matchups-and-odds), [3](https://www.sportskeeda.com/baseball/news-astros-vs-angels-game-2-preview-odds-predictions-betting-tips-starting-lineups-march-27-2026-mlb-season), [4](https://winnersandwhiners.com/free-picks/mlb/los-angeles-angels-vs-houston-astros-picks-prediction-odds-and-line-movement-for-friday-march-27-2026), [5](https://sports.betmgm.com/en/blog/mlb/angels-astros-prediction-odds-player-prop-bets-picks-mar-27-2026-jaa-mlb/), [6](https://www.fangraphs.com/roster-resource/depth-charts/astros), [7](https://www.predictem.com/mlb/angels-astros-mlb-betting-prediction-03-28-2026/), [8](https://www.fanduel.com/research/astros-vs-angels-mlb-odds-prediction-point-spread-over-under-and-betting-trends-for-3-27-2026), [9](https://www.bleachernation.com/picks/2026/03/24/houston-astros-vs-los-angeles-angels-series-march-26-29-odds-starting-pitchers-predictions/), [10](https://www.covers.com/mlb/angels-vs-astros-prediction-picks-odds-friday-3-27-2026).)
 
 **Recommended broadcasts:** TV, Los Angeles Angels ([2.59](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html)); radio, Los Angeles Angels ([2.01](https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html))
 
@@ -148,6 +170,16 @@ No detailed stats available
 
 ## New York Yankees @ San Francisco Giants, 1:35p
 
+### Summary
+
+**Cam Schlittler making his 2026 season debut — coming off a postseason performance for the ages and pitching through a lat issue that's kept his pitch count limited — is the main reason to tune into this one.** The Giants counter with Robbie Ray, whose own return from injury means both starters are pNERD zeroes due to missing statistical data, but that doesn't mean this game lacks intrigue.
+
+Schlittler closed out 2025 with eight scoreless innings and 12 strikeouts against Boston in the Wild Card round — the first pitcher in postseason history with 8+ scoreless innings, 12+ strikeouts, and no walks in a single postseason game. Now he's slotted as the de facto No. 2 starter, with Gerrit Cole and Carlos Rodón both nursing injuries. The catch: his pitch count will be around 65-70, meaning the Yankees will have a full bullpen behind him. Schlittler entered camp with recurring lat soreness dating back to last summer, and the Yankees slow-played his buildup.
+
+On the team side, the Giants' tNERD of 6.40 is the more compelling number — driven largely by strong fielding and solid broadcaster ratings — while the Yankees' 1.55 is a drag, hurt significantly by poor fielding metrics. The gNERD of 8.97 lands just below the historical median of 10.10, making this a middle-of-the-pack watchability game overall. Worth a look for Schlittler alone, but temper expectations for a complete game.
+
+(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://heavy.com/sports/mlb/new-york-yankees/yankees-cam-schlittler-to-make-season-debut-today-at-giants/), [2](https://www.si.com/mlb/yankees/onsi/news/cam-schlittler-paramount-new-york-yankees-plans), [3](https://en.wikipedia.org/wiki/Cam_Schlittler), [4](https://www.baseball-reference.com/players/s/schlica01.shtml), [5](https://empiresportsmedia.com/new-york-yankees/can-ny-yankees-cam-schlittler-carry-exciting-momentum-into-2026/), [6](https://www.espn.com/mlb/player/gamelog/_/id/5134581/cam-schlittler), [7](https://yanksgoyard.com/yankees-tea-leaves-hint-compromised-cam-schlittler-is-still-due-for-a-massive-honor), [8](https://sports.yahoo.com/articles/yankees-pitcher-cam-schlittler-draws-003443359.html), [9](https://www.espn.com/mlb/player/_/id/5134581/cam-schlittler), [10](https://www.baseball-reference.com/register/player.fcgi?id=schlit001cam).)
+
 **Recommended broadcasts:** TV, San Francisco Giants ([3.20](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html)); radio, San Francisco Giants ([3.49](https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html))
 
 ### New York Yankees
@@ -184,6 +216,16 @@ No detailed stats available
 [Go back to top of page](#)
 
 ## Arizona Diamondbacks @ Los Angeles Dodgers, 7:10p
+
+### Summary
+
+**The Dodgers' championship ring ceremony frames this one nicely, but the on-field matchup is a bit of a question mark — two pitchers with no statistical footprint in the NERD system and an Arizona team that's been a mess so far.** Still, this is a genuine NL West rivalry with the reigning champs hosting a D-backs squad looking for redemption after getting routed 8-2 on Opening Day.
+
+Both Ryne Nelson and Emmet Sheehan carry pNERD scores of 0.00, meaning we're flying blind statistically, but there's real backstory here. Sheehan looks to build on his strong finish to last season after returning from Tommy John surgery. Nelson posted 3.5 bWAR over 33 appearances for Arizona last year, logging career-highs with 154 innings and 132 strikeouts. Against the Dodgers last season, Nelson was sharp — a 2.77 FIP-adjacent line over 13 innings with 12 strikeouts and just one walk.
+
+The team NERD gap tells the real story: the Dodgers (tNERD: 6.49) bring strong barrel rates and solid offense, while Arizona (tNERD: -1.54) is dragged down by poor baserunning and weak hitting. Arizona walked five batters and hit two more in Game 1 — free baserunners are a real concern. The gNERD of 7.47 sits below the historical median of around 10, and near the lower end of today's slate. Watchable for the rivalry and the ring ceremony; don't expect a masterpiece.
+
+(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://sports.yahoo.com/articles/diamondbacks-los-angeles-dodgers-live-211147297.html), [2](https://www.cbssports.com/mlb/news/dodgers-diamondbacks-prediction-odds-time-2026-mlb-opening-day-picks-best-bets/), [3](https://www.si.com/mlb/diamondbacks/onsi/arizona-diamondbacks-news/diamondbacks-dh-scratched-lineup-dodgers-pavin-smith), [4](https://arizonasports.com/mlb/arizona-diamondbacks/crushed-by-dodgers-on-opening-day/3615798/), [5](https://www.baseball-reference.com/previews/2026/LAN202603270.shtml), [6](https://www.fubo.tv/news/mlb/arizona-diamondbacks-at-los-angeles-dodgers-where-to-watch-stream-info-tv-channel-and-live-updates-march-27-2026/), [7](https://www.truebluela.com/los-angeles-dodgers-schedule/112059/diamondbacks-march-27), [8](https://www.totalprosports.com/mlb/arizona-diamondbacks/diamondbacks-vs-dodgerds-tv-channel-streaming-probable-pitchers-lineups-mar-27-mlb-2026/), [9](https://www.dimers.com/news/arizona-diamondbacks-vs-los-angeles-dodgers-prediction-mlb-friday-03-27-2026-ac), [10](https://foxsports990.iheart.com/content/2026-03-27-how-to-watch-dodgers-vs-diamondbacks-streaming-tv-on-march-27/?pname=www.kikiradio.com&sc=dnsredirect).)
 
 **Recommended broadcasts:** TV, Los Angeles Dodgers ([2.45](https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html)); radio, Los Angeles Dodgers ([2.51](https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html))
 
@@ -222,6 +264,14 @@ No detailed stats available
 
 ## Athletics @ Toronto Blue Jays, 4:07p
 
+### Summary
+
+**This is Opening Day at Rogers Centre, and the real draw isn't the pitching matchup — it's the Blue Jays raising their 2025 AL pennant banner and kicking off their 50th anniversary season in front of what should be a charged home crowd.** The NERD scores can't capture that, and with both pitchers and both teams showing zeroed-out stats (no 2026 data yet), the gNERD of 5.00 lands at the bottom of today's games and well below the historical median of 10.10 — so the formula isn't doing this game many favors.
+
+The Blue Jays went 94-68 in 2025 to win the AL East and took the Dodgers to the 11th inning of Game 7 of the World Series before losing. They'll be raising the banner for their 2025 American League Championship, and also celebrating their 50th anniversary season. On the mound, Gausman enters the final year of his five-year, $110 million deal, giving him every motivation to cement his legacy in Toronto before hitting free agency. He owns a 3.00 ERA with 65 strikeouts across 10 career starts against the Athletics. Severino, meanwhile, posted a 9.50 ERA in four starts against AL East opponents last season — not ideal preparation for facing this lineup. Watch for the ceremony; the baseball itself is a coin flip.
+
+(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.mlb.com/news/athletics-blue-jays-2026-opening-day-starters), [2](https://www.fanduel.com/research/blue-jays-vs-athletics-mlb-odds-prediction-point-spread-over-under-and-betting-trends-for-3-27-2026), [3](https://winnersandwhiners.com/free-picks/mlb/athletics-vs-toronto-blue-jays-picks-prediction-odds-and-line-movement-for-friday-march-27-2026), [4](https://picksandparlays.net/free-picks/mlb/athletics-vs-toronto-blue-jays-picks-and-prediction-for-friday-march-27-2026), [5](https://forums.hfboards.com/threads/2026-season-opener-friday-march-27-7pm-et-4pm-pt-pre-game-5-30-et-2-30-pt-vs-athletics-severino-vs-gausman.3026181/), [6](https://www.capperspicks.com/free-picks/mlb-baseball/athletics-vs-toronto-blue-jays-betting-prediction-3-27-2026/), [7](https://www.cbssports.com/mlb/gametracker/boxscore/MLB_20260327_ATH@TOR/), [8](https://www.sportsbookreview.com/picks/mlb/athletics-vs-blue-jays-prediction-picks-odds-march-27-2026/), [9](https://www.sportskeeda.com/baseball/blue-jays-vs-athletics-preview-odds-predictions-betting-tips-starting-lineups-march-27-2026-mlb-season), [10](https://www.oddsshark.com/mlb/athletics-vs-toronto-blue-jays-odds-picks-march-27-2026).)
+
 ### Luis Severino, Athletics
 
 No detailed stats available
@@ -235,6 +285,18 @@ No detailed stats available
 
 ## Colorado Rockies @ Miami Marlins, 4:10p
 
+### Summary
+
+**This is Opening Day for both clubs, with Sandy Alcantara making his first start of 2026 as a former Cy Young winner still working his way back to form — which is the most compelling reason to tune in, since the teams themselves offer little statistical pull.** Both team NERD scores come in at zero (it's Day 1, no team data yet), and with both pitcher pNERDs also at zero, the gNERD of 5.00 sits at the very bottom of today's games and well below the historical median of around 10.
+
+The Alcantara storyline is the real draw here. His first full season back from Tommy John surgery in 2025 saw him make 31 starts and throw 174.2 innings, though the results were uneven. His final eight outings looked like vintage Sandy, with a 2.68 ERA, 0.86 WHIP, and 52:10 K:BB over 53.2 frames. Now heading into 2026, he's adding a sweeper to his arsenal, and he's been tabbed to make his franchise-record sixth Opening Day start for Miami. That's a legitimately interesting subplot for a pitcher trying to claw back to his 2022 Cy Young form.
+
+Kyle Freeland is a known quantity — a soft-tosser who's spent his career navigating Coors Field's particular brand of chaos — but without any 2026 stats to evaluate, there's not much to add analytically.
+
+If you're a Marlins fan or an Alcantara watcher, this one has genuine interest. For everyone else, it's a low-stakes opener between two rebuilding clubs.
+
+(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.foxsports.com/mlb/sandy-alcantara-player-injuries), [2](https://www.rotowire.com/baseball/player/sandy-alcantara-14071), [3](https://clutchpoints.com/mlb/miami-marlins/marlins-news-sandy-alcantara-secret-weapon-change-everything-2026), [4](https://www.nbcsports.com/fantasy/baseball/news/bounceback-starting-pitchers-for-2026-fantasy-baseball-can-you-trust-sandy-alcantara-again), [5](https://www.foxsports.com/mlb/sandy-alcantara-player), [6](https://www.si.com/mlb/marlins/onsi/news/how-world-baseball-classic-could-shape-sandy-alcantara-2026-season), [7](https://sports.yahoo.com/articles/marlins-sandy-alcantara-secret-weapon-185849530.html), [8](https://www.si.com/mlb/marlins/onsi/news/three-reasons-marlins-star-sandy-alcantara-will-be-better-2026), [9](https://www.si.com/mlb/marlins/onsi/news/marlins-sandy-alcantara-robbed-of-wbc-start-dominican-republic-falls), [10](https://www.baseball-reference.com/players/a/alcansa01.shtml).)
+
 ### Kyle Freeland, Colorado Rockies
 
 No detailed stats available
@@ -247,6 +309,16 @@ No detailed stats available
 [Go back to top of page](#)
 
 ## Kansas City Royals @ Atlanta Braves, 4:15p
+
+### Summary
+
+**This is Opening Day at Truist Park, and the pitching matchup — two lefty aces returning from injury-plagued 2025 seasons — is the main reason to tune in. The gNERD of 5.00 sits at the bottom of today's range and well below the historical median, but the Sale vs. Ragans duel gives it more intrigue than the numbers suggest.**
+
+The Braves open the season with a new manager, Walt Weiss, taking over from the retired Brian Snitker. Sale won the NL Cy Young in 2024 and, like Ragans, endured an injury-plagued 2025. Over the past two seasons, Sale has posted a 2.46 ERA across 49 starts and ranks second among starters in strikeout rate at 32.2%. Ragans missed most of 2025 with a left rotator cuff strain, though he was elite in 2024, striking out 223 batters in 186.1 innings. Staying healthy is the priority for Ragans, who has also had two Tommy John surgeries — so every inning he logs matters.
+
+The Braves come in shorthanded: Spencer Strider was placed on the 15-day IL with a left oblique strain, and shortstop Ha-Seong Kim and catcher Sean Murphy are both expected to be out until May. Still, Ronald Acuña Jr., Austin Riley, and Ozzie Albies are healthy again after missing significant time in 2025. If both starters are sharp, this has the makings of a low-scoring, pitcher-friendly opener worth watching for the craft alone.
+
+(A model from [Anthropic](https://www.anthropic.com) generated the above text using instructions, the NERD scores, and these sources: [1](https://www.wsbtv.com/entertainment/things-2-do/all-see-do-truist-park-braves-open-2026-season/DTGRJUCWTBARPPLUGB3MCNP63Q/), [2](https://www.cbssports.com/mlb/gametracker/boxscore/MLB_20260327_KC@ATL/), [3](https://www.si.com/betting/royals-vs-braves-prediction-odds-probable-pitchers-prop-bets-for-friday-march-27), [4](https://winnersandwhiners.com/free-picks/mlb/kansas-city-royals-vs-atlanta-braves-picks-prediction-odds-and-line-movement-for-friday-march-27-2026), [5](https://www.ticketmaster.com/atlanta-braves-vs-kansas-city-royals-atlanta-georgia-03-27-2026/event/0E00634DCB576DAA), [6](https://www.espn.com/mlb/preview/_/gameId/401814691), [7](https://www.pickswise.com/mlb/predictions/kansas-city-royals-vs-atlanta-braves-predictions-507850/), [8](https://www.foxsports.com/mlb/kansas-city-royals-vs-atlanta-braves-mar-27-2026-game-boxscore-94731), [9](https://www.fubo.tv/news/mlb/kansas-city-royals-at-atlanta-braves-where-to-watch-stream-info-tv-channel-and-live-updates-march-27-2026/), [10](https://www.mlb.com/news/royals-braves-2026-opening-day-faq).)
 
 ### Cole Ragans, Kansas City Royals
 
