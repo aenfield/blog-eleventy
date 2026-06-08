@@ -1,0 +1,2811 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>MLB: What to watch on June 8, 2026</title>
+		<meta name="description" content="A place for me to publish things.">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Andrew&#39;s Musings">
+		
+		
+		
+		
+		<style>/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 45em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden:not(:focus):not(:active) {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img{
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+video,
+iframe {
+	width: 100%;
+	height: auto;
+}
+iframe {
+	aspect-ratio: 16/9;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+
+#skip-link {
+	text-decoration: none;
+	background: var(--background-color);
+	color: var(--text-color);
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--color-gray-90);
+	border-radius: 2px;
+}
+
+/* Prevent visually-hidden skip link fom pushing content around when focused */
+#skip-link.visually-hidden:focus {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	/* Ensure it is positioned on top of everything else when it is shown */
+	z-index: 999;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	flex-grow: 1;
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	gap: .5em 1em;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	counter-reset: start-from var(--postlist-index);
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: lowercase;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+/* style for better look, parseability, etc. */
+
+/* Core table structure and spacing */
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-variant-numeric: tabular-nums; 
+}
+
+/* for wider tables, set up with shortcode (see eleventy.config.js for 'widetable' */
+/* this breaks the table out of the normal left/right margin */
+/* .wide-table {
+    width: 60vw;
+    position: relative;
+    left: 50%;
+    margin-left: -30vw;
+    margin-right: -30vw;
+} */
+
+/* and the next two tighten up padding, etc. */
+.wide-table table {
+    margin: 0 auto;
+    max-width: none;
+    border-collapse: collapse; 
+    font-size: 0.8em; 
+    /* line-height: 1.2; */
+}
+.wide-table th, .wide-table td {
+    padding: 0.5rem;    
+}
+
+/* Improve readability with proper alignment and spacing */
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Header styling for clear hierarchy */
+th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #dee2e6;
+}
+
+/* Improve scannability with zebra stripes */
+/* light mode zebra stripes */
+tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* and dark mode zebra stripes */
+@media (prefers-color-scheme: dark) {
+    tbody tr:nth-child(even) {
+        background-color: #2a3441; /* Slightly lighter than #15202b background */
+    }
+
+    th {
+        background-color: #1e2936; /* Darker than zebra stripes */
+        color: #dad8d8; /* Use the same text color as body */
+    }
+}
+
+/* Hover effect for better UX */
+/* tbody tr:hover {
+  background-color: #e9ecef;
+} */
+
+/* Number alignment for better readability - doesn't work because curr use of tablesort.number.min.js doesn't add styles */
+/* td[data-sort-method="number"],
+th[data-sort-method="number"] {
+  text-align: right;
+} */
+
+/* Responsive behavior - text looks fine on phones, but, unmodified, tables are a pain since they're wide */
+@media (max-width: 768px) {
+  th, td {
+    padding: 0.5rem 0.75rem;
+    /* font-size: 0.9rem; */
+  }
+  
+  /* Enhanced horizontal scrolling for wide tables */
+  .wide-table {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    /* border: 1px solid #ddd; */
+    /* border-radius: 4px; */
+    margin: 1rem 0;
+  }
+  
+  .wide-table::after {
+    content: "← Scroll to see more →";
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 0.5em;
+    font-style: italic;
+  }
+}
+
+/* add triangle pointers in headers, code from https://tristen.ca/tablesort/tablesort.css */ 
+th[role=columnheader]:not(.no-sort) {
+	cursor: pointer;
+}
+
+th[role=columnheader]:not(.no-sort):after {
+	content: '';
+	float: right;
+	margin-top: 7px;
+	border-width: 0 4px 4px;
+	border-style: solid;
+	border-color: #404040 transparent;
+	visibility: hidden;
+	opacity: 0;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+th[aria-sort=ascending]:not(.no-sort):after {
+	border-bottom: none;
+	border-width: 4px 4px 0;
+}
+
+th[aria-sort]:not(.no-sort):after {
+	visibility: visible;
+	opacity: 0.4;
+}
+
+th[role=columnheader]:not(.no-sort):focus:after,
+th[role=columnheader]:not(.no-sort):hover:after {
+	visibility: visible;
+	opacity: 1;
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}</style>
+		
+	</head>
+	<body>
+		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Andrew&#39;s Musings</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/latest-mlbw/">MLB &quot;What to watch&quot;</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="main">
+			<heading-anchors>
+				
+
+
+<h1 id="mlb-what-to-watch-on-june-8-2026">MLB: What to watch on June 8, 2026</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2026-06-08">08 June 2026</time></li>
+	<li><a href="/tags/mlbw/" class="post-tag">mlbw</a></li>
+</ul>
+
+<p>Here are today's MLB games, ordered by watchability, based on how interesting the teams and starting pitchers look. Higher is better. For more information, <a href="https://andrewenfield.com/blog/2025/08/07/how-to-choose-which-baseball-game-to-watch">read this post</a>.</p>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th>Score</th>
+<th>Time (PT)</th>
+<th>Visitors</th>
+<th>Score</th>
+<th>Home</th>
+<th>Score</th>
+<th>Starter (V)</th>
+<th>Score</th>
+<th>Starter (H)</th>
+<th>Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#new-york-yankees-cleveland-guardians-3-40p">16.3</a></td>
+<td data-sort="'1540'">3:40p</td>
+<td><a href="https://www.fangraphs.com/teams/yankees/stats">New York Yankees</a></td>
+<td><a href="#new-york-yankees">9.2</a></td>
+<td><a href="https://www.fangraphs.com/teams/guardians/stats">Cleveland Guardians</a></td>
+<td><a href="#cleveland-guardians">7.6</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Warren">Will Warren</a></td>
+<td><a href="#will-warren-new-york-yankees">5.4</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Williams">Gavin Williams</a></td>
+<td><a href="#gavin-williams-cleveland-guardians">10.3</a></td>
+</tr>
+<tr>
+<td><a href="#milwaukee-brewers-athletics-7-05p">13.7</a></td>
+<td data-sort="'1905'">7:05p</td>
+<td><a href="https://www.fangraphs.com/teams/brewers/stats">Milwaukee Brewers</a></td>
+<td><a href="#milwaukee-brewers">7.0</a></td>
+<td><a href="https://www.fangraphs.com/teams/athletics/stats">Athletics</a></td>
+<td><a href="#athletics">5.9</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Harrison">Kyle Harrison</a></td>
+<td><a href="#kyle-harrison-milwaukee-brewers">11.2</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Springs">Jeffrey Springs</a></td>
+<td><a href="#jeffrey-springs-athletics">3.2</a></td>
+</tr>
+<tr>
+<td><a href="#seattle-mariners-baltimore-orioles-3-35p">11.6</a></td>
+<td data-sort="'1535'">3:35p</td>
+<td><a href="https://www.fangraphs.com/teams/mariners/stats">Seattle Mariners</a></td>
+<td><a href="#seattle-mariners">6.1</a></td>
+<td><a href="https://www.fangraphs.com/teams/orioles/stats">Baltimore Orioles</a></td>
+<td><a href="#baltimore-orioles">5.1</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Hancock">Emerson Hancock</a></td>
+<td><a href="#emerson-hancock-seattle-mariners">7.0</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Gibson">Trey Gibson</a></td>
+<td>No data</td>
+</tr>
+<tr>
+<td><a href="#philadelphia-phillies-toronto-blue-jays-4-07p">11.3</a></td>
+<td data-sort="'1607'">4:07p</td>
+<td><a href="https://www.fangraphs.com/teams/phillies/stats">Philadelphia Phillies</a></td>
+<td><a href="#philadelphia-phillies">6.3</a></td>
+<td><a href="https://www.fangraphs.com/teams/blue-jays/stats">Toronto Blue Jays</a></td>
+<td><a href="#toronto-blue-jays">3.2</a></td>
+<td><a href="https://www.fangraphs.com/search?q=S%C3%A1nchez">Cristopher Sánchez</a></td>
+<td><a href="#cristopher-sanchez-philadelphia-phillies">10.7</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Corbin">Patrick Corbin</a></td>
+<td><a href="#patrick-corbin-toronto-blue-jays">2.4</a></td>
+</tr>
+<tr>
+<td><a href="#boston-red-sox-tampa-bay-rays-3-40p">9.8</a></td>
+<td data-sort="'1540'">3:40p</td>
+<td><a href="https://www.fangraphs.com/teams/red-sox/stats">Boston Red Sox</a></td>
+<td><a href="#boston-red-sox">6.6</a></td>
+<td><a href="https://www.fangraphs.com/teams/rays/stats">Tampa Bay Rays</a></td>
+<td><a href="#tampa-bay-rays">2.0</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Early">Connelly Early</a></td>
+<td><a href="#connelly-early-boston-red-sox">4.9</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Seymour">Ian Seymour</a></td>
+<td><a href="#ian-seymour-tampa-bay-rays">6.0</a></td>
+</tr>
+<tr>
+<td><a href="#cincinnati-reds-san-diego-padres-6-40p">9.5</a></td>
+<td data-sort="'1840'">6:40p</td>
+<td><a href="https://www.fangraphs.com/teams/reds/stats">Cincinnati Reds</a></td>
+<td><a href="#cincinnati-reds">5.2</a></td>
+<td><a href="https://www.fangraphs.com/teams/padres/stats">San Diego Padres</a></td>
+<td><a href="#san-diego-padres">7.7</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Abbott">Andrew Abbott</a></td>
+<td><a href="#andrew-abbott-cincinnati-reds">1.3</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Buehler">Walker Buehler</a></td>
+<td><a href="#walker-buehler-san-diego-padres">4.8</a></td>
+</tr>
+<tr>
+<td><a href="#washington-nationals-san-francisco-giants-6-45p">9.3</a></td>
+<td data-sort="'1845'">6:45p</td>
+<td><a href="https://www.fangraphs.com/teams/nationals/stats">Washington Nationals</a></td>
+<td><a href="#washington-nationals">7.1</a></td>
+<td><a href="https://www.fangraphs.com/teams/giants/stats">San Francisco Giants</a></td>
+<td><a href="#san-francisco-giants">2.2</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Mikolas">Miles Mikolas</a></td>
+<td><a href="#miles-mikolas-washington-nationals">2.7</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Webb">Logan Webb</a></td>
+<td><a href="#logan-webb-san-francisco-giants">6.7</a></td>
+</tr>
+<tr>
+<td><a href="#houston-astros-los-angeles-angels-6-38p">4.9</a></td>
+<td data-sort="'1838'">6:38p</td>
+<td><a href="https://www.fangraphs.com/teams/astros/stats">Houston Astros</a></td>
+<td><a href="#houston-astros">3.9</a></td>
+<td><a href="https://www.fangraphs.com/teams/angels/stats">Los Angeles Angels</a></td>
+<td><a href="#los-angeles-angels">0.4</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Arrighetti">Spencer Arrighetti</a></td>
+<td><a href="#spencer-arrighetti-houston-astros">0.5</a></td>
+<td><a href="https://www.fangraphs.com/search?q=Rodriguez">Grayson Rodriguez</a></td>
+<td>No data</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Notes:</p>
+<ul>
+<li><strong>Pitcher 'no data'</strong>: Pitchers only have a pNERD score once they've started at least one game and have at least 20 innings pitched. I also show 'no data' when I can't correctly link a starting pitcher with their stats.</li>
+<li>Generated by the <a href="https://github.com/aenfield/mlb-watchability">mlb-watchability</a> project on GitHub.</li>
+</ul>
+<h1 id="detail">Detail</h1>
+<h2 id="new-york-yankees-cleveland-guardians-3-40p">New York Yankees @ Cleveland Guardians, 3:40p</h2>
+<h3 id="summary">Summary</h3>
+<p><strong>High-stakes matchup on paper: a sky-high gNERD (16.27) driven by Gavin Williams’ true-stuff spike against a Yankees lineup that still fumes with elite batted‑ball power even while banged up.</strong> <strong>If you only watch one game for pitching-versus-endgame drama, this one promises the clearest clash.</strong></p>
+<p>Gavin Williams is the engine here — his pNERD (10.33) reflects a low xFIP-, high strike% and legit 96+ mph fastball that makes him the sort of starter who shortens games and forces creative bullpen use.  Will Warren (pNERD 5.38) is competent and competitive, but he’s the steadier, lower-variance foil rather than the fireworks source. New York’s towering tNERD (9.20) comes from a ridiculous barrel rate and overall run creation, so even missing Aaron Judge and other pieces hasn’t muzzled their swing profile — the injuries matter, but the offense still bites.  Cleveland’s profile (tNERD 7.64) adds bullpen depth and cheap roster hunger, which ups the late-inning intrigue. Previews and betting lines expect a pitchers’ chess match that could break into a tense, high-leverage finish — exactly the kind of game a 16.27 gNERD predicts.</p>
+<p>(A model from <a href="https://www.openai.com">OpenAI</a> generated the above text using instructions, the NERD scores, and these sources: <a href="https://www.baseball-reference.com/previews/2026/CLE202606080.shtml?utm_source=openai">1</a>, <a href="https://www.washingtonpost.com/sports/mlb/2026/06/05/judge-yankees-spencer-jones-injury/865952f4-6116-11f1-9c46-d6211372eede_story.html?utm_source=openai">2</a>, <a href="https://runsleft.com/games/2026-06-08/yankees-at-guardians?utm_source=openai">3</a>.)</p>
+<p><strong>Recommended broadcasts:</strong> TV, Cleveland Guardians (<a href="https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html">2.16</a>); radio, Cleveland Guardians (<a href="https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html">3.14</a>)</p>
+<h3 id="new-york-yankees">New York Yankees</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>39.9</td>
+<td>10.6%</td>
+<td>2.7</td>
+<td>4.0</td>
+<td>19.0</td>
+<td>$337.1M</td>
+<td>29.9</td>
+<td>-3.0</td>
+<td>2.08</td>
+<td>2.22</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>1.66</td>
+<td>1.96</td>
+<td>0.80</td>
+<td>0.31</td>
+<td>0.47</td>
+<td>1.54</td>
+<td>0.85</td>
+<td>-0.19</td>
+<td>-0.61</td>
+<td>-0.36</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>1.66</td>
+<td>1.96</td>
+<td>0.80</td>
+<td>0.31</td>
+<td>0.47</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>4.00</td>
+<td>9.20</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="cleveland-guardians">Cleveland Guardians</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>-12.6</td>
+<td>6.2%</td>
+<td>1.8</td>
+<td>3.0</td>
+<td>27.0</td>
+<td>$88.9M</td>
+<td>27.6</td>
+<td>7.0</td>
+<td>2.16</td>
+<td>3.14</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-0.49</td>
+<td>-1.51</td>
+<td>0.50</td>
+<td>0.22</td>
+<td>1.03</td>
+<td>-1.30</td>
+<td>-1.35</td>
+<td>0.45</td>
+<td>-0.44</td>
+<td>1.60</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>-0.49</td>
+<td>-1.51</td>
+<td>0.50</td>
+<td>0.22</td>
+<td>1.03</td>
+<td>1.30</td>
+<td>1.35</td>
+<td>0.45</td>
+<td>0.00</td>
+<td>0.80</td>
+<td>4.00</td>
+<td>7.64</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="will-warren-new-york-yankees">Will Warren, New York Yankees</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>xFIP-</th>
+<th>SwStr%</th>
+<th>Strike%</th>
+<th>Velocity</th>
+<th>Age</th>
+<th>Pace</th>
+<th>Luck</th>
+<th>KN%</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>85</td>
+<td>9.9%</td>
+<td>63.0%</td>
+<td>93.7 mph</td>
+<td>27</td>
+<td>19.4s</td>
+<td>-7</td>
+<td>0.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-0.80</td>
+<td>-0.32</td>
+<td>-0.32</td>
+<td>-0.22</td>
+<td>-0.49</td>
+<td>0.39</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>pNERD</strong></td>
+<td>1.60</td>
+<td>-0.16</td>
+<td>-0.16</td>
+<td>0.00</td>
+<td>0.49</td>
+<td>-0.20</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>3.80</td>
+<td>5.38</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="gavin-williams-cleveland-guardians">Gavin Williams, Cleveland Guardians</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>xFIP-</th>
+<th>SwStr%</th>
+<th>Strike%</th>
+<th>Velocity</th>
+<th>Age</th>
+<th>Pace</th>
+<th>Luck</th>
+<th>KN%</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>74</td>
+<td>13.9%</td>
+<td>67.6%</td>
+<td>96.4 mph</td>
+<td>26</td>
+<td>18.7s</td>
+<td>4</td>
+<td>0.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-1.45</td>
+<td>1.47</td>
+<td>1.57</td>
+<td>1.06</td>
+<td>-0.76</td>
+<td>-0.18</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>pNERD</strong></td>
+<td>2.90</td>
+<td>0.74</td>
+<td>0.78</td>
+<td>1.06</td>
+<td>0.76</td>
+<td>0.09</td>
+<td>0.20</td>
+<td>0.00</td>
+<td>3.80</td>
+<td>10.33</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><a href="#">Go back to top of page</a></p>
+<h2 id="milwaukee-brewers-athletics-7-05p">Milwaukee Brewers @ Athletics, 7:05p</h2>
+<h3 id="summary-2">Summary</h3>
+<p><strong>If you like pitching duels with a flamethrower on one side and a bats-against-pleasantly-porous-lefty story on the other, this is your game; if you prefer back-and-forth slugfests, lower your expectations.</strong> The gNERD of 13.67 sits well above typical games (it's north of the historical 75th percentile), driven largely by Kyle Harrison's outlier pNERD and a Brewers lineup/bullpen profile that leans toward tidy, strikeout-heavy innings rather than chaos.</p>
+<p>Harrison is the real draw: his season has been elite (7-1, a sub-2.00 ERA and big strikeout totals), and his peripherals (excellent xFIP and above-average velocity and swing-and-miss) explain that 11.20 pNERD — he’s the kind of starter who shortens games by emptying counts.</p>
+<p>Jeffrey Springs offers a contrast: a below-average pNERD and middling peripherals (roughly a mid-4.00s ERA profile), so the A’s are more watchable for matchup quirks and potential bouncebacks than for shutdown stuff. The A’s recent skid and their positive “luck” suggest they may be underperforming and could spring to life, which adds modest intrigue.</p>
+<p>Bottom line: high watchability if you enjoy seeing a young ace test his limits and if you want to root for an underdog staff to defy the numbers; lower if you need non-stop offense.</p>
+<p>(A model from <a href="https://www.openai.com">OpenAI</a> generated the above text using instructions, the NERD scores, and these sources: <a href="https://www.si.com/betting/brewers-vs-a-s-prediction-odds-probable-pitchers-prop-bets-for-monday-june-8?utm_source=openai">1</a>, <a href="https://www.foxsports.com/articles/mlb/athletics-bring-3game-losing-streak-into-matchup-against-the-brewers?utm_source=openai">2</a>.)</p>
+<p><strong>Recommended broadcasts:</strong> TV, Milwaukee Brewers (<a href="https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html">2.66</a>); radio, Milwaukee Brewers (<a href="https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html">2.56</a>)</p>
+<h3 id="milwaukee-brewers">Milwaukee Brewers</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>14.5</td>
+<td>6.9%</td>
+<td>1.2</td>
+<td>-6.5</td>
+<td>31.4</td>
+<td>$139.3M</td>
+<td>27.7</td>
+<td>-31.0</td>
+<td>2.66</td>
+<td>2.56</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>0.62</td>
+<td>-0.96</td>
+<td>0.30</td>
+<td>-0.65</td>
+<td>1.33</td>
+<td>-0.73</td>
+<td>-1.21</td>
+<td>-1.99</td>
+<td>0.53</td>
+<td>0.37</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>0.62</td>
+<td>-0.96</td>
+<td>0.30</td>
+<td>-0.65</td>
+<td>1.33</td>
+<td>0.73</td>
+<td>1.21</td>
+<td>0.00</td>
+<td>0.27</td>
+<td>0.18</td>
+<td>4.00</td>
+<td>7.02</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="athletics">Athletics</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>-3.9</td>
+<td>8.6%</td>
+<td>-2.3</td>
+<td>-8.8</td>
+<td>16.6</td>
+<td>$135.2M</td>
+<td>28.2</td>
+<td>25.0</td>
+<td>1.27</td>
+<td>1.94</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-0.13</td>
+<td>0.38</td>
+<td>-0.87</td>
+<td>-0.86</td>
+<td>0.31</td>
+<td>-0.77</td>
+<td>-0.71</td>
+<td>1.61</td>
+<td>-2.19</td>
+<td>-0.95</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>-0.13</td>
+<td>0.38</td>
+<td>-0.87</td>
+<td>-0.86</td>
+<td>0.31</td>
+<td>0.77</td>
+<td>0.71</td>
+<td>1.61</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>4.00</td>
+<td>5.92</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="kyle-harrison-milwaukee-brewers">Kyle Harrison, Milwaukee Brewers</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>xFIP-</th>
+<th>SwStr%</th>
+<th>Strike%</th>
+<th>Velocity</th>
+<th>Age</th>
+<th>Pace</th>
+<th>Luck</th>
+<th>KN%</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>69</td>
+<td>14.0%</td>
+<td>66.9%</td>
+<td>95.0 mph</td>
+<td>24</td>
+<td>16.9s</td>
+<td>-30</td>
+<td>0.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-1.74</td>
+<td>1.52</td>
+<td>1.29</td>
+<td>0.40</td>
+<td>-1.29</td>
+<td>-1.66</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>pNERD</strong></td>
+<td>3.49</td>
+<td>0.76</td>
+<td>0.65</td>
+<td>0.40</td>
+<td>1.29</td>
+<td>0.83</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>3.80</td>
+<td>11.20</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="jeffrey-springs-athletics">Jeffrey Springs, Athletics</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>xFIP-</th>
+<th>SwStr%</th>
+<th>Strike%</th>
+<th>Velocity</th>
+<th>Age</th>
+<th>Pace</th>
+<th>Luck</th>
+<th>KN%</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>103</td>
+<td>9.8%</td>
+<td>65.1%</td>
+<td>91.4 mph</td>
+<td>33</td>
+<td>19.4s</td>
+<td>-1</td>
+<td>0.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>0.26</td>
+<td>-0.36</td>
+<td>0.57</td>
+<td>-1.32</td>
+<td>1.11</td>
+<td>0.39</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>pNERD</strong></td>
+<td>-0.51</td>
+<td>-0.18</td>
+<td>0.29</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>-0.20</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>3.80</td>
+<td>3.20</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><a href="#">Go back to top of page</a></p>
+<h2 id="seattle-mariners-baltimore-orioles-3-35p">Seattle Mariners @ Baltimore Orioles, 3:35p</h2>
+<h3 id="summary-3">Summary</h3>
+<p><strong>Don’t expect a pitching duel — expect a story-driven game where Seattle’s quietly effective Hancock (pNERD 6.97) meets a must-see Orioles roster move: Trey Gibson, a very fresh big-leaguer, gets the ball after Chris Bassitt hit the injured list.</strong> Gibson’s call-up and start is the real headline; Baltimore placed Bassitt on the IL with back discomfort and explicitly turned to Gibson, who was recalled from Triple‑A.</p>
+<p>This matchup’s gNERD (11.55) is modestly above both the historic mean (10.11) and today’s game average, driven by Hancock’s strong pNERD and Seattle’s lively lineup and luck profile — the Mariners’ team luck is unusually positive, suggesting their underlying performance could produce better results soon. Hancock has shown swing-and-miss upside (including a blowup 14‑K outing this spring) and healthier peripherals on FanGraphs, which explains his above‑average pNERD and makes him the watchable arm in this one.</p>
+<p>Gibson’s MLB résumé is thin — a recent debut with a respectable 4 2/3‑inning turn — so his pNERD reads 0 here because there isn’t stable data, but his novelty and the Orioles’ bullpen depth raise the game’s entertainment value.</p>
+<p>(A model from <a href="https://www.openai.com">OpenAI</a> generated the above text using instructions, the NERD scores, and these sources: <a href="https://www.baltimorebaseball.com/sports/orioles-mlb/2026/06/08/bassitt-injured-list-low-back-discomfort-trey-gibson-starts-monday-orioles-richdubroff/?utm_source=openai">1</a>, <a href="https://www.mlbdatawarehouse.com/p/mlb-daily-notes-may-3-742?utm_source=openai">2</a>, <a href="https://www.washingtonpost.com/sports/mlb/2026/05/03/orioles-trey-gibson-debut-yankees/650bbbdc-473f-11f1-a119-857cd2bf4fd4_story.html?utm_source=openai">3</a>.)</p>
+<p><strong>Recommended broadcasts:</strong> TV, Baltimore Orioles (<a href="https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html">2.82</a>); radio, Seattle Mariners (<a href="https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html">2.52</a>)</p>
+<h3 id="seattle-mariners">Seattle Mariners</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>25.2</td>
+<td>8.7%</td>
+<td>-2.2</td>
+<td>-12.3</td>
+<td>18.2</td>
+<td>$196.7M</td>
+<td>28.4</td>
+<td>22.0</td>
+<td>2.35</td>
+<td>2.52</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>1.06</td>
+<td>0.46</td>
+<td>-0.83</td>
+<td>-1.18</td>
+<td>0.42</td>
+<td>-0.07</td>
+<td>-0.52</td>
+<td>1.42</td>
+<td>-0.07</td>
+<td>0.28</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>1.06</td>
+<td>0.46</td>
+<td>-0.83</td>
+<td>-1.18</td>
+<td>0.42</td>
+<td>0.07</td>
+<td>0.52</td>
+<td>1.42</td>
+<td>0.00</td>
+<td>0.14</td>
+<td>4.00</td>
+<td>6.07</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="baltimore-orioles">Baltimore Orioles</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>12.1</td>
+<td>8.2%</td>
+<td>1.8</td>
+<td>-11.6</td>
+<td>21.7</td>
+<td>$214.8M</td>
+<td>29.0</td>
+<td>-7.0</td>
+<td>2.82</td>
+<td>2.10</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>0.52</td>
+<td>0.06</td>
+<td>0.50</td>
+<td>-1.12</td>
+<td>0.66</td>
+<td>0.14</td>
+<td>-0.02</td>
+<td>-0.45</td>
+<td>0.85</td>
+<td>-0.61</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>0.52</td>
+<td>0.06</td>
+<td>0.50</td>
+<td>-1.12</td>
+<td>0.66</td>
+<td>0.00</td>
+<td>0.02</td>
+<td>0.00</td>
+<td>0.42</td>
+<td>0.00</td>
+<td>4.00</td>
+<td>5.06</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="emerson-hancock-seattle-mariners">Emerson Hancock, Seattle Mariners</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>xFIP-</th>
+<th>SwStr%</th>
+<th>Strike%</th>
+<th>Velocity</th>
+<th>Age</th>
+<th>Pace</th>
+<th>Luck</th>
+<th>KN%</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>82</td>
+<td>10.8%</td>
+<td>64.7%</td>
+<td>95.0 mph</td>
+<td>27</td>
+<td>18.7s</td>
+<td>-10</td>
+<td>0.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-0.98</td>
+<td>0.08</td>
+<td>0.39</td>
+<td>0.40</td>
+<td>-0.49</td>
+<td>-0.18</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>pNERD</strong></td>
+<td>1.96</td>
+<td>0.04</td>
+<td>0.19</td>
+<td>0.40</td>
+<td>0.49</td>
+<td>0.09</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>3.80</td>
+<td>6.97</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="trey-gibson-baltimore-orioles">Trey Gibson, Baltimore Orioles</h3>
+<p>No detailed stats available</p>
+<p><a href="#">Go back to top of page</a></p>
+<h2 id="philadelphia-phillies-toronto-blue-jays-4-07p">Philadelphia Phillies @ Toronto Blue Jays, 4:07p</h2>
+<h3 id="summary-4">Summary</h3>
+<p><strong>Worth tuning in: Cristopher Sánchez’s season-long domination (7–2, 1.46 ERA and an eye-catching scoreless-innings streak) turns this otherwise modest matchup into must-see starter theater, and his sky-high pNERD (10.66) is the main attraction.</strong> Patrick Corbin’s low pNERD (2.44), falling swing‑and‑miss and reduced velocity make him a live target, so you’ve got a clear contrast between an elite runs‑suppression profile and a veteran who’s more hittable than he once was.</p>
+<p>The game gNERD of 11.33 sits a touch above today’s average, driven almost entirely by Sánchez; Philly’s higher tNERD (6.32) reflects useful baserunning and a shaky-but-valuable bullpen, while Toronto’s lower tNERD (3.25) stems from underperforming offense despite above-average defense—so expect uneven but narratively satisfying action. Sánchez’s microscopic xFIP- and strikeout rates suggest a true-talent gap that could produce a low-scoring spotlight for the Phils’ southpaw, and Corbin’s profile points to pitch-to-contact innings that could open the door to offense if Toronto gets the right matchups.</p>
+<p>(A model from <a href="https://www.openai.com">OpenAI</a> generated the above text using instructions, the NERD scores, and these sources: <a href="https://www.mlb.com/phillies/scores/2026-06-08?utm_source=openai">1</a>, <a href="https://baseballsavant.mlb.com/gamefeed?gamePk=822806&amp;utm_source=openai">2</a>.)</p>
+<p><strong>Recommended broadcasts:</strong> TV, Toronto Blue Jays (<a href="https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html">3.10</a>); radio, Philadelphia Phillies (<a href="https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html">2.69</a>)</p>
+<h3 id="philadelphia-phillies">Philadelphia Phillies</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>-26.1</td>
+<td>7.9%</td>
+<td>4.9</td>
+<td>0.1</td>
+<td>29.8</td>
+<td>$309.8M</td>
+<td>30.5</td>
+<td>-2.0</td>
+<td>2.92</td>
+<td>2.69</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-1.04</td>
+<td>-0.17</td>
+<td>1.53</td>
+<td>-0.05</td>
+<td>1.22</td>
+<td>1.22</td>
+<td>1.36</td>
+<td>-0.12</td>
+<td>1.03</td>
+<td>0.64</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>-1.04</td>
+<td>-0.17</td>
+<td>1.53</td>
+<td>-0.05</td>
+<td>1.22</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.52</td>
+<td>0.32</td>
+<td>4.00</td>
+<td>6.32</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="toronto-blue-jays">Toronto Blue Jays</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>-11.2</td>
+<td>6.7%</td>
+<td>-4.2</td>
+<td>7.0</td>
+<td>22.1</td>
+<td>$306.1M</td>
+<td>30.1</td>
+<td>5.0</td>
+<td>3.10</td>
+<td>2.39</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-0.43</td>
+<td>-1.12</td>
+<td>-1.50</td>
+<td>0.58</td>
+<td>0.69</td>
+<td>1.18</td>
+<td>0.99</td>
+<td>0.33</td>
+<td>1.40</td>
+<td>0.01</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>-0.43</td>
+<td>-1.12</td>
+<td>-1.50</td>
+<td>0.58</td>
+<td>0.69</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.33</td>
+<td>0.70</td>
+<td>0.00</td>
+<td>4.00</td>
+<td>3.25</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="cristopher-sanchez-philadelphia-phillies">Cristopher Sánchez, Philadelphia Phillies</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>xFIP-</th>
+<th>SwStr%</th>
+<th>Strike%</th>
+<th>Velocity</th>
+<th>Age</th>
+<th>Pace</th>
+<th>Luck</th>
+<th>KN%</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>56</td>
+<td>15.3%</td>
+<td>67.8%</td>
+<td>95.1 mph</td>
+<td>29</td>
+<td>20.1s</td>
+<td>-21</td>
+<td>0.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-2.51</td>
+<td>2.10</td>
+<td>1.67</td>
+<td>0.44</td>
+<td>0.04</td>
+<td>0.96</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>pNERD</strong></td>
+<td>5.02</td>
+<td>1.05</td>
+<td>0.83</td>
+<td>0.44</td>
+<td>0.00</td>
+<td>-0.48</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>3.80</td>
+<td>10.66</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="patrick-corbin-toronto-blue-jays">Patrick Corbin, Toronto Blue Jays</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>xFIP-</th>
+<th>SwStr%</th>
+<th>Strike%</th>
+<th>Velocity</th>
+<th>Age</th>
+<th>Pace</th>
+<th>Luck</th>
+<th>KN%</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>107</td>
+<td>8.3%</td>
+<td>62.4%</td>
+<td>91.3 mph</td>
+<td>36</td>
+<td>17.9s</td>
+<td>-11</td>
+<td>0.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>0.49</td>
+<td>-1.03</td>
+<td>-0.55</td>
+<td>-1.37</td>
+<td>1.91</td>
+<td>-0.84</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>pNERD</strong></td>
+<td>-0.99</td>
+<td>-0.52</td>
+<td>-0.28</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.42</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>3.80</td>
+<td>2.44</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><a href="#">Go back to top of page</a></p>
+<h2 id="boston-red-sox-tampa-bay-rays-3-40p">Boston Red Sox @ Tampa Bay Rays, 3:40p</h2>
+<h3 id="summary-5">Summary</h3>
+<p><strong>Not a must-see slugfest — the gNERD (9.75) sits a hair below typical games — but there’s a low-key chess match here: a steady young lefty in Connelly Early against a versatile Ian Seymour who profiles as a high-contact, high-strike-rate swing on the Rays’ mix-and-match plans.</strong> Connelly Early has eaten innings this year (listed 5‑3, 3.26) and brings the sort of dependable floor that fits Boston’s above-average fielding and bullpen support; the Sox’ tNERD is propped up by defense and a notable positive “luck” number that implies they’ve been a bit unlucky and could tidy up offensively.  Seymour’s pNERD ticks from strong strike% and whiff indicators make him the more interesting arm to watch — the Rays sometimes use him as a bulk option/opener piece, so his outing could tilt into a bullpen chess match rather than a traditional starter duel.  Tampa’s team profile (very low tNERD) and weak barrel rate suggest limited power upside; if you prize pitching nuance and managerial tug-of-war with matchups, this game rewards attention, otherwise it’s fine background baseball.</p>
+<p>(A model from <a href="https://www.openai.com">OpenAI</a> generated the above text using instructions, the NERD scores, and these sources: <a href="https://www.mlb.com/redsox/player/connelly-early-813349?utm_source=openai">1</a>, <a href="https://baseballsavant.mlb.com/savant-player/ian-seymour-693855?player_id=693855&amp;utm_source=openai">2</a>, <a href="https://insidethediamonds.com/series-preview-boston-red-sox-at-tampa-bay-rays-with-probable-pitchers-06-08-10/?utm_source=openai">3</a>.)</p>
+<p><strong>Recommended broadcasts:</strong> TV, Boston Red Sox (<a href="https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html">2.47</a>); radio, Boston Red Sox (<a href="https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html">2.64</a>)</p>
+<h3 id="boston-red-sox">Boston Red Sox</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>-24.4</td>
+<td>7.2%</td>
+<td>2.5</td>
+<td>19.0</td>
+<td>18.9</td>
+<td>$263.6M</td>
+<td>29.2</td>
+<td>17.0</td>
+<td>2.47</td>
+<td>2.64</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-0.97</td>
+<td>-0.73</td>
+<td>0.73</td>
+<td>1.68</td>
+<td>0.47</td>
+<td>0.70</td>
+<td>0.17</td>
+<td>1.10</td>
+<td>0.16</td>
+<td>0.54</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>-0.97</td>
+<td>-0.73</td>
+<td>0.73</td>
+<td>1.68</td>
+<td>0.47</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>1.10</td>
+<td>0.08</td>
+<td>0.27</td>
+<td>4.00</td>
+<td>6.62</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="tampa-bay-rays">Tampa Bay Rays</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>3.6</td>
+<td>5.2%</td>
+<td>1.7</td>
+<td>-8.2</td>
+<td>0.3</td>
+<td>$106.9M</td>
+<td>29.1</td>
+<td>3.0</td>
+<td>2.27</td>
+<td>2.10</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>0.17</td>
+<td>-2.30</td>
+<td>0.46</td>
+<td>-0.81</td>
+<td>-0.82</td>
+<td>-1.10</td>
+<td>0.07</td>
+<td>0.20</td>
+<td>-0.23</td>
+<td>-0.61</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>0.17</td>
+<td>-2.30</td>
+<td>0.46</td>
+<td>-0.81</td>
+<td>-0.82</td>
+<td>1.10</td>
+<td>0.00</td>
+<td>0.20</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>4.00</td>
+<td>2.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="connelly-early-boston-red-sox">Connelly Early, Boston Red Sox</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>xFIP-</th>
+<th>SwStr%</th>
+<th>Strike%</th>
+<th>Velocity</th>
+<th>Age</th>
+<th>Pace</th>
+<th>Luck</th>
+<th>KN%</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>99</td>
+<td>9.4%</td>
+<td>64.9%</td>
+<td>93.3 mph</td>
+<td>24</td>
+<td>19.3s</td>
+<td>-24</td>
+<td>0.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>0.02</td>
+<td>-0.54</td>
+<td>0.49</td>
+<td>-0.41</td>
+<td>-1.29</td>
+<td>0.31</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>pNERD</strong></td>
+<td>-0.04</td>
+<td>-0.27</td>
+<td>0.24</td>
+<td>0.00</td>
+<td>1.29</td>
+<td>-0.15</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>3.80</td>
+<td>4.87</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="ian-seymour-tampa-bay-rays">Ian Seymour, Tampa Bay Rays</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>xFIP-</th>
+<th>SwStr%</th>
+<th>Strike%</th>
+<th>Velocity</th>
+<th>Age</th>
+<th>Pace</th>
+<th>Luck</th>
+<th>KN%</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>106</td>
+<td>13.5%</td>
+<td>66.8%</td>
+<td>91.1 mph</td>
+<td>27</td>
+<td>17.9s</td>
+<td>18</td>
+<td>0.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>0.43</td>
+<td>1.29</td>
+<td>1.25</td>
+<td>-1.46</td>
+<td>-0.49</td>
+<td>-0.84</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>pNERD</strong></td>
+<td>-0.87</td>
+<td>0.65</td>
+<td>0.62</td>
+<td>0.00</td>
+<td>0.49</td>
+<td>0.42</td>
+<td>0.90</td>
+<td>0.00</td>
+<td>3.80</td>
+<td>6.01</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><a href="#">Go back to top of page</a></p>
+<h2 id="cincinnati-reds-san-diego-padres-6-40p">Cincinnati Reds @ San Diego Padres, 6:40p</h2>
+<h3 id="summary-6">Summary</h3>
+<p><strong>Watch this if you like tidy, pitcher-led chess matches rather than offensive fireworks; the game’s gNERD (9.45) is a touch below today’s slate and the historical mean, but the matchup still offers a clear storyline: a sturdy Padres team defense and bullpen against a Reds club with a shaky relief corps.</strong> Walker Buehler’s pNERD is the more interesting of the two—his peripherals (xFIP-ish profile and solid pace) plus a big positive “luck” component hint that he’s pitched a bit worse than his underlying stuff suggests and could be due for better results, and he’s back healthy after a pain-free spring and a minor-league activation.  Andrew Abbott’s profile is the opposite: low pNERD driven by poor xFIP- and weak whiff/strike rates, so expect contact and longer innings rather than strikeout domination; he did throw a quality start recently but the peripherals aren’t inspiring.  The Padres’ lineup is banged up (notably Ramon Laureano out), but San Diego’s fielding and bullpen are the tNERD reasons this tilt remains watchable while Cincinnati’s shaky relief unit argues for high-leverage late-game volatility.</p>
+<p>(A model from <a href="https://www.openai.com">OpenAI</a> generated the above text using instructions, the NERD scores, and these sources: <a href="https://www.si.com/mlb/padres/onsi/san-diego-padres-news/padres-have-made-decision-on-walker-buehler-ty-france-ahead-of-opening-day/?utm_source=openai">1</a>, <a href="https://www.mlb.com/reds/news/andrew-abbott-makes-quality-start-in-reds-win-vs-rockies?utm_source=openai">2</a>, <a href="https://sports.yahoo.com/mlb/article/padres-of-ramon-laureano-likely-to-miss-remainder-of-2026-season-after-undergoing-hip-surgery-005929048.html?utm_source=openai">3</a>.)</p>
+<p><strong>Recommended broadcasts:</strong> TV, San Diego Padres (<a href="https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html">3.47</a>); radio, San Diego Padres (<a href="https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html">3.37</a>)</p>
+<h3 id="cincinnati-reds">Cincinnati Reds</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>-16.7</td>
+<td>10.1%</td>
+<td>0.7</td>
+<td>0.5</td>
+<td>-15.2</td>
+<td>$147.4M</td>
+<td>28.0</td>
+<td>7.0</td>
+<td>2.09</td>
+<td>2.11</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-0.66</td>
+<td>1.56</td>
+<td>0.13</td>
+<td>-0.01</td>
+<td>-1.89</td>
+<td>-0.63</td>
+<td>-0.94</td>
+<td>0.45</td>
+<td>-0.59</td>
+<td>-0.59</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>-0.66</td>
+<td>1.56</td>
+<td>0.13</td>
+<td>-0.01</td>
+<td>-1.89</td>
+<td>0.63</td>
+<td>0.94</td>
+<td>0.45</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>4.00</td>
+<td>5.16</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="san-diego-padres">San Diego Padres</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>-41.1</td>
+<td>8.5%</td>
+<td>0.7</td>
+<td>14.5</td>
+<td>34.7</td>
+<td>$255.5M</td>
+<td>29.9</td>
+<td>-22.0</td>
+<td>3.47</td>
+<td>3.37</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-1.66</td>
+<td>0.30</td>
+<td>0.13</td>
+<td>1.27</td>
+<td>1.56</td>
+<td>0.60</td>
+<td>0.85</td>
+<td>-1.41</td>
+<td>2.12</td>
+<td>2.09</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>-1.66</td>
+<td>0.30</td>
+<td>0.13</td>
+<td>1.27</td>
+<td>1.56</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>1.06</td>
+<td>1.04</td>
+<td>4.00</td>
+<td>7.70</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="andrew-abbott-cincinnati-reds">Andrew Abbott, Cincinnati Reds</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>xFIP-</th>
+<th>SwStr%</th>
+<th>Strike%</th>
+<th>Velocity</th>
+<th>Age</th>
+<th>Pace</th>
+<th>Luck</th>
+<th>KN%</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>120</td>
+<td>8.9%</td>
+<td>62.3%</td>
+<td>92.8 mph</td>
+<td>27</td>
+<td>18.5s</td>
+<td>-26</td>
+<td>0.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>1.26</td>
+<td>-0.76</td>
+<td>-0.60</td>
+<td>-0.65</td>
+<td>-0.49</td>
+<td>-0.35</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>pNERD</strong></td>
+<td>-2.52</td>
+<td>-0.38</td>
+<td>-0.30</td>
+<td>0.00</td>
+<td>0.49</td>
+<td>0.17</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>3.80</td>
+<td>1.27</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="walker-buehler-san-diego-padres">Walker Buehler, San Diego Padres</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>xFIP-</th>
+<th>SwStr%</th>
+<th>Strike%</th>
+<th>Velocity</th>
+<th>Age</th>
+<th>Pace</th>
+<th>Luck</th>
+<th>KN%</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>94</td>
+<td>7.6%</td>
+<td>62.2%</td>
+<td>94.1 mph</td>
+<td>31</td>
+<td>17.9s</td>
+<td>21</td>
+<td>0.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-0.27</td>
+<td>-1.35</td>
+<td>-0.62</td>
+<td>-0.03</td>
+<td>0.58</td>
+<td>-0.84</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>pNERD</strong></td>
+<td>0.54</td>
+<td>-0.67</td>
+<td>-0.31</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.42</td>
+<td>1.00</td>
+<td>0.00</td>
+<td>3.80</td>
+<td>4.78</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><a href="#">Go back to top of page</a></p>
+<h2 id="washington-nationals-san-francisco-giants-6-45p">Washington Nationals @ San Francisco Giants, 6:45p</h2>
+<h3 id="summary-7">Summary</h3>
+<p><strong>Small-park, small-drama intrigue: Logan Webb’s stronger pNERD and home comfort make this a watchable pitching matchup, even if the overall gNERD (9.31) sits a touch below the day’s and historical averages.</strong> The Nationals’ team NERD (7.10) signals more offensive upside—barrels, baserunning and youth—while San Francisco’s weak baserunning and defense pull their tNERD down to 2.15, so expect a contest where one good starter can decide things. Mikolas’s low pNERD (2.67) reflects a rough underlying profile (high xFIP-, almost no whiffs), yet he brings a curious split: he’s had success against the Giants and only recently joined Washington this spring, narratives that add flavor to the game.  Webb’s pNERD (6.69) is driven by a sub-100 xFIP- and steadier stuff at Oracle Park, making him the safer bet to limit runs.  Market lines back that up.  If you like pitcher-versus-lineup chess and a plausible upset on Mikolas’s history, tune in; if you want fireworks, this ranks as middling.</p>
+<p>(A model from <a href="https://www.openai.com">OpenAI</a> generated the above text using instructions, the NERD scores, and these sources: <a href="https://www.espn.com/mlb/story/_/id/47904777/nationals-sign-pitcher-miles-mikolas-225m-1-year-contract?utm_source=openai">1</a>, <a href="https://www.mlb.com/stories/game-preview/823218/?utm_source=openai">2</a>, <a href="https://www.nbcsports.com/betting/mlb/news/nationals-vs-giants-prediction-odds-recent-stats-trends-and-best-bets-for-june-8?utm_source=openai">3</a>.)</p>
+<p><strong>Recommended broadcasts:</strong> TV, San Francisco Giants (<a href="https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html">3.20</a>); radio, San Francisco Giants (<a href="https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html">3.49</a>)</p>
+<h3 id="washington-nationals">Washington Nationals</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>23.4</td>
+<td>8.8%</td>
+<td>2.4</td>
+<td>1.6</td>
+<td>-15.8</td>
+<td>$114.5M</td>
+<td>27.1</td>
+<td>-30.0</td>
+<td>2.00</td>
+<td>2.20</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>0.98</td>
+<td>0.54</td>
+<td>0.70</td>
+<td>0.09</td>
+<td>-1.93</td>
+<td>-1.01</td>
+<td>-1.71</td>
+<td>-1.93</td>
+<td>-0.75</td>
+<td>-0.40</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>0.98</td>
+<td>0.54</td>
+<td>0.70</td>
+<td>0.09</td>
+<td>-1.93</td>
+<td>1.01</td>
+<td>1.71</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>4.00</td>
+<td>7.10</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="san-francisco-giants">San Francisco Giants</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>3.5</td>
+<td>6.9%</td>
+<td>-6.0</td>
+<td>-6.5</td>
+<td>-4.9</td>
+<td>$228.3M</td>
+<td>29.6</td>
+<td>14.0</td>
+<td>3.20</td>
+<td>3.49</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>0.17</td>
+<td>-0.96</td>
+<td>-2.09</td>
+<td>-0.65</td>
+<td>-1.18</td>
+<td>0.29</td>
+<td>0.49</td>
+<td>0.91</td>
+<td>1.59</td>
+<td>2.34</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>0.17</td>
+<td>-0.96</td>
+<td>-2.09</td>
+<td>-0.65</td>
+<td>-1.18</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.91</td>
+<td>0.79</td>
+<td>1.17</td>
+<td>4.00</td>
+<td>2.15</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="miles-mikolas-washington-nationals">Miles Mikolas, Washington Nationals</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>xFIP-</th>
+<th>SwStr%</th>
+<th>Strike%</th>
+<th>Velocity</th>
+<th>Age</th>
+<th>Pace</th>
+<th>Luck</th>
+<th>KN%</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>109</td>
+<td>6.6%</td>
+<td>64.1%</td>
+<td>92.9 mph</td>
+<td>37</td>
+<td>19.1s</td>
+<td>47</td>
+<td>0.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>0.61</td>
+<td>-1.79</td>
+<td>0.13</td>
+<td>-0.60</td>
+<td>2.18</td>
+<td>0.15</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>pNERD</strong></td>
+<td>-1.22</td>
+<td>-0.90</td>
+<td>0.06</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>-0.07</td>
+<td>1.00</td>
+<td>0.00</td>
+<td>3.80</td>
+<td>2.67</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="logan-webb-san-francisco-giants">Logan Webb, San Francisco Giants</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>xFIP-</th>
+<th>SwStr%</th>
+<th>Strike%</th>
+<th>Velocity</th>
+<th>Age</th>
+<th>Pace</th>
+<th>Luck</th>
+<th>KN%</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>84</td>
+<td>9.1%</td>
+<td>64.8%</td>
+<td>92.4 mph</td>
+<td>29</td>
+<td>18.2s</td>
+<td>22</td>
+<td>0.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-0.86</td>
+<td>-0.67</td>
+<td>0.43</td>
+<td>-0.84</td>
+<td>0.04</td>
+<td>-0.59</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>pNERD</strong></td>
+<td>1.72</td>
+<td>-0.34</td>
+<td>0.22</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>0.30</td>
+<td>1.00</td>
+<td>0.00</td>
+<td>3.80</td>
+<td>6.69</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><a href="#">Go back to top of page</a></p>
+<h2 id="houston-astros-los-angeles-angels-6-38p">Houston Astros @ Los Angeles Angels, 6:38p</h2>
+<h3 id="summary-8">Summary</h3>
+<p><strong>Don’t plan to cancel other plans: a 4.92 gNERD and two low pNERD arms point to a low-drama game, even if Houston’s hot starter on paper offers a short-lived lure.</strong> Spencer Arrighetti has been the season’s pleasant surprise (listed 7-1 with sub-2.00 ERA in previews), while Grayson Rodriguez has looked like a reclamation project with a rough run of outings and a recent outing that underscored rust.</p>
+<p>The NERD math matches common sense: team profiles lean bland—Astros’ offense and barrel rate are competent but their bullpen is a negative, and the Angels pair big barrels with miserable run prevention and defense, which drags their tNERD near the bottom. Arrighetti’s pNERD is barely above zero because his surface results outpace his peripherals (xFIP- and strike/whiff components), while Rodriguez’s pNERD registers as zero because there’s little trustworthy data to suggest he’ll stabilize soon. The records and matchup context make this one feel like a grind rather than a showcase (both teams under .500). If you want strikeout duels or clear betting edges, look elsewhere; watch only if you’re tracking Arrighetti’s true talent signal or hope Rodriguez finds a second life.</p>
+<p>(A model from <a href="https://www.openai.com">OpenAI</a> generated the above text using instructions, the NERD scores, and these sources: <a href="https://www.fanduel.com/research/astros-vs-angels-mlb-odds-prediction-point-spread-over-under-and-betting-trends-for-6-8-2026?utm_source=openai">1</a>, <a href="https://www.mlb.com/astros/news/spencer-arrighetti-astros-first-wrigley-win-since-2013?utm_source=openai">2</a>.)</p>
+<p><strong>Recommended broadcasts:</strong> TV, Los Angeles Angels (<a href="https://awfulannouncing.com/orig/2025-mlb-local-broadcaster-rankings.html">2.59</a>); radio, Los Angeles Angels (<a href="https://awfulannouncing.com/orig/2025-mlb-local-radio-booth-rankings-miller-rose-hughes-hamilton.html">2.01</a>)</p>
+<h3 id="houston-astros">Houston Astros</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>16.0</td>
+<td>8.6%</td>
+<td>-0.5</td>
+<td>-0.2</td>
+<td>-6.7</td>
+<td>$232.7M</td>
+<td>28.9</td>
+<td>5.0</td>
+<td>2.17</td>
+<td>1.99</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>0.68</td>
+<td>0.38</td>
+<td>-0.27</td>
+<td>-0.08</td>
+<td>-1.30</td>
+<td>0.34</td>
+<td>-0.16</td>
+<td>0.33</td>
+<td>-0.42</td>
+<td>-0.84</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>0.68</td>
+<td>0.38</td>
+<td>-0.27</td>
+<td>-0.08</td>
+<td>-1.30</td>
+<td>0.00</td>
+<td>0.16</td>
+<td>0.33</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>4.00</td>
+<td>3.90</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="los-angeles-angels">Los Angeles Angels</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Batting</th>
+<th>Barrel%</th>
+<th>BaseR</th>
+<th>Fielding</th>
+<th>Bullpen</th>
+<th>Payroll</th>
+<th>Age</th>
+<th>Luck</th>
+<th>TV</th>
+<th>Radio</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>-10.4</td>
+<td>9.5%</td>
+<td>-5.2</td>
+<td>-19.2</td>
+<td>-7.2</td>
+<td>$191.6M</td>
+<td>28.6</td>
+<td>-4.0</td>
+<td>2.59</td>
+<td>2.01</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>-0.40</td>
+<td>1.09</td>
+<td>-1.83</td>
+<td>-1.81</td>
+<td>-1.33</td>
+<td>-0.13</td>
+<td>-0.39</td>
+<td>-0.25</td>
+<td>0.40</td>
+<td>-0.80</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>tNERD</strong></td>
+<td>-0.40</td>
+<td>1.09</td>
+<td>-1.83</td>
+<td>-1.81</td>
+<td>-1.33</td>
+<td>0.13</td>
+<td>0.39</td>
+<td>0.00</td>
+<td>0.20</td>
+<td>0.00</td>
+<td>4.00</td>
+<td>0.42</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="spencer-arrighetti-houston-astros">Spencer Arrighetti, Houston Astros</h3>
+<div class="wide-table">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>xFIP-</th>
+<th>SwStr%</th>
+<th>Strike%</th>
+<th>Velocity</th>
+<th>Age</th>
+<th>Pace</th>
+<th>Luck</th>
+<th>KN%</th>
+<th>C</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Raw stat</strong></td>
+<td>119</td>
+<td>9.5%</td>
+<td>60.4%</td>
+<td>92.5 mph</td>
+<td>26</td>
+<td>20.6s</td>
+<td>-72</td>
+<td>0.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Z-score</strong></td>
+<td>1.20</td>
+<td>-0.50</td>
+<td>-1.39</td>
+<td>-0.79</td>
+<td>-0.76</td>
+<td>1.37</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>pNERD</strong></td>
+<td>-2.40</td>
+<td>-0.25</td>
+<td>-0.69</td>
+<td>0.00</td>
+<td>0.76</td>
+<td>-0.69</td>
+<td>0.00</td>
+<td>0.00</td>
+<td>3.80</td>
+<td>0.53</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="grayson-rodriguez-los-angeles-angels">Grayson Rodriguez, Los Angeles Angels</h3>
+<p>No detailed stats available</p>
+<p><a href="#">Go back to top of page</a></p>
+
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/2026/06/07/mlb-what-to-watch-on-june-7-2026/">MLB: What to watch on June 7, 2026</a></li>
+</ul>
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p>
+				Built with <a href="https://www.11ty.dev/">Eleventy</a>
+			</p>
+		</footer>
+
+		<!-- This page `/blog/2026/06/08/mlb-what-to-watch-on-june-8-2026/` was built on 2026-06-08T20:50:29.001Z -->
+		<script type="module" src="/dist/5HyEuK1_7A.js"></script>
+
+		<!-- Use slim tablesort library to add client-side sorting for tables - I can look up how to turn off for certain tables later if I need that --> 
+		<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+		<script src="https://unpkg.com/tablesort@5.3.0/dist/sorts/tablesort.number.min.js"></script>
+		
+	</body>
+</html>
