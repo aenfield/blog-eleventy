@@ -229,4 +229,4 @@ class HeadingAnchors extends HTMLElement {
 HeadingAnchors.register();
 
 export { HeadingAnchors }
-window.location.href = "/blog/2026/06/17/mlb-what-to-watch-on-june-17-2026/";
+window.location.href = "/blog/2026/06/18/mlb-what-to-watch-on-june-18-2026/";
